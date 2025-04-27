@@ -1,3 +1,5 @@
+
+
 body {
 
   font-family: "Roboto", sans-serif;
@@ -6,6 +8,7 @@ body {
   font-style: normal;
   font-variation-settings:
     "width" 100;
+    color: var(--laab-red, #FF6B57);
 }
 
 .boldonse-regular {
@@ -14,3 +17,30 @@ body {
   font-style: normal;
 }
 
+.wavyLine {
+  width: 523.666px;
+  height: 343.733px;
+  transform: rotate(-50.381deg);
+  flex-shrink: 0;
+  aspect-ratio: 523.67/343.73;
+}
+
+.main-title {
+position: relative;
+top: -100px;
+font-size: 200px;
+font-family: 'Boldonse';
+color: var(--laab-red, #FF6B57); 
+}
+
+.body-txt {
+font-family: 'Roboto';
+color: var(--laab-grey, #5C6471);
+}
+
+#homeTxt {
+  position: absolute;
+  top: 380px;
+  left: 300px;
+  width: 200px;
+}
