@@ -2,7 +2,8 @@ import React from 'react';
 import flowerPic from './images/flower_pic.png';
 import blueBar from './images/blue_bar.svg';
 import blueDots from './images/blue_dots.png';
-import everyChild from './images/every_child.png';
+import redStripe from './images/Red Stripe Block.lottie'
+import { DotLottieReact } from '@lottiefiles/dotlottie-react';
 
 function Home() {
 
@@ -11,16 +12,25 @@ function Home() {
             <div >
               <img className="flowerPic" src={flowerPic} alt=""/>
             </div>
+
             <div >
               <img className="blueBar" src={blueBar} alt=""/>
             </div>
+
             <div >
               <img className="blueDots" src={blueDots} alt=""/>
             </div>
+
+            <DotLottieReact className="redStripe"
+                src={redStripe}
+                loop
+                autoplay
+            />
+
             <div className="everyChild">
               <p id="everyChildHeading">
-              Every child deserves a safe, 
-              inspiring place to play.
+              EVERY CHILD DESERVES A SAFE, 
+              INSPIRING PLACE TO PLAY.
               </p>
 
               <span id="everyChildTxt">
@@ -52,6 +62,10 @@ function Home() {
               <button id='everyChildButton'>
                     Donate now
               </button>
+            </div>
+
+            <div className='togetherTxt'>
+                <p>TOGETHER WE CAN CREATE:</p>
             </div>
       </>
     );
