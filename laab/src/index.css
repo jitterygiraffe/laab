@@ -17,20 +17,52 @@ body {
   font-style: normal;
 }
 
+/*navbar component*/
+.navigation {
+  z-index: 10000;
+  position: sticky;
+  top: 0px;
+  }
+
+
+/*home component*/
+
+#homeTxt {
+  position: absolute;
+  /*top: 660px;
+  margin-left: 50px;
+  width: 200px;*/
+
+width: 250px;
+top: 676px;
+left: 50px;
+font-family: Roboto;
+font-weight: 400;
+font-size: 20px;
+line-height: 150%;
+letter-spacing: 0%;
+
+
+}
+
 .wavyLine {
   width: 523.666px;
   height: 343.733px;
   transform: rotate(-50.381deg);
   flex-shrink: 0;
   aspect-ratio: 523.67/343.73;
+  position: relative;
+  top: -130px;
 }
 
 .main-title {
-position: relative;
-top: -100px;
+position: absolute;
+top: 380px;
 font-size: 200px;
 font-family: 'Boldonse';
 color: var(--laab-red, #FF6B57); 
+z-index: 100;
+margin-left: 40px;
 }
 
 .body-txt {
@@ -38,15 +70,30 @@ font-family: 'Roboto';
 color: var(--laab-grey, #5C6471);
 }
 
-#homeTxt {
-  position: absolute;
-  top: 380px;
-  left: 300px;
-  width: 200px;
+.home_img {
+  position: relative;
+  top: -550px;
+  left: 750px;
+  width: 650px;
+height: auto;
+flex-shrink: 0;
 }
 
-.navbar {
-position: absolute;
-top: 10px;
+.heart_dots {
+  z-index: 500;
+  position: absolute;
+  top: 100px;
+  left:1100px;
+  width: 220px;
+  height: auto;
+  flex-shrink: 0;
+}
+
+.red_star {
+  position: absolute;
+  width: 250px;
+height: auto;
+top: 650px;
+left: 380px;
 
 }
