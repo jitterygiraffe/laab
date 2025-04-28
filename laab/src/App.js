@@ -1,6 +1,7 @@
 import './App.css';
-import Home from './home'
+import Home from './home';
 import Navbar from './navbar';
+import OurStory from './ourStory';
 
 function App() {
   return (
@@ -10,6 +11,9 @@ function App() {
       </div>
       <div>
           <Home/>
+      </div>
+      <div>
+          <OurStory/>
       </div>
     </>
     
