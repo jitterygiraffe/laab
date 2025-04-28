@@ -1,4 +1,7 @@
-
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
 
 body {
 
@@ -41,8 +44,6 @@ font-weight: 400;
 font-size: 20px;
 line-height: 150%;
 letter-spacing: 0%;
-
-
 }
 
 .wavyLine {
@@ -95,5 +96,98 @@ flex-shrink: 0;
 height: auto;
 top: 650px;
 left: 380px;
+
+}
+
+/*our story component*/
+.blueBar{
+  z-index: -1000;
+  position: absolute;
+  top: 790px;
+  width: 1781.97px;
+height: 1300px;
+transform: rotate(3.002deg);
+flex-shrink: 0;
+left: -100px;
+} 
+
+.flowerPic {
+  position: absolute;
+  margin-left: 40px;
+  top: 850px;
+  width: 700px;
+height: 1000px;
+transform: rotate(2.59deg);
+flex-shrink: 0;
+aspect-ratio: 469.63/626.17;
+}
+
+.everyChild{
+  position: absolute;
+  left: 750px;
+  top: 900px;
+  z-index: 20;
+  background: #FFF;
+  border-radius: 50px;
+  display: flex;
+width: 500px;
+height: 770px;
+padding: 48px 32px;
+flex-direction: column;
+align-items: flex-start;
+gap: 48px;
+flex-shrink: 0;
+} 
+
+#everyChildHeading {
+  font-family: 'Boldonse';
+  font-size: 44px;
+  width: 500px;
+  position: relative;
+  top: -48px;
+}
+
+#everyChildTxt {
+  font-family: 'Roboto';
+  font-size: 20px;
+  width: 500px;
+  color: #545A63;
+  position: relative;
+  top: -110px;
+  
+}
+
+#everyChildButton {
+  border-radius: 100px;
+  background: #FF6B57;
+  display: flex;
+height: 61px;
+padding: 15px 36px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+flex-shrink: 0;
+align-self: stretch;
+border: none;
+color: #FFF;
+font-family: Roboto;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+position: relative;
+  top: -130px;
+}
+
+#everyChildButton:hover {
+background: #1E70FF;
+}
+
+.blueDots {
+  position: absolute;
+  width: 1512;
+height: 4625;
+top: 1700px;
+left: 1200px;
 
 }
