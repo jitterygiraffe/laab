@@ -71,13 +71,29 @@ font-family: 'Roboto';
 color: var(--laab-grey, #5C6471);
 }
 
-.home_img {
+.mask {
   position: relative;
-  top: -550px;
-  left: 750px;
-  width: 650px;
-height: auto;
+  top: -400px;
+  left:750px;
+  width: 500px;
+height: 450px;
 flex-shrink: 0;
+  -webkit-mask-image: url(./images/smaller_shape.png);
+  mask-image: url(./images/smaller_shape.png);
+  mask-repeat: no-repeat;
+  mask-size: cover;
+  overflow: hidden; /* important! */
+}
+
+.homeGif {
+width: 1000px;
+height: auto;
+position: relative;
+
+  position: absolute;
+  top: -120px;  
+  left: -20px;  
+  height: auto;
 }
 
 .heart_dots {
@@ -90,12 +106,30 @@ flex-shrink: 0;
   flex-shrink: 0;
 }
 
-.red_star {
+.yellow_star {
   position: absolute;
-  width: 250px;
+  width: 200px;
 height: auto;
-top: 650px;
-left: 380px;
+top: 600px;
+left: 750px;
+
+}
+
+.red_star2 {
+  position: absolute;
+  width: 150px;
+height: auto;
+top: 700px;
+left: 620px;
+
+}
+
+.blue_star {
+  position: absolute;
+  width: 130px;
+height: auto;
+top: 780px;
+left: 720px;
 
 }
 

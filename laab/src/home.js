@@ -1,7 +1,9 @@
 import React from 'react';
 import wavy_line from './images/wavy_yellow_line.png';
-import homeImg from './images/home_img.png';
+import homeImg from './images/home_gif.gif';
+import yellowStar from './images/yellow_star.png';
 import redStar from './images/red_star.png';
+import blueStar from './images/blue_star.png';
 import heartDots from './images/heart_dots.png';
 
 
@@ -11,16 +13,22 @@ function Home() {
     return (
       <>
               <div >
-              <img className="wavyLine" src={wavy_line} alt=""/>
+                <img className="wavyLine" src={wavy_line} alt=""/>
+              </div>
+              <div className="mask">
+                <img className="homeGif" src={homeImg} alt=""/>
               </div>
               <div >
-              <img className="home_img" src={homeImg} alt=""/>
+                <img className="yellow_star" src={yellowStar} alt=""/>
               </div>
               <div >
-              <img className="red_star" src={redStar} alt=""/>
+                <img className="red_star2" src={redStar} alt=""/>
               </div>
               <div >
-              <img className="heart_dots" src={heartDots} alt=""/>
+                <img className="blue_star" src={blueStar} alt=""/>
+              </div>
+              <div >
+                <img className="heart_dots" src={heartDots} alt=""/>
               </div>
               <div className='main-title'>LAAB!</div>
               <div className='body-txt' id='homeTxt'>
