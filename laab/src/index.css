@@ -44,3 +44,9 @@ color: var(--laab-grey, #5C6471);
   left: 300px;
   width: 200px;
 }
+
+.navbar {
+position: absolute;
+top: 10px;
+
+}
