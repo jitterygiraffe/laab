@@ -4,6 +4,8 @@ import blueBar from './images/blue_bar.svg';
 import blueDots from './images/blue_dots.png';
 import redStripe from './images/Red Stripe Block.lottie'
 import { DotLottieReact } from '@lottiefiles/dotlottie-react';
+import blueShape from './images/Main Scene.lottie';
+
 
 function Home() {
 
@@ -67,6 +69,26 @@ function Home() {
             <div className='togetherTxt'>
                 <p>TOGETHER WE CAN CREATE:</p>
             </div>
+
+        
+        <div className='togetherItems'>
+
+            <div className="abstractShapes">
+                <DotLottieReact className="blueShape1"
+                    src={blueShape}
+                    loop
+                    autoplay
+                />
+               
+               <p className='p1'>
+                A safe and modern space 
+                built to last
+                </p>
+               
+            </div>
+
+    
+        </div>
       </>
     );
   }
