@@ -233,7 +233,7 @@ left: 1050px;
   width: 500px;
 height: auto;
 top: 710px;
-left: 1200px;
+left: 1100px;
 margin-left: -80px;
 }
 
@@ -246,17 +246,36 @@ margin-left: -80px;
   left: 350px;
 }
 
+
 .abstractShapes {
+  z-index: 1000000;
 display: flex;
-flex-direction: column;
+flex-direction: row;
 position: absolute;
-top: 2200px;
+top: 2150px;
 justify-content: center; 
   align-items: center; 
   width: 100%;
 }
 
+.abstractTxt {
+  z-index: 10000;
+  font-family: 'Roboto';
+  font-size: 16px;
+  color: #545A63;
+  position: relative;
+  top: 10px;
+  width: 200px;
+  margin-left: 70px;
+  margin-top: 50px;
+  justify-content: center; 
+  align-items: center; 
+}
 
-
+#shape1, #shape2, #shape3, #shape4 {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
 
 

@@ -5,6 +5,10 @@ import blueDots from './images/blue_dots.png';
 import redStripe from './images/Red Stripe Block.lottie'
 import { DotLottieReact } from '@lottiefiles/dotlottie-react';
 import blueShape from './images/Main Scene.lottie';
+import safetyGif from './images/safetyGif.lottie';
+import handGif from './images/safetyGif.lottie';
+import communityGif from './images/safetyGif.lottie';
+import greenSpaceGif from './images/safetyGif.lottie';
 
 
 function Home() {
@@ -74,18 +78,64 @@ function Home() {
         <div className='togetherItems'>
 
             <div className="abstractShapes">
-                <DotLottieReact className="blueShape1"
-                    src={blueShape}
+                <div id="shape1">
+                
+                    <DotLottieReact className="safetyGif"
+                        src={safetyGif}
+                        loop
+                        autoplay
+                    />
+
+                    <p className='abstractTxt'>
+                    A safe and modern space 
+                    built to last
+                    </p>
+                </div>
+
+                <div id="shape2">
+                
+                    <DotLottieReact className="handGif"
+                        src={handGif}
+                        loop
+                        autoplay
+                    />
+
+                
+                    <p className='abstractTxt'>
+                    A sensory-rich environment for inclusive play
+                    </p>
+                </div>
+
+                <div id="shape3">
+                
+                <DotLottieReact className="communityGif"
+                    src={communityGif}
                     loop
                     autoplay
                 />
-               
-               <p className='p1'>
-                A safe and modern space 
-                built to last
+
+                <p className='abstractTxt'>
+                A gathering place for events, 
+                storytimes, and community bonding
                 </p>
-               
             </div>
+
+            <div id="shape4">
+                
+                <DotLottieReact className="greenSpaceGif"
+                    src={greenSpaceGif}
+                    loop
+                    autoplay
+                />
+
+            
+                <p className='abstractTxt'>
+                A green space filled with 
+                color, creativity, and joy
+                </p>
+            </div>
+
+        </div>
 
     
         </div>
