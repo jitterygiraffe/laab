@@ -6,9 +6,9 @@ import redStripe from './images/Red Stripe Block.lottie'
 import { DotLottieReact } from '@lottiefiles/dotlottie-react';
 import blueShape from './images/Main Scene.lottie';
 import safetyGif from './images/safetyGif.lottie';
-import handGif from './images/safetyGif.lottie';
-import communityGif from './images/safetyGif.lottie';
-import greenSpaceGif from './images/safetyGif.lottie';
+import handGif from './images/handGif.lottie';
+import communityGif from './images/communityGif.lottie';
+import greenSpaceGif from './images/greenSpaceGif.lottie';
 
 
 function Home() {
