@@ -165,7 +165,7 @@ aspect-ratio: 469.63/626.17;
   border-radius: 50px;
   display: flex;
 width: 450px;
-height: 700px;
+height: 800px;
 padding: 48px 32px;
 flex-direction: column;
 align-items: flex-start;
@@ -220,6 +220,7 @@ background: #1E70FF;
 }
 
 .blueDots {
+  z-index: 10000;
   position: absolute;
   width: 1512;
 height: 4625;
