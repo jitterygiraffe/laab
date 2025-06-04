@@ -1,7 +1,6 @@
 import './App.css';
 import Home from './home';
 import Navbar from './navbar';
-import OurStory from './ourStory';
 
 function App() {
   return (
@@ -12,9 +11,7 @@ function App() {
       <div>
           <Home/>
       </div>
-      <div>
-          <OurStory/>
-      </div>
+     
     </>
     
   );
