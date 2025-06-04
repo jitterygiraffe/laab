@@ -1,7 +1,16 @@
 html, body {
   max-width: 100%;
   overflow-x: hidden;
+   margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  font-family: sans-serif;
 }
+
+.content {
+  padding: 2rem;
+}
+  
 
 body {
 
@@ -19,13 +28,6 @@ body {
   font-weight: 400;
   font-style: normal;
 }
-
-/*navbar component*/
-.navigation {
-  z-index: 10000;
-  position: sticky;
-  top: 0px;
-  }
 
 
 /*home component*/
@@ -278,5 +280,6 @@ justify-content: center;
   flex-direction: column;
   width: 300px;
 }
+
 
 
