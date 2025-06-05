@@ -1,5 +1,7 @@
+.navbar-inner {
+position: sticky;
+}
 .navbar {
-  position: sticky;
   top: 0;
   z-index: 1000;
   background: white;
@@ -18,10 +20,6 @@
 .navbar a {
   text-decoration: none;
   color: #333;
-    position: sticky;
-  top: 0;
-  z-index: 1000;
-  background-color: white;
 }
 
 .donate-btn {
