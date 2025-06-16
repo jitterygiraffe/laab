@@ -14,10 +14,10 @@ function Navbar() {
         <a href="#our-story">Our Story</a>
         <a href="#faqs">FAQs</a>
         <a href="#contact">Contact Us</a>
+        <a href="#donate" id="donate-btn">Donate Now</a>
         <button className="lang-toggle" onClick={toggleLanguage}>
           {language}
         </button>
-        <a href="#donate" className="donate-btn">Donate Now</a>
       </div>
     </nav>
   );

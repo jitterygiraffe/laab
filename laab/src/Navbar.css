@@ -1,34 +1,39 @@
 .navbar-inner {
 position: sticky;
 }
+
 .navbar {
-  top: 0;
-  z-index: 1000;
+  height: 114px;
   background: white;
   border-bottom: 1px solid #eee;
   padding: 1rem 2rem;
+  justify-content: space-between;
 }
 
 .navbar-inner {
   max-width: 1200px;
-  margin: 0 auto;
+  margin-top: 45px;
   display: flex;
-  gap: 1.5rem;
+  gap: 5rem;
   align-items: center;
+  margin-left: 500px;
 }
 
 .navbar a {
   text-decoration: none;
-  color: #333;
+  color: #253d52;
+  
 }
 
-.donate-btn {
-  background-color: #0074D9;
+#donate-btn {
+  background-color: rgba(30, 112, 255, 1);
   color: white;
   padding: 0.5rem 1rem;
   border-radius: 20px;
   text-decoration: none;
 }
+
+
 
 .lang-toggle {
   padding: 0.4rem 0.8rem;
