@@ -7,6 +7,8 @@ html, body {
   font-family: sans-serif;
 }
 
+
+
 .content {
   padding: 2rem;
 }
@@ -49,6 +51,7 @@ letter-spacing: 0%;
 }
 
 .wavyLine {
+  z-index: -100000;
   width: 523.666px;
   height: 343.733px;
   transform: rotate(-50.381deg);

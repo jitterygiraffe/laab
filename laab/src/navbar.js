@@ -8,7 +8,7 @@ function Navbar() {
   };
 
   return (
-    <nav className="navbar">
+    <nav id="nav" className="navbar">
       <div className="navbar-inner">
         <a href="#home">Home</a>
         <a href="#our-story">Our Story</a>

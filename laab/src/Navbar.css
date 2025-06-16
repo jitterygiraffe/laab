@@ -2,9 +2,15 @@
 position: sticky;
 }
 
+#nav{
+    z-index: 100000;
+    background-color: rgb(255, 255, 255);
+    position: fixed;
+}
+
 .navbar {
   height: 114px;
-  background: white;
+  
   border-bottom: 1px solid #eee;
   padding: 1rem 2rem;
   justify-content: space-between;
@@ -37,7 +43,9 @@ position: sticky;
 
 .lang-toggle {
   padding: 0.4rem 0.8rem;
-  border: 1px solid #ccc;
+  border: 1px solid #FF6B57;
+  border-radius: 20px;
   background: white;
   cursor: pointer;
+  color: #FF6B57;
 }
