@@ -1,5 +1,5 @@
 import React from 'react';
-import wavy_line from './images/wavy_yellow_line.png';
+import ourStoryFlower from './images/flower_.png';
 
 
 
@@ -8,7 +8,7 @@ function OurStory() {
     return (
       <>
               <div >
-                <img className="ourStoryFlower" src={wavy_line} alt=""/>
+                <img className="ourStoryFlower" src={ourStoryFlower} alt=""/>
               </div>
       
       </>

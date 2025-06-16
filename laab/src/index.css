@@ -284,5 +284,10 @@ justify-content: center;
   width: 300px;
 }
 
+.ourStoryFlower {
+  position: absolute;
+  top: 1000px;
+  height: 1000px;
 
+}
 
