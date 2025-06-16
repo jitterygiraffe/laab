@@ -18,15 +18,13 @@ function Home() {
               <div className="mask">
                 <img className="homeGif" src={homeImg} alt=""/>
               </div>
-              <div >
-                <img className="yellow_star" src={yellowStar} alt=""/>
-              </div>
+             
               <div >
                 <img className="red_star2" src={redStar} alt=""/>
               </div>
-              <div >
-                <img className="blue_star" src={blueStar} alt=""/>
-              </div>
+        
+        
+        
               <div >
                 <img className="heart_dots" src={heartDots} alt=""/>
               </div>
