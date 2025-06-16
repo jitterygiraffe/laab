@@ -17,12 +17,12 @@ position: sticky;
 }
 
 .navbar-inner {
-  max-width: 1200px;
+  width: 2000px;
   margin-top: 45px;
   display: flex;
-  gap: 5rem;
+  gap: 3rem;
   align-items: center;
-  margin-left: 350px;
+  margin-left: 550px;
 }
 
 .navbar a {
