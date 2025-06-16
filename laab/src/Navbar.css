@@ -45,7 +45,8 @@ position: sticky;
 }
 
 #donate-btn:hover {
-  background-color: #FF6B57
+  background-color: #FF6B57;
+  color: rgba(30, 112, 255, 1);
 }
 
 .lang-toggle {
