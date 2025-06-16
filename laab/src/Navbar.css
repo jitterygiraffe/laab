@@ -10,10 +10,10 @@ position: sticky;
 
 .navbar {
   height: 114px;
-  
-  border-bottom: 1px solid #eee;
+  border-bottom: 1px solid #fff;
   padding: 1rem 2rem;
   justify-content: space-between;
+  
 }
 
 .navbar-inner {
@@ -27,7 +27,12 @@ position: sticky;
 
 .navbar a {
   text-decoration: none;
-  color: #253d52;
+  color: #607589;
+  
+}
+
+.navbar :hover {
+  color: #FF6B57;
   
 }
 
@@ -39,7 +44,9 @@ position: sticky;
   text-decoration: none;
 }
 
-
+#donate-btn:hover {
+  background-color: #FF6B57
+}
 
 .lang-toggle {
   padding: 0.4rem 0.8rem;
