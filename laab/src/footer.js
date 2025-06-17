@@ -1,18 +1,28 @@
 import React from 'react';
 import './footer.css';
+import { DotLottieReact } from '@lottiefiles/dotlottie-react';
+import blueStripe from './images/blue_stripe.lottie';
+
 
 const Footer = () => {
   return (
+   <>  
+    <DotLottieReact className="blueStripe"
+                        src={blueStripe}
+                        loop
+                        autoplay
+            />
+
     <footer className="footer">
       <div className="footer-content">
         <div className="footer-left">
-          <div className="footer-item">
+          <div className="footer-one footer-item">
             <span className="footer-icon">📍</span>
-            <p>21 Revolution Street<br /><strong>Paris, France</strong></p>
+            <p>Sidi Bou Said<br /><strong>Tunisia</strong></p>
           </div>
           <div className="footer-item">
             <span className="footer-icon">📞</span>
-            <p><strong>+1 555 123456</strong></p>
+            <p><strong>+216 123456</strong></p>
           </div>
           <div className="footer-item">
             <span className="footer-icon">✉️</span>
@@ -38,6 +48,7 @@ const Footer = () => {
         </div>
       </div>
     </footer>
+    </>
   );
 };
 

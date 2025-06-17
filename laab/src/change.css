@@ -66,11 +66,11 @@
     z-index: -10000;
 }
 
-.orangeDots {
-     width: 200px;
+.abstractSpiral {
+     width: 300px;
     height: auto;
     position: absolute;
-    top: 4300px;
+    top: 3450px;
     left: 1050px;
     z-index: 10000;
 }

@@ -1,5 +1,5 @@
 .footer {
-  background-color: #1f2937;
+  background-color: #193965;
   color: #e5e7eb;
   padding: 2rem;
   font-family: 'Segoe UI', sans-serif;
@@ -16,6 +16,7 @@
   max-width: 1000px;
   margin: 0 auto;
 }
+
 
 .footer-left,
 .footer-right {
@@ -75,4 +76,16 @@
 
 .footer-links a:hover {
   text-decoration: underline;
+}
+
+
+.blueStripe {
+  position: absolute;
+  width: 500px;
+  height: auto;
+  top: 4300px;
+  left: -100px;
+  margin-left: -80px;
+  z-index: 10000;
+  transform: rotate(90deg);
 }

@@ -3,7 +3,7 @@ import './change.css';
 import changeImg from './images/change_img.png';
 import { DotLottieReact } from '@lottiefiles/dotlottie-react';
 import abstractStarGif from './images/abstract_star.lottie';
-import orangeDots from './images/orange_dots.png';
+import abstractSpiral from './images/abstract_spiral.png';
 
 const Change = () => {
   return (
@@ -19,7 +19,7 @@ const Change = () => {
         />
 
         <div >
-          <img className="orangeDots" src={orangeDots} alt=""/>
+          <img className="abstractSpiral" src={abstractSpiral} alt=""/>
         </div>
     
     <section className="cta-card">
