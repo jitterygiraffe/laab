@@ -1,0 +1,26 @@
+.pinkBar {
+z-index: -1000;
+  position: absolute;
+  top: 2200px;
+  width: 2000px;
+height: 1580px;
+}
+
+.faqsAnim {
+    position: absolute;
+    top: 2650px;
+    left: 800px;
+    width: 500px;
+    height: 500px;
+    z-index: 10000;
+}
+
+.whiteStripes {
+    z-index: 10000;
+  width: 200;
+  height: auto;
+  aspect-ratio: 523.67/343.73;
+  position: absolute;
+  top: 2300px;
+  left: 800px;;
+}

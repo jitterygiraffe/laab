@@ -1,0 +1,47 @@
+.cta-card {
+  position: absolute;
+  top: 3700px;
+  left: 800px;
+  background-color: #fff;
+  border-radius: 2rem;
+  padding: 2.5rem 1.5rem;
+  max-width: 400px;
+  margin: 2rem auto;
+  text-align: center;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.cta-title {
+  color: #f97316; /* bright orange */
+  font-family: 'Boldonse';
+  font-size: 40px;
+  line-height: 1.2;
+  margin-bottom: 1.5rem;
+  text-transform: uppercase;
+}
+
+.cta-text {
+  color: #4a4a4a;
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 2rem;
+}
+
+.cta-donate {
+  background-color: transparent;
+  color: #2563eb;
+  border: 2px solid #f97316;
+  padding: 0.75rem 1.5rem;
+  border-radius: 2rem;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.cta-donate:hover {
+  background-color: #f97316;
+  color: white;
+  border-color: #f97316;
+}
