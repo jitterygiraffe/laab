@@ -1,0 +1,47 @@
+.features-section {
+  position: absolute;
+    top: 1900px;
+  display: flex;
+  margin-left: 300px;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 10rem;
+  padding: 3rem 2rem;
+  background: white;
+  flex-wrap: wrap;
+}
+
+.feature-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  max-width: 200px;
+  text-align: center;
+  flex: 1;
+}
+
+.flower-shape {
+  background: radial-gradient(circle at center, #0070f3, #2563eb);
+  clip-path: polygon(
+    50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%,
+    21% 91%, 32% 57%, 2% 35%, 39% 35%
+  );
+  width: 120px;
+  height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon {
+  font-size: 2rem;
+  color: white;
+}
+
+.feature-text {
+  margin-top: 1rem;
+  font-size: 0.95rem;
+  color: #333;
+}
+

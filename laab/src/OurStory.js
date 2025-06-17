@@ -5,6 +5,7 @@ import OurStoryCard from './ourStoryCard';
 import blueDots from './images/blue_dots.png';
 import { DotLottieReact } from '@lottiefiles/dotlottie-react';
 import redStripe from './images/red_bar.lottie';
+import FeaturesSection from './features_section';
 
 
 function OurStory() {
@@ -33,6 +34,9 @@ function OurStory() {
                     autoplay
               />
       
+              <div>
+                <FeaturesSection/>
+              </div>
       </>
     );
   }
