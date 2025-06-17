@@ -23,7 +23,7 @@ const Change = () => {
         </div>
     
     <section className="cta-card">
-      <h2 className="cta-title">Build the future!</h2>
+      <h2 className="cta-title">Help us build for the future!</h2>
       <p className="cta-text">
         Over 200 generous neighbors have already stepped up to help bring our playground back to life — and we’d love for you to be one of them!
         <br /><br />

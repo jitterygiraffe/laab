@@ -1,7 +1,7 @@
 .cta-card {
   position: absolute;
   top: 3700px;
-  left: 800px;
+  left: 720px;
   background-color: #fff;
   border-radius: 2rem;
   padding: 2.5rem 1.5rem;
@@ -13,12 +13,14 @@
 }
 
 .cta-title {
-  color: #f97316; /* bright orange */
+  color: #f97316; 
   font-family: 'Boldonse';
   font-size: 40px;
-  line-height: 1.2;
+  line-height: 1.5;
   margin-bottom: 1.5rem;
   text-transform: uppercase;
+  font-weight: 600;
+  width: 400px;
 }
 
 .cta-text {
@@ -51,7 +53,7 @@
     height: auto;
     position: absolute;
     top: 3700px;
-    left: 100px;
+    left: 30px;
 }
 
 
@@ -60,7 +62,7 @@
     height: auto;
     position: absolute;
     top: 4000px;
-    left: 450px;
+    left: 400px;
     z-index: -10000;
 }
 
@@ -68,7 +70,7 @@
      width: 200px;
     height: auto;
     position: absolute;
-    top: 3800px;
-    left: 1350px;
+    top: 4300px;
+    left: 1050px;
     z-index: 10000;
 }
