@@ -25,9 +25,20 @@ const Change = () => {
     <section className="cta-card">
       <h2 className="cta-title">Help us build for the future!</h2>
       <p className="cta-text">
-        Over 200 generous neighbors have already stepped up to help bring our playground back to life — and we’d love for you to be one of them!
-        <br /><br />
-        Every donation, big or small, gets us closer to swings that soar, slides that sparkle, and a park full of laughter. Be part of the story. Be part of the change.
+        The playground will remain free and open 
+        to the public — accessible to all. 
+        This is non-negotiable, and speaks to 
+        our values of community and play.   
+        </p>
+        
+        <p className="cta-text">
+        We believe that at the root of this 
+        project is the importance of PLAY for 
+        children, teens, and adults. Having a 
+        safe, clean, functional and durable place 
+        to play will improve the health and quality 
+        of life for our whole community. 
+
       </p>
       <button className="cta-donate">Donate now!</button>
     </section>

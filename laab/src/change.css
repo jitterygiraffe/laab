@@ -28,6 +28,7 @@
   font-size: 1rem;
   line-height: 1.6;
   margin-bottom: 2rem;
+  text-align: left;
 }
 
 .cta-donate {
@@ -40,6 +41,7 @@
   font-weight: 500;
   cursor: pointer;
   transition: all 0.2s ease;
+  width: 100%;
 }
 
 .cta-donate:hover {
