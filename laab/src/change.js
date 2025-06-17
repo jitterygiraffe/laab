@@ -1,8 +1,27 @@
 import React from 'react';
 import './change.css';
+import changeImg from './images/change_img.png';
+import { DotLottieReact } from '@lottiefiles/dotlottie-react';
+import abstractStarGif from './images/abstract_star.lottie';
+import orangeDots from './images/orange_dots.png';
 
 const Change = () => {
   return (
+    <>
+        <div >
+          <img className="changeImg" src={changeImg} alt=""/>
+        </div>
+
+        <DotLottieReact className="abstractStarGif"
+                    src={abstractStarGif}
+                    loop
+                    autoplay
+        />
+
+        <div >
+          <img className="orangeDots" src={orangeDots} alt=""/>
+        </div>
+    
     <section className="cta-card">
       <h2 className="cta-title">Build the future!</h2>
       <p className="cta-text">
@@ -12,6 +31,10 @@ const Change = () => {
       </p>
       <button className="cta-donate">Donate now!</button>
     </section>
+    
+    </>
+
+    
   );
 };
 

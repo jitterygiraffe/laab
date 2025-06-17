@@ -45,3 +45,30 @@
   color: white;
   border-color: #f97316;
 }
+
+.changeImg {
+    width: 500px;
+    height: auto;
+    position: absolute;
+    top: 3700px;
+    left: 100px;
+}
+
+
+.abstractStarGif {
+    width: 400px;
+    height: auto;
+    position: absolute;
+    top: 4000px;
+    left: 450px;
+    z-index: -10000;
+}
+
+.orangeDots {
+     width: 200px;
+    height: auto;
+    position: absolute;
+    top: 3800px;
+    left: 1350px;
+    z-index: 10000;
+}

@@ -4,6 +4,7 @@ import Home from './home';
 import Navbar from './Navbar';
 import OurStory from './OurStory';
 import Change from './change';
+import Footer from './footer';
 
 function App() {
   return (
@@ -26,6 +27,10 @@ function App() {
 
       <div> 
         <Change/>
+      </div>
+
+       <div> 
+        <Footer/>
       </div>
 
     </>
