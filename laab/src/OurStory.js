@@ -3,6 +3,8 @@ import ourStoryFlower from './images/flower_.png';
 import blueBar from './images/blue_bg.svg';
 import OurStoryCard from './ourStoryCard';
 import blueDots from './images/blue_dots.png';
+import { DotLottieReact } from '@lottiefiles/dotlottie-react';
+import redStripe from './images/red_bar.lottie';
 
 
 function OurStory() {
@@ -24,6 +26,12 @@ function OurStory() {
                 <div >
                 <img className="blueDots" src={blueDots} alt=""/>
               </div>
+
+              <DotLottieReact className="redStripe"
+                    src={redStripe}
+                    loop
+                    autoplay
+              />
       
       </>
     );

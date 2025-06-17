@@ -1,5 +1,6 @@
 import React from 'react';
 import './ourStoryCard.css'; 
+import redBar from './images/red_bar.lottie'; 
 
 const OurStoryCard = () => {
   return (
