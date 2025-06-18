@@ -6,41 +6,32 @@ import OurStory from './OurStory';
 import Change from './change';
 import Footer from './footer';
 import Contact from './contact_form';
+import ReadMore from './read_more';
+import { MemoryRouter as Router, Routes, Route } from 'react-router-dom';
 
 
 function App() {
   return (
-    <>
-      <div>
-          < Navbar/>
-      </div>
-      
-      <div>
-          <Home/>
-      </div>
-      
-      <div> 
-        <OurStory/>
-      </div>
+    <Router>
+      <Navbar />
 
-      <div> 
-        <Faqs/>
-      </div>
-
-      <div> 
-        <Change/>
-      </div>
-
-      <div> 
-        <Contact/>
-      </div>
-
-       <div> 
-        <Footer/>
-      </div>
-
-    </>
-    
+      <Routes>
+        <Route
+          path="/"
+          element={
+            <>
+              <Home />
+              <OurStory />
+              <Faqs />
+              <Change />
+              <Contact />
+              <Footer />
+            </>
+          }
+        />
+        <Route path="/our-story" element={<ReadMore />} />
+      </Routes>
+    </Router>
   );
 }
 
