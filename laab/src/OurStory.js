@@ -11,8 +11,9 @@ import FeaturesSection from './features_section';
 function OurStory({ onReadMoreClick }) {
 
     return (
-      <>
-              <div >
+    
+          <div id="our-story">
+                <div >
                 <img className="ourStoryFlower" src={ourStoryFlower} alt=""/>
               </div>
 
@@ -37,7 +38,8 @@ function OurStory({ onReadMoreClick }) {
               <div>
                 <FeaturesSection/>
               </div>
-      </>
+          </div>
+    
     );
   }
   

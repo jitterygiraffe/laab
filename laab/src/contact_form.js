@@ -3,7 +3,10 @@ import './contact.css';
 
 const ContactForm = () => {
   return (
-    <section className="contact-container">
+
+      <div id="contact-us">
+      
+        <section className="contact-container">
       <div className="contact-left">
         <h2 id="contact-title">Let's Chat</h2>
         <p id="contact-txt">
@@ -32,7 +35,12 @@ const ContactForm = () => {
         </form>
       </div>
     </section>
-  );
+
+
+      </div>
+
+
+      );
 };
 
 export default ContactForm;

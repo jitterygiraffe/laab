@@ -5,9 +5,8 @@ html, body {
    margin: 0;
   padding: 0;
   font-family: sans-serif;
+  scroll-behavior: smooth;
 }
-
-
 
 .content {
   padding: 2rem;
@@ -58,6 +57,7 @@ letter-spacing: 0%;
   flex-shrink: 0;
   aspect-ratio: 523.67/343.73;
   position: absolute;
+  left: -10px;
   top: 30px;
 }
 
@@ -68,7 +68,7 @@ font-size: 200px;
 font-family: 'Boldonse';
 color: var(--laab-red, #FF6B57); 
 z-index: 100;
-margin-left: 45px;
+margin-left: -15px;
 }
 
 .body-txt {
@@ -299,4 +299,17 @@ justify-content: center;
   left: 1100px;
   width: 250px;
   height: auto;
+}
+
+
+#home {
+  scroll-margin-top: 100px; /* optional: compensate for fixed navbar */
+  min-height: 100vh;
+  padding: 2rem; /* for spacing from nav */
+}
+
+#our-story {
+  scroll-margin-top: 100px; /* optional: compensate for fixed navbar */
+  min-height: 200vh;
+  padding: 2rem; /* for spacing from nav */
 }

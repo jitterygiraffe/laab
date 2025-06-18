@@ -41,7 +41,7 @@ position: absolute;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  border: #1D6EFD 2px solid;
+  border: #dfe1e3 1px solid;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
@@ -125,4 +125,11 @@ font-family: 'Boldonse';
 color: var(--laab-red, #FFF); 
 z-index: 100;
 margin-left: 0px;
+}
+
+
+#contact-us {
+  scroll-margin-top: 100px; /* optional: compensate for fixed navbar */
+  min-height: 100vh;
+  padding: 2rem; /* for spacing from nav */
 }

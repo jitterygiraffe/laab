@@ -10,8 +10,10 @@ import whiteStripes from './images/white_stripes.png';
 function Faqs() {
 
     return (
-      <>
-        <div className="faqs">
+      <div id="faqs">
+        
+            
+            <div className="faqs">
 
             <div className="accordionContainer">
                 <AccordionFAQs />
@@ -25,14 +27,15 @@ function Faqs() {
                     src={faqsAnim}
                     loop
                     autoplay
-              />
+            />
 
-        </div>
+            </div>
               <div >
                 <img className="pinkBar" src={pinkBar} alt=""/>
-              </div>
+            </div>
 
-      </>
+
+      </div>
     );
   }
   
