@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+/* If you have Boldonse locally, import it here or link from your assets */
+
+.our-story {
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.7;
+  font-size: 16px;
+}
+
+.story-title {
+  font-family: 'Boldonse', sans-serif;
+  font-size: 40px;
+  color: #f44b3f;
+  margin: 2rem;
+  padding-left: 1.5rem;
+}
+
+.story-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 4rem 2rem;
+  flex-wrap: wrap;
+}
+
+.story-section p {
+  flex: 1;
+  max-width: 600px;
+  margin: 1rem;
+}
+
+.story-section.white {
+  background-color: white;
+  color: #1e1e1e;
+}
+
+.story-section.blue {
+  background-color: #0057ff;
+  color: white;
+}
+
+.image {
+  flex: 1;
+  min-width: 200px;
+  height: 280px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 1rem;
+  border-radius: 50%;
+}
+
+/* Add media queries for responsiveness */
+@media (max-width: 768px) {
+  .story-section {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .story-title {
+    font-size: 32px;
+    text-align: center;
+  }
+
+  .image {
+    height: 200px;
+  }
+}
+
+
+img.chicken,
+img.star,
+img.apple,
+img.splash {
+  width: 250px;
+  height: auto;
+  border-radius: 50%;
+  margin: 1rem;
+}
