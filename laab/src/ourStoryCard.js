@@ -2,7 +2,7 @@ import React from 'react';
 import './ourStoryCard.css'; 
 
 
-const OurStoryCard = () => {
+const OurStoryCard = ({ onReadMoreClick }) => {
 
   return (
     <div id="our-story-card">
@@ -22,7 +22,7 @@ const OurStoryCard = () => {
         pried free from its roof leaving nails exposed; the spring toys were all broken
         and covered; the swing frames had no swings in them.
       </p>
-      <button className="read-more-button">Read more</button>
+      <button className="read-more-button" onClick={onReadMoreClick}>Read more</button>
     </div>
   );
 };
