@@ -22,7 +22,10 @@ const OurStoryCard = ({ onReadMoreClick }) => {
         pried free from its roof leaving nails exposed; the spring toys were all broken
         and covered; the swing frames had no swings in them.
       </p>
-      <button className="read-more-button" onClick={onReadMoreClick}>Read more</button>
+      <button className="read-more-button" 
+      onClick={() => window.location.hash = '#read-more'}>
+        Read more
+      </button>
     </div>
   );
 };
