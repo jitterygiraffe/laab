@@ -8,7 +8,7 @@ import redStripe from './images/red_bar.lottie';
 import FeaturesSection from './features_section';
 
 
-function OurStory() {
+function OurStory({ onReadMoreClick }) {
 
     return (
       <>
@@ -21,7 +21,7 @@ function OurStory() {
               </div>
 
               <div>
-                <OurStoryCard/>
+                <OurStoryCard onReadMoreClick={onReadMoreClick}/>
               </div>
 
                 <div >
