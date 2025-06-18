@@ -1,11 +1,14 @@
 .navbar-inner {
+
 position: sticky;
+ 
 }
 
 #nav{
     z-index: 100000;
     background-color: rgb(255, 255, 255);
     position: fixed;
+     top: 0;
 }
 
 .navbar {

@@ -6,12 +6,14 @@
   font-family: 'Roboto', sans-serif;
   line-height: 1.7;
   font-size: 16px;
+  position: relative;
+  top: 250px;
 }
 
 .story-title {
   font-family: 'Boldonse', sans-serif;
   font-size: 40px;
-  color: #f44b3f;
+  color: #FF8F1E;
   margin: 2rem;
   padding-left: 1.5rem;
 }
@@ -78,3 +80,4 @@ img.splash {
   border-radius: 50%;
   margin: 1rem;
 }
+
