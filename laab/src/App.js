@@ -39,6 +39,8 @@ function App() {
         return <ReadMore />;
       default:
         return <Home />;
+
+      
     }
   };
 
