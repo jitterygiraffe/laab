@@ -1,10 +1,8 @@
 import React from 'react';
 import './ourStoryCard.css'; 
-import { useNavigate } from 'react-router-dom';
 
 
 const OurStoryCard = () => {
-  const navigate = useNavigate();
 
   return (
     <div id="our-story-card">
@@ -24,7 +22,7 @@ const OurStoryCard = () => {
         pried free from its roof leaving nails exposed; the spring toys were all broken
         and covered; the swing frames had no swings in them.
       </p>
-      <button className="read-more-button" onClick={() => navigate('/our-story')}>Read more</button>
+      <button className="read-more-button">Read more</button>
     </div>
   );
 };
