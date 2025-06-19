@@ -1,25 +1,25 @@
 import { useEffect, useState } from 'react';
 import './App.css';
-import Navbar from './Navbar';
-import Home from './home';
-import OurStory from './OurStory';
-import Faqs from './faqs';
-import Change from './change';
-import Contact from './contact_form';
-import Footer from './footer';
-import ReadMore from './read_more';
+import Navbar from './Navbar.js';
+import Home from './home.js';
+import OurStory from './OurStory.js';
+import Faqs from './faqs.js';
+import Change from './change.js';
+import Contact from './contact_form.js';
+import Footer from './footer.js';
+import ReadMore from './read_more.js';
+
+const homeSections = ['#home', '#our-story', '#faqs', '#contact-us', '#change'];
 
 function App() {
   const [page, setPage] = useState(window.location.hash || '#home');
-
-  const homeSections = ['#home', '#our-story', '#faqs', '#contact-us', '#change'];
 
   useEffect(() => {
     const handleHashChange = () => {
       const hash = window.location.hash || '#home';
       setPage(hash);
 
-      // Smooth scroll if it's a home section
+      
       const el = document.getElementById(hash.replace('#', ''));
       if (el && homeSections.includes(hash)) {
         setTimeout(() => {

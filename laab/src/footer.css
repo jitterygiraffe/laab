@@ -96,9 +96,9 @@
 
 .blueStripeMain {
   position: absolute;
-  width: 500px;
+  width: 300px;
   height: auto;
-  top: 5030px;
+  top: 4850px;
   left: -100px;
   margin-left: -80px;
   z-index: 10000;
