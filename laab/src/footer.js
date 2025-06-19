@@ -8,17 +8,17 @@ import abstractStars from './images/abstract_stars.png';
 const Footer = () => {
   return (
    <>  
-    <DotLottieReact className="blueStripe"
+    <DotLottieReact className="blueStripeMain"
                         src={blueStripe}
                         loop
                         autoplay
     />
 
     <div >
-        <img className="abstractStars" src={abstractStars} alt=""/>
+        <img className="abstractStarsMain" src={abstractStars} alt=""/>
     </div>
 
-    <footer className="footer">
+    <footer className="footer-main">
       <div className="footer-content">
         <div className="footer-left">
           <div className="footer-one footer-item">

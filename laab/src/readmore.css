@@ -34,7 +34,7 @@
   margin: 2rem;
   padding-left: 32;
   position: absolute;
-  top: 1200px;
+  top: 1300px;
   width: 500px;
 }
 
@@ -171,7 +171,7 @@ img.splash {
   position: absolute;
   z-index: -1000;
   top: 1550px;
-  width: 2000px;
+  width: 3000px;
   height: auto;
   transform: rotate(3.002deg);
   flex-shrink: 0;
