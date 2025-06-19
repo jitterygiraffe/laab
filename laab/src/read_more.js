@@ -10,7 +10,6 @@ import FooterTwo from './footer_two.js';
 import wavyBlue from './images/wavyBlue.png';
 import redStarAnim from './images/redStar.lottie';
 import redStarThree from './images/redStarThree.png';
-import orangeDotsTwo from './images/orangeDotsTwo.png';
 import { DotLottieReact } from '@lottiefiles/dotlottie-react';
 
 
