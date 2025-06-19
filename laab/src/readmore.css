@@ -200,3 +200,11 @@ html {
   top: -120px;
   left: 1200px;
 }
+
+.redStarAnim {
+  position: absolute;
+  width: 350px;
+  height: auto;
+  top: 1200px;
+  left: 420px;
+}

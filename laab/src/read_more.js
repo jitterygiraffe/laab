@@ -10,6 +10,8 @@ import FooterTwo from './footer_two.js';
 import wavyBlue from './images/wavyBlue.png';
 import redStarAnim from './images/redStar.lottie';
 import orangeDotsTwo from './images/orangeDotsTwo.png';
+import { DotLottieReact } from '@lottiefiles/dotlottie-react';
+
 
 
 const ReadMore = () => {
@@ -44,6 +46,12 @@ const ReadMore = () => {
           of what the new playground can look like with incredible play equipment that is exciting, challenging, built-to-last and eco-friendly.
         </p>
       </div>
+
+      <DotLottieReact className="redStarAnim"
+                    src={redStarAnim}
+                    loop
+                    autoplay
+              />
 
       <div >
             <img className="star" src={Star} alt=""/>
