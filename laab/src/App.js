@@ -1,13 +1,13 @@
 import { useEffect, useState } from 'react';
 import './App.css';
-import Navbar from './Navbar';
-import Home from './home';
-import OurStory from './OurStory';
-import Faqs from './faqs';
-import Change from './change';
-import Contact from './contact_form';
-import Footer from './footer';
-import ReadMore from './read_more';
+import Navbar from './Navbar.js';
+import Home from './home.js';
+import OurStory from './OurStory.js';
+import Faqs from './faqs.js';
+import Change from './change.js';
+import Contact from './contact_form.js';
+import Footer from './footer.js';
+import ReadMore from './read_more.js';
 
 function App() {
   const [page, setPage] = useState(window.location.hash || '#home');
