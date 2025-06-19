@@ -19,7 +19,7 @@ function App() {
       const hash = window.location.hash || '#home';
       setPage(hash);
 
-      // Smooth scroll if it's a home section
+      
       const el = document.getElementById(hash.replace('#', ''));
       if (el && homeSections.includes(hash)) {
         setTimeout(() => {
@@ -32,7 +32,7 @@ function App() {
     handleHashChange(); // trigger on load
 
     return () => window.removeEventListener('hashchange', handleHashChange);
-  }, []);
+}, [homeSections]);
 
   const renderPage = () => {
     if (page === '#read-more') return <ReadMore />;
