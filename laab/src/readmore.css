@@ -250,3 +250,64 @@ html {
     left: 750px;
   }
 }
+
+
+/*mobile breakpoint*/
+
+@media (max-width: 768px) {
+  .story-section {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .story-title {
+    font-size: 40px;
+    text-align: center;
+  }
+
+  #story-txt2, #story-txt3, #story-txt4 {
+    position: relative;
+    width: 90%;
+    left: 20px;
+  }
+
+  img.chicken, img.star, img.apple, img.splash {
+    position: relative;
+    width: 90%;
+    left: 0;
+    margin: auto;
+  }
+
+  .wavyBlue {
+    left: 100px;
+  }
+}
+
+
+/*small mobile breakpoint*/
+
+@media (max-width: 480px) {
+  .story-title {
+    font-size: 32px;
+    margin: 1rem;
+  }
+
+  #story-txt, #story-txt2, #story-txt3, #story-txt4 {
+    font-size: 14px;
+  }
+
+  .redStarAnim {
+    width: 250px;
+    left: 180px;
+  }
+
+  .redStarThree {
+    width: 150px;
+    left: 20px;
+  }
+
+  .blueBar1, .blueBar2 {
+    width: 1500px;
+    left: -300px;
+  }
+} 
