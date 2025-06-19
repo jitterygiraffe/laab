@@ -1,5 +1,7 @@
 import React from 'react';
 import './contact.css';
+import { DotLottie } from '@lottiefiles/dotlottie-react';
+import ThankYou from './thank_you.lottie';
 
 const ContactForm = () => {
   return (
