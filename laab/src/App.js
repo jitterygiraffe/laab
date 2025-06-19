@@ -9,10 +9,10 @@ import Contact from './contact_form.js';
 import Footer from './footer.js';
 import ReadMore from './read_more.js';
 
+const homeSections = ['#home', '#our-story', '#faqs', '#contact-us', '#change'];
+
 function App() {
   const [page, setPage] = useState(window.location.hash || '#home');
-
-  const homeSections = ['#home', '#our-story', '#faqs', '#contact-us', '#change'];
 
   useEffect(() => {
     const handleHashChange = () => {
@@ -32,7 +32,7 @@ function App() {
     handleHashChange(); // trigger on load
 
     return () => window.removeEventListener('hashchange', handleHashChange);
-}, [homeSections]);
+  }, []);
 
   const renderPage = () => {
     if (page === '#read-more') return <ReadMore />;
