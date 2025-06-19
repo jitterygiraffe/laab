@@ -71,7 +71,7 @@ function App() {
     <>
       <Navbar />
       {renderPage()}
-      <Footer />
+      
     </>
   );
 }

@@ -1,12 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
-
-/* If you have Boldonse locally, import it here or link from your assets */
-
 .our-story {
   font-family: 'Roboto', sans-serif;
   line-height: 1.7;
   position: relative;
   top: 200px;
+   min-height: 2200px;
   
 }
 
@@ -15,7 +12,6 @@
   font-size: 16px;
   color: #545A63;
   margin: 2rem;
-  padding-left: 32;
   
 }
 
@@ -135,7 +131,7 @@ img.star {
 
 img.apple {
   position: absolute;
-  left: 500px;
+  left: 640px;
   top: 850px;
   width: 700px;
   height: auto;
@@ -152,7 +148,6 @@ img.splash {
   height: auto;
   border-radius: 50%;
   margin: 1rem;
-  z-index: 1000;
 }
 
 .story-section.white {
@@ -166,7 +161,7 @@ img.splash {
   z-index: -1000;
   top: 450px;
   width: 2000px;
-  height: 700px;
+  height: auto;
   transform: rotate(3.002deg);
   flex-shrink: 0;
   left: -280px;
@@ -177,8 +172,13 @@ img.splash {
   z-index: -1000;
   top: 1550px;
   width: 2000px;
-  height: 700px;
+  height: auto;
   transform: rotate(3.002deg);
   flex-shrink: 0;
   left: -258px;
+}
+
+html {
+  scroll-behavior: smooth;
+  overflow-anchor: none;
 }
