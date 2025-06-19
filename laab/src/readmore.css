@@ -218,11 +218,35 @@ html {
     width: 400px;
   }
 
-  img.chicken, img.star, img.apple, img.splash {
+  img.chicken {
+    left: 490px;
+    width: 400px;
+  }
+  
+  img.star {
+    left: 40px;
     width: 500px;
+     top: 600px;
+  }
+  
+  img.apple {
+    left: 500px;
+    width: 500px;
+    top: 1000px;
+  }
+  
+  .redStarAnim {
+    width: 300px;
+    top: 1200px;
+    left: 200px;
+  }
+  img.splash {
+    width: 500px;
+    top: 1750px;
+    left: -30px;
   }
 
   .wavyBlue {
-    left: 900px;
+    left: 750px;
   }
 }
