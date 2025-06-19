@@ -194,3 +194,9 @@ html {
   align-items: center;
   justify-content: center;
 }
+
+.wavyBlue {
+  position: absolute;
+  top: -120px;
+  left: 1200px;
+}

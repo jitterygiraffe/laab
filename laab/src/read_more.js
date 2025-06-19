@@ -7,7 +7,9 @@ import Splash from './images/splash.png';
 import blueBar1 from './images/blueBar.svg';
 import blueBar2 from './images/blueBar2.svg';
 import FooterTwo from './footer_two.js';
-//import WavyLine from './images/readmoreWavyLines.png';
+import wavyBlue from './images/wavyBlue.png';
+import redStarAnim from './images/redStar.lottie';
+import orangeDotsTwo from './images/orangeDotsTwo.png';
 
 
 const ReadMore = () => {
@@ -24,6 +26,10 @@ const ReadMore = () => {
         </p>
          
       </div>
+
+         <div >
+            <img className="wavyBlue" src={wavyBlue} alt=""/>
+         </div>
 
          <div >
             <img className="chicken" src={Chicken} alt=""/>
