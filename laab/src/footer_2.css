@@ -94,11 +94,11 @@
 }
 
 
-.blueStripe1 {
+.blueStripe {
   position: absolute;
-  width: 300px;
+  width: 500px;
   height: auto;
-  top: 2030px;
+  top: 2230px;
   left: -100px;
   margin-left: -80px;
   z-index: 10000;

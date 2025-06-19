@@ -1,7 +1,7 @@
 import React from 'react';
 import './footer_2.css';
 import { DotLottieReact } from '@lottiefiles/dotlottie-react';
-import blueStripe1 from './images/blue_stripe.lottie';
+import blueStripe from './images/blue_stripe.lottie';
 import abstractStars from './images/abstract_stars.png';
 
 
@@ -9,7 +9,7 @@ const FooterTwo = () => {
   return (
    <>  
     <DotLottieReact className="blueStripe"
-                        src={blueStripe1}
+                        src={blueStripe}
                         loop
                         autoplay
     />
