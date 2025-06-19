@@ -28,10 +28,8 @@ const ReadMore = () => {
          </div>
 
       <div className="story-section blue">
-        <div >
-            <img className="star" src={Star} alt=""/>
-         </div>
-        <p id="story-txt">
+        
+        <p id="story-txt2">
           We've received the go-ahead from the municipality to raise money for an entirely new playground — one that is built on
           the values of play diversity, inclusivity, sustainability and safety. We've worked with Kompan, a leading playground equipment
           manufacturer in Europe, and a landscape architect and playground designer who has kindly donated her time to create a vision
@@ -39,21 +37,25 @@ const ReadMore = () => {
         </p>
       </div>
 
+      <div >
+            <img className="star" src={Star} alt=""/>
+      </div>
+
       <div className="story-section white">
-        <p id="story-txt">
+        <p id="story-txt3">
           The new design features a dedicated area for little kids (0-5) with a colorful play structure, spring toys and an embankment slide,
           all shaded under the jacaranda trees just to the west of the main playground; and a big kids' area with a balance course, custom bird's nest swing,
           spinner toys and a massive space net climbing tower — something you'll not find at any other public park in Tunisia.
         </p>
-        <div >
+        
+      </div>
+
+      <div >
             <img className="apple" src={Apple} alt=""/>
-         </div>
       </div>
 
       <div className="story-section blue">
-        <div >
-            <img className="splash" src={Splash} alt=""/>
-         </div>
+  
         <p id="story-txt">
           All of this equipment is built to last, with 10–20 year guarantees (depending on the piece), which means it is an investment that
           will give joy to generations of kids.
@@ -65,7 +67,9 @@ const ReadMore = () => {
           We hope you'll give generously and help us achieve the dream of a fantastic new playground in Sidi Bou Said park.
         </p>
       </div>
-
+         <div >
+            <img className="splash" src={Splash} alt=""/>
+         </div>
       <div >
         <img className="blueBar" src={blueBar} alt=""/>
       </div>
