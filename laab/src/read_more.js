@@ -6,7 +6,7 @@ import Apple from './images/apple.png';
 import Splash from './images/splash.png';
 import blueBar1 from './images/blueBar.svg';
 import blueBar2 from './images/blueBar2.svg';
-import Footer from './footer';
+import FooterTwo from './footer_two.js';
 //import WavyLine from './images/readmoreWavyLines.png';
 
 
@@ -80,9 +80,10 @@ const ReadMore = () => {
         <img className="blueBar2" src={blueBar2} alt=""/>
       </div>
 
-      <div id="footer2">
-              <Footer />
+      <div id="footer-two">
+              <FooterTwo />
         </div>
+      
       
     </section>
   );
