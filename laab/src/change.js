@@ -41,7 +41,7 @@ const Change = () => {
 
       </p>
       <button className="cta-donate"
-      onClick={() => window.open('https://your-donation-link.com', '_blank')}
+      onClick={() => window.open('https://www.gofundme.com/f/help-build-the-new-sidi-bou-said-playground?lang=en_US&utm_campaign=man_sharesheet_dash&utm_content=amp10_t1-amp13_c-amp14_t2&utm_medium=customer&utm_source=copy_link&attribution_id=sl%3Ab976d453-7e48-4b13-96b7-0a89310ac81e', '_blank')}
       >Donate now!</button>
     </section>
     
