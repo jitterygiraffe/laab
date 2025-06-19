@@ -4,7 +4,8 @@ import Chicken from './images/chicken.png';
 import Star from './images/starr.png';
 import Apple from './images/apple.png';
 import Splash from './images/splash.png';
-import blueBar from './images/blueBar.svg';
+import blueBar1 from './images/blueBar.svg';
+import blueBar2 from './images/blueBar2.svg';
 //import WavyLine from './images/readmoreWavyLines.png';
 
 
@@ -56,7 +57,7 @@ const ReadMore = () => {
 
       <div className="story-section blue">
   
-        <p id="story-txt">
+        <p id="story-txt4">
           All of this equipment is built to last, with 10–20 year guarantees (depending on the piece), which means it is an investment that
           will give joy to generations of kids.
           <br /><br />
@@ -71,8 +72,13 @@ const ReadMore = () => {
             <img className="splash" src={Splash} alt=""/>
          </div>
       <div >
-        <img className="blueBar" src={blueBar} alt=""/>
+        <img className="blueBar1" src={blueBar1} alt=""/>
       </div>
+
+      <div >
+        <img className="blueBar2" src={blueBar2} alt=""/>
+      </div>
+      
     </section>
   );
 };

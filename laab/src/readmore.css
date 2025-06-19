@@ -42,6 +42,18 @@
   width: 500px;
 }
 
+#story-txt4 {
+   font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  color: #fff;
+  margin: 2rem;
+  padding-left: 32;
+  position: absolute;
+  top: 1700px;
+  width: 500px;
+  left: 700px;
+}
+
 .story-title {
   font-family: 'Boldonse', sans-serif;
   font-size: 80px;
@@ -95,9 +107,7 @@
     text-align: center;
   }
 
-  .image {
-    height: 200px;
-  }
+ 
 }
 
 
@@ -135,22 +145,37 @@ img.apple {
 
 
 img.splash {
-  width: 250px;
+  position: absolute;
+  left: 10px;
+  top: 1550px;
+  width: 700px;
   height: auto;
   border-radius: 50%;
   margin: 1rem;
+  z-index: 1000;
 }
 
 .story-section.white {
     max-width: 500px;
-  margin: 0 auto;
+ 
   margin-left: -10px;
 }
 
-.blueBar {
+.blueBar1 {
   position: absolute;
   z-index: -1000;
   top: 450px;
+  width: 2000px;
+  height: 700px;
+  transform: rotate(3.002deg);
+  flex-shrink: 0;
+  left: -280px;
+}
+
+.blueBar2 {
+  position: absolute;
+  z-index: -1000;
+  top: 1550px;
   width: 2000px;
   height: 700px;
   transform: rotate(3.002deg);
