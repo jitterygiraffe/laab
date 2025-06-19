@@ -134,3 +134,10 @@ margin-left: 0px;
   min-height: 100vh;
   padding: 2rem; /* for spacing from nav */
 }
+
+.error {
+  color: red;
+  font-size: 0.9rem;
+  margin-bottom: 1rem;
+  display: block;
+}
