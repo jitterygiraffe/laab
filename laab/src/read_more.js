@@ -9,6 +9,7 @@ import blueBar2 from './images/blueBar2.svg';
 import FooterTwo from './footer_two.js';
 import wavyBlue from './images/wavyBlue.png';
 import redStarAnim from './images/redStar.lottie';
+import redStarThree from './images/redStarThree.png';
 import orangeDotsTwo from './images/orangeDotsTwo.png';
 import { DotLottieReact } from '@lottiefiles/dotlottie-react';
 
@@ -46,7 +47,9 @@ const ReadMore = () => {
           of what the new playground can look like with incredible play equipment that is exciting, challenging, built-to-last and eco-friendly.
         </p>
       </div>
-
+       <div >
+            <img className="redStarThree" src={redStarThree} alt=""/>
+         </div>
       <DotLottieReact className="redStarAnim"
                     src={redStarAnim}
                     loop

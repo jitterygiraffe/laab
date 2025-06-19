@@ -208,3 +208,12 @@ html {
   top: 1200px;
   left: 420px;
 }
+
+.redStarThree {
+  position: absolute;
+  width: 220px;
+  height: auto;
+  top: 850px;
+  left: 42px;
+  z-index: 1000;
+}
