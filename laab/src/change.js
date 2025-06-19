@@ -40,7 +40,9 @@ const Change = () => {
         of life for our whole community. 
 
       </p>
-      <button className="cta-donate">Donate now!</button>
+      <button className="cta-donate"
+      onClick={() => window.open('https://your-donation-link.com', '_blank')}
+      >Donate now!</button>
     </section>
     
     </>
