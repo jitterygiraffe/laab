@@ -248,6 +248,8 @@ html {
 
   .wavyBlue {
     left: 750px;
+    width: 250px;
+    top: -100px;
   }
 }
 

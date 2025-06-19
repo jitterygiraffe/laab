@@ -76,6 +76,7 @@ position: sticky;
   .navbar {
     padding: 1rem;
     height: auto;
+    width: 100%;
   }
 }
 
