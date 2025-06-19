@@ -1,17 +1,59 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
-
-/* If you have Boldonse locally, import it here or link from your assets */
-
 .our-story {
   font-family: 'Roboto', sans-serif;
   line-height: 1.7;
+  position: relative;
+  top: 200px;
+   min-height: 2200px;
+  
+}
+
+#story-txt {
+  font-family: 'Roboto', sans-serif;
   font-size: 16px;
+  color: #545A63;
+  margin: 2rem;
+  
+}
+
+#story-txt2 {
+   font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  color: #fff;
+  margin: 2rem;
+  padding-left: 32;
+  position: absolute;
+  top: 600px;
+  left: 700px;
+  width: 500px;
+}
+
+#story-txt3 {
+   font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  color: #545A63;
+  margin: 2rem;
+  padding-left: 32;
+  position: absolute;
+  top: 1300px;
+  width: 500px;
+}
+
+#story-txt4 {
+   font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  color: #fff;
+  margin: 2rem;
+  padding-left: 32;
+  position: absolute;
+  top: 1700px;
+  width: 500px;
+  left: 700px;
 }
 
 .story-title {
   font-family: 'Boldonse', sans-serif;
-  font-size: 40px;
-  color: #f44b3f;
+  font-size: 80px;
+  color: #FF8F1E;
   margin: 2rem;
   padding-left: 1.5rem;
 }
@@ -20,23 +62,21 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 4rem 2rem;
+  padding-left: 50px;
+  padding-top: -10px;
   flex-wrap: wrap;
+ 
 }
 
 .story-section p {
   flex: 1;
   max-width: 600px;
   margin: 1rem;
-}
-
-.story-section.white {
-  background-color: white;
   color: #1e1e1e;
 }
 
 .story-section.blue {
-  background-color: #0057ff;
+  
   color: white;
 }
 
@@ -63,18 +103,117 @@
     text-align: center;
   }
 
-  .image {
-    height: 200px;
-  }
+ 
 }
 
 
-img.chicken,
-img.star,
-img.apple,
-img.splash {
-  width: 250px;
+img.chicken {
+  position: absolute;
+  left: 600px;
+  top: -10px;
+  width: 600px;
   height: auto;
   border-radius: 50%;
   margin: 1rem;
+}
+
+
+img.star {
+  position: absolute;
+  left: 60px;
+  top: 400px;
+  width: 700px;
+  height: auto;
+  border-radius: 50%;
+  margin: 1rem;
+}
+
+
+img.apple {
+  position: absolute;
+  left: 640px;
+  top: 850px;
+  width: 700px;
+  height: auto;
+  border-radius: 50%;
+  margin: 1rem;
+}
+
+
+img.splash {
+  position: absolute;
+  left: 10px;
+  top: 1550px;
+  width: 700px;
+  height: auto;
+  border-radius: 50%;
+  margin: 1rem;
+}
+
+.story-section.white {
+    max-width: 500px;
+ 
+  margin-left: -10px;
+}
+
+.blueBar1 {
+  position: absolute;
+  z-index: -1000;
+  top: 450px;
+  width: 2000px;
+  height: auto;
+  transform: rotate(3.002deg);
+  flex-shrink: 0;
+  left: -280px;
+}
+
+.blueBar2 {
+  position: absolute;
+  z-index: -1000;
+  top: 1550px;
+  width: 3000px;
+  height: auto;
+  transform: rotate(3.002deg);
+  flex-shrink: 0;
+  left: -258px;
+}
+
+html {
+  scroll-behavior: smooth;
+  overflow-anchor: none;
+}
+
+
+#footer2 {
+  position: absolute;
+  z-index: 80000;
+  top: -1000px;
+  width: 100%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.wavyBlue {
+  position: absolute;
+  top: -120px;
+  left: 1200px;
+}
+
+.redStarAnim {
+  position: absolute;
+  width: 350px;
+  height: auto;
+  top: 1200px;
+  left: 420px;
+}
+
+.redStarThree {
+  position: absolute;
+  width: 220px;
+  height: auto;
+  top: 850px;
+  left: 42px;
+  z-index: 1000;
 }

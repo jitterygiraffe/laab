@@ -1,4 +1,4 @@
-.footer {
+.footer-main {
   background-color: #FF6B57;
   color: #e5e7eb;
   padding: 2rem;
@@ -94,7 +94,7 @@
 }
 
 
-.blueStripe {
+.blueStripeMain {
   position: absolute;
   width: 500px;
   height: auto;
@@ -106,7 +106,7 @@
 }
 
 
-.abstractStars {
+.abstractStarsMain {
   position: absolute;
   width: 150px;
   height: auto;

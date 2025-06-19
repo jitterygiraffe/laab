@@ -4,6 +4,7 @@ z-index: -1000;
   top: 2200px;
   width: 2000px;
 height: 1580px;
+left: -50px;
 }
 
 .faqsAnim {
@@ -23,4 +24,11 @@ height: 1580px;
   position: absolute;
   top: 2300px;
   left: 800px;;
+}
+
+
+#faqs {
+  scroll-margin-top: 100px; /* optional: compensate for fixed navbar */
+  min-height: 200vh;
+  padding: 2rem; /* for spacing from nav */
 }
