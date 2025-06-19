@@ -91,21 +91,6 @@
   border-radius: 50%;
 }
 
-/* Add media queries for responsiveness */
-@media (max-width: 768px) {
-  .story-section {
-    flex-direction: column;
-    text-align: center;
-  }
-
-  .story-title {
-    font-size: 32px;
-    text-align: center;
-  }
-
- 
-}
-
 
 img.chicken {
   position: absolute;
@@ -216,4 +201,28 @@ html {
   top: 850px;
   left: 42px;
   z-index: 1000;
+}
+
+
+/* Responsive styles*/
+
+/* 1.tablet*/
+
+@media (max-width: 1024px) {
+  .story-title {
+    font-size: 60px;
+  }
+
+  #story-txt2, #story-txt4 {
+    left: 450px;
+    width: 400px;
+  }
+
+  img.chicken, img.star, img.apple, img.splash {
+    width: 500px;
+  }
+
+  .wavyBlue {
+    left: 900px;
+  }
 }
