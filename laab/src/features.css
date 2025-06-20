@@ -131,20 +131,21 @@ line-height: normal;
     top: 1850px;
     flex-direction: row;
     gap: 5rem;
-    margin-left: -10px;
+    margin-left: 100px;
     padding: 2rem 1.5rem;
   }
 
   .features-title{
-
+   
   font-size: 24px;
   padding-left: 1.5rem;
   position: absolute;
   top: 1600px;
   width: 600px;
-  margin-left: 80px;
+  margin-left: 150px;
   text-align: center;
   width: 300px;
+  
 
 } 
   .feature-item {
@@ -198,6 +199,8 @@ line-height: normal;
   margin-left: 200px;
   text-align: center;
   width: 300px;
+   z-index: -10000px;
+    background-color: none;
 
 } 
   .feature-item {

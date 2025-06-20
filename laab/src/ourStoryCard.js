@@ -6,9 +6,9 @@ const OurStoryCard = ({ onReadMoreClick }) => {
 
   return (
     <div id="our-story-card">
-      <h2 className="card-title">
+      <p className="card-title">
         Every child deserves a safe, inspiring place to play.
-      </h2>
+      </p>
       <p className="card-text">
         The playground at Sidi Bou Said park is the hub for our community's children.
         It is a crossroads for hundreds of families every week, a place for kids of all

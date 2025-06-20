@@ -51,6 +51,10 @@ function App() {
               <Faqs />
         </div>
 
+      <div id="change">
+              <Change />
+        </div>
+
         
     
       </>
