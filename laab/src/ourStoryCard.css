@@ -45,3 +45,66 @@ background-color: #2563eb;
   color: white;
  
 }
+
+
+/* Tablet (≤ 1024px) */
+@media (max-width: 1024px) {
+  #our-story-card {
+    position: absolute;
+    left: 450px;
+    width: 40%;
+    top: 750px;
+  }
+
+  .card-title {
+    font-size: 32px;
+  }
+
+  .card-text {
+    font-size: 14px;
+  }
+}
+
+/* Mobile (≤ 768px) */
+@media (max-width: 767px) {
+  #our-story-card {
+    left: 380px;
+    width: 40%;
+    top: 750px;
+    padding: 1rem;
+  }
+
+  .card-title {
+    font-size: 24px;
+  }
+
+  .card-text {
+    font-size: 14px;
+  }
+
+  .read-more-button {
+    font-size: 14px;
+  }
+}
+
+/* Small Mobile (≤ 500px) */
+@media (max-width: 500px) {
+  #our-story-card {
+    left: 220px;
+    width: 45%;
+    top: 750px;
+    padding: 1rem;
+  }
+
+  .card-title {
+    font-size: 20px;
+  }
+
+  .card-text {
+    font-size: 12px;
+  }
+
+  .read-more-button {
+    font-size: 14px;
+  }
+}

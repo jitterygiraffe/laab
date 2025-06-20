@@ -346,7 +346,40 @@ font-size: 100px;
   height: 350px;
   flex-shrink: 0;
   }
+
+    .heart_dots {
+    width: 120px;
+    top: 240px;
+    left: 630px;
+  }
+
+  .blueBar{
+  top: 680px;
+  width: 2000px;
+  height: 1080px;
+  left: -258px;
+} 
  
+.red_star2 {
+    top: 550px;
+}
+
+
+.yellow_star,
+  .blue_star {
+    width: 140px;
+    left: 100px;
+  }
+
+.ourStoryFlower {
+  top: 750px;
+  width: 480px;
+  height: auto;
+  margin-left: -50px;
+
+}
+
+
   }
 
 
@@ -380,15 +413,21 @@ font-size: 80px;
   height: 350px;
   flex-shrink: 0;
   }
+
+    .heart_dots {
+    width: 120px;
+    top: 260px;
+    left: 560px;
+  }
   
 }
 
 /*small mobile*/
 
-@media (max-width: 480px) {
+@media (max-width: 500px) {
   .main-title {
-top: 450px;
-font-size: 80px;
+top: 330px;
+font-size: 60px;
 left: 35px;
 }
 
@@ -396,26 +435,26 @@ left: 35px;
     font-size: 13px;
     width: 160px;
     left: 24px;
-    top: 580px;
+    top: 440px;
   }
 
   .mask {
-    width: 240px;
-    height: 240px;
-    top: 200px;
-    left: 20px;
+    width: 280px;
+    height: 260px;
+    top: 280px;
+    left: 200px;
   }
 
   .homeGif {
-    width: 320px;
-    left: -10px;
+    width: 810px;
+    left: 10px;
     top: -100px;
   }
 
   .heart_dots {
     width: 100px;
-    top: 200px;
-    left: 250px;
+    top: 260px;
+    left: 360px;
   }
 
   .yellow_star,
