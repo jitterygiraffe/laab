@@ -1,7 +1,7 @@
 .pinkBar {
 z-index: -1000;
   position: absolute;
-  top: 2200px;
+  top: 3000px;
   width: 2000px;
 height: 1580px;
 left: -50px;
@@ -9,8 +9,8 @@ left: -50px;
 
 .faqsAnim {
     position: absolute;
-    top: 2650px;
-    left: 730px;
+    top: 3550px;
+    left: 770px;
     width: 500px;
     height: 500px;
     z-index: 10000;
@@ -22,7 +22,7 @@ left: -50px;
   height: auto;
   aspect-ratio: 523.67/343.73;
   position: absolute;
-  top: 2300px;
+  top: 3000px;
   left: 800px;;
 }
 
@@ -31,4 +31,9 @@ left: -50px;
   scroll-margin-top: 100px; /* optional: compensate for fixed navbar */
   min-height: 200vh;
   padding: 2rem; /* for spacing from nav */
+}
+
+.accordionContainer {
+  position: absolute;
+  top: 900px;
 }

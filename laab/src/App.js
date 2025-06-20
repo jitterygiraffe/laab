@@ -51,17 +51,7 @@ function App() {
               <Faqs />
         </div>
 
-        <div id="change">
-              <Change />
-        </div>
-
-        <div id="contact-us">
-              <Contact />
-        </div>
-
-        <div id="footer">
-              <Footer />
-        </div>
+        
     
       </>
     );

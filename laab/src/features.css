@@ -1,13 +1,12 @@
 .features-section {
   position: absolute;
-    top: 1900px;
+    top: 2050px;
   display: flex;
   margin-left: 80px;
   justify-content: center;
   align-items: flex-start;
   gap: 10rem;
   padding: 3rem 2rem;
-  background: white;
   flex-wrap: wrap;
 }
 
@@ -164,3 +163,18 @@ line-height: normal;
     font-size: 14px;
   }
 }
+
+.features-title{
+
+  font-family: 'Boldonse', sans-serif;
+  font-size: 40px;
+  color: #FF6B57;
+  margin: 2rem;
+  padding-left: 1.5rem;
+  position: absolute;
+  top: 1700px;
+  background-color: #fff;
+  width: 600px;
+  margin-left: 400px;
+
+} 

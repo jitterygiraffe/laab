@@ -48,6 +48,11 @@ const features = [
 
 const FeaturesSection = () => {
   return (
+    <>
+    <div className='features-title'>
+     <h2 className='features-header'>What we can build together</h2>
+
+    </div>
     <section className="features-section">
       {features.map((feature, index) => (
         <div className="feature-item" key={index}>
@@ -62,6 +67,7 @@ const FeaturesSection = () => {
           </div>
       ))}
     </section>
+    </>
   );
 };
 
