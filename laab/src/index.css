@@ -462,9 +462,9 @@ margin-left: -80px;
 
 .blueDots {
   position: absolute;
-  top: 1450px;
-  left: 380px;
-  width: 200px;
+  top: 1550px;
+  left: 400px;
+  width: 150px;
   height: auto;
 }
   
@@ -562,7 +562,13 @@ left: 35px;
     text-align: center;
   }
 
- 
+ .blueDots {
+  position: absolute;
+  top: 1500px;
+  left: 400px;
+  width: 150px;
+  height: auto;
+}
 
   .ourStoryFlower {
   top: 1250px;

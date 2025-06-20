@@ -50,7 +50,7 @@ const FeaturesSection = () => {
   return (
     <>
     <div className='features-title'>
-     <h2 className='features-header'>What we can build together</h2>
+     <h2 className='features-header'>Together we can build:</h2>
 
     </div>
     <section className="features-section">
@@ -60,7 +60,7 @@ const FeaturesSection = () => {
             <span className="icon">{feature.icon}</span>
           </div>
           <div className="flower-animation">
-            <span className="icon">{feature.flower}</span>
+            <span className="flower-animation">{feature.flower}</span>
           </div>
           <p className="feature-text">{feature.text}</p>
           {index < features.length - 1 && <div className="divider" />}

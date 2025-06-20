@@ -10,6 +10,22 @@
   flex-wrap: wrap;
 }
 
+.features-title{
+
+  font-family: 'Boldonse', sans-serif;
+  font-size: 40px;
+  color: #FF6B57;
+  background-color: #fff;
+  margin: 2rem;
+  padding-left: 1.5rem;
+  position: absolute;
+  top: 1700px;
+  width: 600px;
+  left: 10px;
+  text-align: center;
+
+} 
+
 .feature-item {
   display: flex;
   flex-direction: column;
@@ -43,7 +59,7 @@
   font-size: 0.95rem;
   color: var(--laab-grey, #5C6471);
   font-family: Roboto;
-font-size: 16px;
+font-size: 14px;
 font-style: normal;
 font-weight: 400;
 line-height: normal;
@@ -76,6 +92,18 @@ line-height: normal;
     padding: 2rem 1.5rem;
   }
 
+  .features-title{
+
+  font-size: 24px;
+  padding-left: 1.5rem;
+  position: absolute;
+  top: 1600px;
+  width: 600px;
+  margin-left: 200px;
+  text-align: center;
+  width: 300px;
+
+} 
   .feature-item {
     max-width: 180px;
   }
@@ -90,91 +118,112 @@ line-height: normal;
   }
 
   .playgroundIcon {
+    position: absolute;
     width: 250px;
     top: 10px;
-    left: 0;
+    left: -15px;
   }
 }
 
 /* Mobile (500px – 767px) */
 @media (min-width: 500px) and (max-width: 767px) {
-  .features-section {
-    top: 1800px;
-    flex-direction: column;
-    gap: 2rem;
-    margin-left: 20px;
-    padding: 2rem 1rem;
+   .features-section {
+    top: 1850px;
+    flex-direction: row;
+    gap: 5rem;
+    margin-left: -10px;
+    padding: 2rem 1.5rem;
   }
 
+  .features-title{
+
+  font-size: 24px;
+  padding-left: 1.5rem;
+  position: absolute;
+  top: 1600px;
+  width: 600px;
+  margin-left: 80px;
+  text-align: center;
+  width: 300px;
+
+} 
   .feature-item {
-    max-width: 100%;
-    align-items: flex-start;
-    text-align: left;
+    max-width: 100px;
   }
 
   .flower-shape {
-    width: 90px;
-    height: 90px;
+    width: 100px;
+    height: 100px;
   }
 
   .flower-animation {
-    width: 280px;
+    width: 320px;
   }
 
   .playgroundIcon {
+    position: absolute;
     width: 200px;
-    top: 20px;
-    left: 10px;
+    top: -3px;
+    left: -25px;
   }
+
+  .flower-animation {
+    width: 200px;
+    height: auto;
+  }
+
+    .feature-text {
+  font-size: 12px;
+  }
+
 }
 
 /* Small Mobile (below 500px) */
 @media (max-width: 499px) {
-  .features-section {
-    top: 1750px;
-    flex-direction: column;
-    gap: 1.5rem;
-    margin-left: 10px;
-    padding: 1.5rem 0.5rem;
+   .features-section {
+    top: 1850px;
+    flex-direction: row;
+    gap: 5rem;
+    margin-left: 40px;
+    padding: 2rem 1.5rem;
   }
 
+  .features-title{
+
+  font-size: 24px;
+  padding-left: 1.5rem;
+  position: absolute;
+  top: 1600px;
+  width: 600px;
+  margin-left: 200px;
+  text-align: center;
+  width: 300px;
+
+} 
   .feature-item {
-    max-width: 100%;
-    align-items: center;
-    text-align: center;
+    max-width: 180px;
   }
 
   .flower-shape {
-    width: 80px;
-    height: 80px;
+    width: 100px;
+    height: 100px;
   }
 
   .flower-animation {
-    width: 240px;
+    width: 320px;
   }
 
   .playgroundIcon {
-    width: 180px;
-    top: 15px;
-    left: 5px;
+    position: absolute;
+    width: 250px;
+    top: 10px;
+    left: -15px;
   }
 
   .feature-text {
-    font-size: 14px;
+  background-color: #0070f3;
   }
+
 }
 
-.features-title{
 
-  font-family: 'Boldonse', sans-serif;
-  font-size: 40px;
-  color: #FF6B57;
-  margin: 2rem;
-  padding-left: 1.5rem;
-  position: absolute;
-  top: 1700px;
-  background-color: #fff;
-  width: 600px;
-  margin-left: 400px;
-
-} 
