@@ -263,53 +263,102 @@ html {
   }
 
   .story-title {
+    position: relative;
     font-size: 40px;
-    text-align: center;
+    text-align: left;
+    top: 100px;
+    left: -20px;
+    width: 50px;
   }
 
-  #story-txt2, #story-txt3, #story-txt4 {
+  #story-txt {
     position: relative;
+    left: -20px;
     width: 90%;
-    left: 20px;
+    margin: auto;
+    font-size: 14px;
+    text-align: left;
+    top: 100px;
+  }
+  
+  #story-txt2 {
+    position: relative;
+    left: -20px;
+    width: 90%;
+    margin: auto;
+    font-size: 14px;
+    text-align: left;
+    top: 500px;
+  }
+  
+  
+  #story-txt3 {
+    position: relative;
+    left: -20px;
+    width: 90%;
+    margin: auto;
+    font-size: 14px;
+    text-align: left;
+    top: 850px;
+  }
+  
+  
+  #story-txt4 {
+     position: relative;
+    left: -20px;
+    width: 90%;
+    margin: auto;
+    font-size: 14px;
+    text-align: left;
+    top: 1350px;
   }
 
-  img.chicken, img.star, img.apple, img.splash {
+
+  img.chicken {
+    left: 220px;
+    width: 280px;
+    top: -20px;
+  }
+  
+  img.star {
+    left: 40px;
+    width: 300px;
+     top: 450px;
+  }
+  
+  img.apple {
+    left: 200px;
+    width: 300px;
+    top: 990px;
+  }
+  
+  .redStarAnim {
+    width: 200px;
+    top: 1200px;
+    left: 50px;
+  }
+  img.splash {
+    width: 450px;
+    top: 1580px;
+    left: -130px;
+  }
+
+.redStarThree {
+  width: 120px;
+  height: auto;
+  top: 640px;
+  left: 42px;
+}
+  /*img.chicken, img.star, img.apple, img.splash {
     position: relative;
-    width: 90%;
+    width: 60%;
     left: 0;
     margin: auto;
-  }
+  }*/
 
   .wavyBlue {
-    left: 100px;
+    left: 350px;
+    top: -150px;
   }
 }
 
-
-/*small mobile breakpoint*/
-
-@media (max-width: 480px) {
-  .story-title {
-    font-size: 32px;
-    margin: 1rem;
-  }
-
-  #story-txt, #story-txt2, #story-txt3, #story-txt4 {
-    font-size: 14px;
-  }
-
-  .redStarAnim {
-    width: 250px;
-    left: 180px;
-  }
-
-  .redStarThree {
-    width: 150px;
-    left: 20px;
-  }
-
-  .blueBar1, .blueBar2 {
-    width: 1500px;
-    left: -300px;
-  }
-} 
