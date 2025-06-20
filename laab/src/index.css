@@ -383,3 +383,107 @@ font-size: 80px;
   
 }
 
+/*small mobile*/
+
+@media (max-width: 640px) {
+  .main-title {
+top: 450px;
+font-size: 80px;
+left: 35px;
+}
+
+  #homeTxt {
+    font-size: 13px;
+    width: 160px;
+    left: 24px;
+    top: 580px;
+  }
+
+  .mask {
+    width: 240px;
+    height: 240px;
+    top: 200px;
+    left: 20px;
+  }
+
+  .homeGif {
+    width: 320px;
+    left: -10px;
+    top: -100px;
+  }
+
+  .heart_dots {
+    width: 100px;
+    top: 200px;
+    left: 250px;
+  }
+
+  .yellow_star,
+  .red_star2,
+  .blue_star {
+    width: 140px;
+    left: 100px;
+  }
+
+  .flowerPic,
+  .ourStoryFlower {
+    width: 90%;
+    left: 5%;
+    top: 800px;
+  }
+
+  .everyChild {
+    width: 90%;
+    left: 5%;
+    top: 900px;
+    height: auto;
+    padding: 32px 20px;
+  }
+
+  #everyChildHeading {
+    font-size: 20px;
+    width: auto;
+  }
+
+  #everyChildTxt {
+    font-size: 13px;
+    width: auto;
+  }
+
+  #everyChildButton {
+    font-size: 16px;
+    padding: 12px 20px;
+  }
+
+  .togetherTxt {
+    font-size: 24px;
+    left: 20px;
+    top: 1950px;
+  }
+
+  .abstractShapes {
+    flex-direction: column;
+    gap: 1.5rem;
+    top: 2050px;
+  }
+
+  .abstractTxt {
+    width: auto;
+    font-size: 13px;
+    margin-left: 1rem;
+    margin-top: 1rem;
+    text-align: center;
+  }
+
+  .blueDots {
+    width: 120px;
+    left: 200px;
+    top: 1600px;
+  }
+
+  .redStripe {
+    width: 200px;
+    top: 700px;
+    left: 80px;
+  }
+}
