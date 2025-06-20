@@ -56,3 +56,70 @@
    font-family: 'Roboto', sans-serif;
   font-size: 16px;
 }
+
+
+/* Tablet (768px – 1024px) */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .accordion-section {
+    position:absolute;
+    top: 2500px;
+    width: 450px;
+    margin-left: 32px;
+    padding: 1.75rem;
+    left: -30px;
+  }
+
+  .accordion-title {
+    font-size: 32px;
+    width: 100%;
+  }
+
+  .accordion-question,
+  .accordion-answer {
+    font-size: 15px;
+  }
+}
+
+
+/* Mobile (500px – 767px) */
+@media (min-width: 500px) and (max-width: 767px) {
+  .accordion-section {
+    position:absolute;
+    top: 2800px;
+    width: 450px;
+    margin-left: 32px;
+    padding: 1.75rem;
+    left: -30px;
+  }
+
+  .accordion-title {
+    font-size: 32px;
+    width: 100%;
+  }
+
+  .accordion-question,
+  .accordion-answer {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 500px) {
+  .accordion-section {
+    position:absolute;
+    top: 2800px;
+    width: 350px;
+    margin-left: 32px;
+    padding: 1.75rem;
+    left: -50px;
+  }
+
+  .accordion-title {
+    font-size: 32px;
+    width: 100%;
+  }
+
+  .accordion-question,
+  .accordion-answer {
+    font-size: 15px;
+  }
+}

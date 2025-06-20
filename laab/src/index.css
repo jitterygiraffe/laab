@@ -313,3 +313,267 @@ justify-content: center;
   min-height: 200vh;
   padding: 2rem; /* for spacing from nav */
 }
+
+/*MEDIA QUERIES*/
+
+/* Tablet (max-width: 1024px) */
+@media (max-width: 1024px) {
+
+.main-title {
+top: 310px;
+font-size: 100px;
+}
+
+.wavyLine {
+  width: 100px;
+  height: 100.733px;
+  transform: rotate(-50.381deg);
+  flex-shrink: 0;
+  aspect-ratio: 523.67/343.73;
+  left: -10px;
+  top: -30px;
+}
+  #homeTxt {
+    font-size: 14px;
+    position: absolute;
+    top: 480px;
+  }
+
+  .mask {
+    top: 230px;
+  left:400px;
+  width: 360px;
+  height: 350px;
+  flex-shrink: 0;
+  }
+
+    .heart_dots {
+    width: 120px;
+    top: 240px;
+    left: 630px;
+  }
+
+  .blueBar{
+  top: 680px;
+  width: 2000px;
+  height: 1080px;
+  left: -258px;
+} 
+ 
+.red_star2 {
+    top: 570px;
+   width: 200px;
+   height: auto;
+   left: 250px;
+}
+
+
+.yellow_star,
+  .blue_star {
+    width: 140px;
+    left: 100px;
+  }
+
+.ourStoryFlower {
+  top: 750px;
+  width: 480px;
+  height: auto;
+  margin-left: -50px;
+
+}
+
+.redStripe {
+  width: 400px;
+height: auto;
+top: 610px;
+left: 650px;
+margin-left: -80px;
+}
+
+.blueDots {
+  position: absolute;
+  top: 1500px;
+  left: 700px;
+  width: 200px;
+  height: auto;
+}
+
+  }
+
+
+/* Mobile (max-width: 768px) */
+@media (max-width: 768px) {
+  .main-title {
+top: 310px;
+font-size: 80px;
+}
+.red_star2 {
+    top: 600px;
+   width: 200px;
+   height: auto;
+   left: 250px;
+}
+
+.redStripe {
+  width: 310px;
+height: auto;
+top: 610px;
+left: 400px;
+margin-left: -80px;
+}
+
+.wavyLine {
+  width: 100px;
+  height: 100.733px;
+  transform: rotate(-50.381deg);
+  flex-shrink: 0;
+  aspect-ratio: 523.67/343.73;
+  left: -10px;
+  top: -30px;
+}
+  #homeTxt {
+    font-size: 14px;
+    position: absolute;
+    top: 450px;
+    left: 50px;
+  }
+
+  .mask {
+    top: 230px;
+  left:320px;
+  width: 360px;
+  height: 350px;
+  flex-shrink: 0;
+  }
+
+    .heart_dots {
+    width: 120px;
+    top: 260px;
+    left: 560px;
+  }
+
+  .ourStoryFlower {
+  top: 750px;
+  width: 420px;
+  height: auto;
+  margin-left: -50px;
+
+}
+
+.blueDots {
+  position: absolute;
+  top: 1550px;
+  left: 400px;
+  width: 150px;
+  height: auto;
+}
+  
+}
+
+/*small mobile*/
+
+@media (max-width: 500px) {
+  .main-title {
+top: 330px;
+font-size: 60px;
+left: 35px;
+}
+
+  #homeTxt {
+    font-size: 13px;
+    width: 160px;
+    left: 24px;
+    top: 440px;
+  }
+
+  .mask {
+    width: 280px;
+    height: 260px;
+    top: 280px;
+    left: 200px;
+  }
+
+  .homeGif {
+    width: 810px;
+    left: 10px;
+    top: -100px;
+  }
+
+  .heart_dots {
+    width: 100px;
+    top: 260px;
+    left: 360px;
+  }
+
+  .yellow_star,
+  .red_star2,
+  .blue_star {
+    width: 140px;
+    left: 100px;
+  }
+
+  .flowerPic,
+  .ourStoryFlower {
+    width: 90%;
+    left: 5%;
+    top: 800px;
+  }
+
+  .everyChild {
+    width: 90%;
+    left: 5%;
+    top: 900px;
+    height: auto;
+    padding: 32px 20px;
+  }
+
+  #everyChildHeading {
+    font-size: 20px;
+    width: auto;
+  }
+
+  #everyChildTxt {
+    font-size: 13px;
+    width: auto;
+  }
+
+  #everyChildButton {
+    font-size: 16px;
+    padding: 12px 20px;
+  }
+
+  .togetherTxt {
+    font-size: 24px;
+    left: 20px;
+    top: 1950px;
+  }
+
+  .abstractShapes {
+    flex-direction: column;
+    gap: 1.5rem;
+    top: 2050px;
+  }
+
+  .abstractTxt {
+    width: auto;
+    font-size: 13px;
+    margin-left: 1rem;
+    margin-top: 1rem;
+    text-align: center;
+  }
+
+ .blueDots {
+  position: absolute;
+  top: 1500px;
+  left: 400px;
+  width: 150px;
+  height: auto;
+}
+
+  .ourStoryFlower {
+  top: 1450px;
+  width: 280px;
+  height: auto;
+  margin-left: -30px;
+}
+}

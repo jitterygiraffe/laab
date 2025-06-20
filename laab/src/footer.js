@@ -19,30 +19,30 @@ const Footer = () => {
     </div>
 
     <footer className="footer-main">
-      <div className="footer-content">
-        <div className="footer-left">
-          <div className="footer-one footer-item">
-            <span className="footer-icon">📍</span>
+      <div className="footer-content-main">
+        <div className="footer-left-main">
+          <div className="footer-one footer-item-main">
+            <span className="footer-icon-main">📍</span>
             <p>Sidi Bou Said<br /><strong>Tunisia</strong></p>
           </div>
-          <div className="footer-item">
-            <span className="footer-icon">📞</span>
+          <div className="footer-item-main">
+            <span className="footer-icon-main">📞</span>
             <p><strong>+216 123456</strong></p>
           </div>
-          <div className="footer-item">
-            <span className="footer-icon">✉️</span>
+          <div className="footer-item-main">
+            <span className="footer-icon-main">✉️</span>
             <p><a href="mailto:support@laab.org"><strong>support@laab.org</strong></a></p>
           </div>
         </div>
 
-        <div className="footer-right">
+        <div className="footer-right-main">
           <h3>About Laab</h3>
-          <p id="footer-txt">
+          <p id="footer-txt-main">
             Laab is a community-led initiative with one, 
             simple purpose: To build a free, high-quality 
             playground in Sidi Bou Said park. 
           </p>
-          <ul className="footer-links">
+          <ul className="footer-links-main">
             <li><a href="#home">Home</a></li>
             <li><a href="#our-story">Our Story</a></li>
             <li><a href="#faqs">FAQs</a></li>
