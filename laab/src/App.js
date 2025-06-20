@@ -5,8 +5,8 @@ import Home from './home.js';
 import OurStory from './OurStory.js';
 import Faqs from './faqs.js';
 import Change from './change.js';
-import Contact from './contact_form.js';
-import Footer from './footer.js';
+//import Contact from './contact_form.js';
+//import Footer from './footer.js';
 import ReadMore from './read_more.js';
 
 const homeSections = ['#home', '#our-story', '#faqs', '#contact-us', '#change'];
