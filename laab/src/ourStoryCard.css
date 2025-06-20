@@ -90,8 +90,8 @@ background-color: #2563eb;
 /* Small Mobile (≤ 500px) */
 @media (max-width: 500px) {
   #our-story-card {
-    left: 220px;
-    width: 45%;
+    left: 30px;
+    width: 80%;
     top: 750px;
     padding: 1rem;
   }
