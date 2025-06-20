@@ -1,16 +1,20 @@
 .pinkBar {
 z-index: -1000;
   position: absolute;
-  top: 2200px;
+  top: 3000px;
   width: 2000px;
 height: 1580px;
 left: -50px;
 }
 
+.pinkBar2 {
+  opacity: 0;
+}
+
 .faqsAnim {
     position: absolute;
-    top: 2650px;
-    left: 730px;
+    top: 3550px;
+    left: 770px;
     width: 500px;
     height: 500px;
     z-index: 10000;
@@ -22,13 +26,96 @@ left: -50px;
   height: auto;
   aspect-ratio: 523.67/343.73;
   position: absolute;
-  top: 2300px;
+  top: 3000px;
   left: 800px;;
 }
 
 
 #faqs {
-  scroll-margin-top: 100px; /* optional: compensate for fixed navbar */
+  scroll-margin-top: 100px; 
   min-height: 200vh;
-  padding: 2rem; /* for spacing from nav */
+  padding: 2rem; 
+}
+
+.accordionContainer {
+  position: absolute;
+  top: 900px;
+}
+
+/* Tablet (768px – 1024px) */
+@media (min-width: 768px) and (max-width: 1024px) {
+
+
+  .faqsAnim {
+    width: 350px;
+    height: 350px;
+    top: 3500px;
+    left: 580px;
+  }
+
+  .whiteStripes {
+  width: 150;
+  top: 3000px;
+  left: 300px;
+}
+
+  .pinkBar2 {
+  opacity: 0;
+}
+}
+
+
+/* Mobile (500px – 767px) */
+@media (max-width: 767px) {
+  .faqsAnim {
+    width: 350px;
+    height: 350px;
+    top: 3300px;
+    left: 80px;
+  }
+
+  .whiteStripes {
+  width: 150;
+  top: 3000px;
+  left: 300px;;
+}
+
+.pinkBar2 {
+  opacity: 1;
+  z-index: -2000;
+  position: absolute;
+  top: 3300px;
+  width: 2000px;
+height: 1580px;
+left: 0px;
+}
+
+}
+
+
+/* Small Mobile (<500px) */
+@media (max-width: 499px) {
+ .faqsAnim {
+    width: 350px;
+    height: 350px;
+    top: 3300px;
+    left: 1000px;
+  }
+
+  .whiteStripes {
+  width: 150;
+  top: 3000px;
+  left: 300px;;
+}
+
+.pinkBar2 {
+  opacity: 1;
+  z-index: -2000;
+  position: absolute;
+  top: 3300px;
+  width: 2000px;
+height: 1580px;
+left: 0px;
+}
+
 }

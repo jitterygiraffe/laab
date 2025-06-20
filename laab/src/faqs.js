@@ -33,7 +33,9 @@ function Faqs() {
               <div >
                 <img className="pinkBar" src={pinkBar} alt=""/>
             </div>
-
+            <div >
+                <img className="pinkBar2" src={pinkBar} alt=""/>
+            </div>
 
       </div>
     );

@@ -91,6 +91,21 @@
   border-radius: 50%;
 }
 
+/* Add media queries for responsiveness */
+@media (max-width: 768px) {
+  .story-section {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .story-title {
+    font-size: 32px;
+    text-align: center;
+  }
+
+ 
+}
+
 
 img.chicken {
   position: absolute;
@@ -182,8 +197,8 @@ html {
 
 .wavyBlue {
   position: absolute;
-  top: -130px;
-  left: 1000px;
+  top: -120px;
+  left: 1200px;
 }
 
 .redStarAnim {
@@ -202,163 +217,3 @@ html {
   left: 42px;
   z-index: 1000;
 }
-
-
-/* Responsive styles*/
-
-/* 1.tablet*/
-
-@media (max-width: 1024px) {
-  .story-title {
-    font-size: 60px;
-  }
-
-  #story-txt2, #story-txt4 {
-    left: 450px;
-    width: 400px;
-  }
-
-  img.chicken {
-    left: 490px;
-    width: 400px;
-  }
-  
-  img.star {
-    left: 40px;
-    width: 500px;
-     top: 600px;
-  }
-  
-  img.apple {
-    left: 500px;
-    width: 500px;
-    top: 1000px;
-  }
-  
-  .redStarAnim {
-    width: 300px;
-    top: 1200px;
-    left: 200px;
-  }
-  img.splash {
-    width: 500px;
-    top: 1750px;
-    left: -30px;
-  }
-
-  .wavyBlue {
-    left: 750px;
-    width: 250px;
-    top: -100px;
-  }
-}
-
-
-/*mobile breakpoint*/
-
-@media (max-width: 768px) {
-  .story-section {
-    flex-direction: column;
-    text-align: center;
-  }
-
-  .story-title {
-    position: relative;
-    font-size: 40px;
-    text-align: left;
-    top: 100px;
-    left: -20px;
-    width: 50px;
-  }
-
-  #story-txt {
-    position: relative;
-    left: -20px;
-    width: 90%;
-    margin: auto;
-    font-size: 14px;
-    text-align: left;
-    top: 100px;
-  }
-  
-  #story-txt2 {
-    position: relative;
-    left: -20px;
-    width: 90%;
-    margin: auto;
-    font-size: 14px;
-    text-align: left;
-    top: 500px;
-  }
-  
-  
-  #story-txt3 {
-    position: relative;
-    left: -20px;
-    width: 90%;
-    margin: auto;
-    font-size: 14px;
-    text-align: left;
-    top: 850px;
-  }
-  
-  
-  #story-txt4 {
-     position: relative;
-    left: -20px;
-    width: 90%;
-    margin: auto;
-    font-size: 14px;
-    text-align: left;
-    top: 1350px;
-  }
-
-
-  img.chicken {
-    left: 220px;
-    width: 280px;
-    top: -20px;
-  }
-  
-  img.star {
-    left: 40px;
-    width: 300px;
-     top: 450px;
-  }
-  
-  img.apple {
-    left: 200px;
-    width: 300px;
-    top: 990px;
-  }
-  
-  .redStarAnim {
-    width: 200px;
-    top: 1200px;
-    left: 50px;
-  }
-  img.splash {
-    width: 450px;
-    top: 1580px;
-    left: -130px;
-  }
-
-.redStarThree {
-  width: 120px;
-  height: auto;
-  top: 640px;
-  left: 42px;
-}
-  /*img.chicken, img.star, img.apple, img.splash {
-    position: relative;
-    width: 60%;
-    left: 0;
-    margin: auto;
-  }*/
-
-  .wavyBlue {
-    left: 350px;
-    top: -150px;
-  }
-}
-

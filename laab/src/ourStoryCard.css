@@ -13,9 +13,10 @@
 
 .card-title {
   font-size: 40px;
-  font-weight: 600;
+  font-weight: 400;
   color: #FF8F1E;
   margin-bottom: 1rem;
+  font-family: 'Boldonse';
 }
 
 .card-text {
@@ -44,4 +45,88 @@ background-color: #2563eb;
   border: none;
   color: white;
  
+}
+
+
+/* Tablet (≤ 1024px) */
+@media (max-width: 1024px) {
+  #our-story-card {
+    position: absolute;
+    left: 450px;
+    width: 40%;
+    top: 750px;
+  }
+
+  .card-title {
+  font-size: 24px;
+  font-weight: 400;
+  color: #FF8F1E;
+  margin-bottom: 1rem;
+  font-family: 'Boldonse';
+}
+
+  .card-text {
+    font-size: 14px;
+  }
+}
+
+/* Mobile (≤ 768px) */
+@media (max-width: 767px) {
+  #our-story-card {
+    left: 380px;
+    width: 40%;
+    top: 750px;
+    padding: 1rem;
+  }
+
+  .card-title {
+    font-size: 24px;
+  }
+
+  .card-text {
+    font-size: 14px;
+  }
+
+  .read-more-button {
+    font-size: 14px;
+  }
+
+  .card-title {
+  font-size: 24px;
+  font-weight: 400;
+  color: #FF8F1E;
+  margin-bottom: 1rem;
+  font-family: 'Boldonse';
+}
+}
+
+/* Small Mobile (≤ 500px) */
+@media (max-width: 500px) {
+  #our-story-card {
+    left: 30px;
+    width: 80%;
+    top: 750px;
+    padding: 1rem;
+  }
+
+  .card-title {
+    font-size: 20px;
+  }
+
+  .card-text {
+    font-size: 12px;
+  }
+
+  .read-more-button {
+    font-size: 14px;
+  }
+
+  .card-title {
+  font-size: 24px;
+  font-weight: 400;
+  color: #FF8F1E;
+  margin-bottom: 1rem;
+  font-family: 'Boldonse';
+}
+
 }

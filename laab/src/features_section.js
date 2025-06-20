@@ -48,6 +48,11 @@ const features = [
 
 const FeaturesSection = () => {
   return (
+    <>
+    <div className='features-title'>
+     <h2 className='features-header'>Together we can build:</h2>
+
+    </div>
     <section className="features-section">
       {features.map((feature, index) => (
         <div className="feature-item" key={index}>
@@ -55,13 +60,14 @@ const FeaturesSection = () => {
             <span className="icon">{feature.icon}</span>
           </div>
           <div className="flower-animation">
-            <span className="icon">{feature.flower}</span>
+            <span className="flower-animation">{feature.flower}</span>
           </div>
           <p className="feature-text">{feature.text}</p>
           {index < features.length - 1 && <div className="divider" />}
           </div>
       ))}
     </section>
+    </>
   );
 };
 

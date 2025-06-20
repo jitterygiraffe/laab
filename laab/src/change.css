@@ -1,6 +1,6 @@
 .cta-card {
   position: absolute;
-  top: 3700px;
+  top: 4550px;
   left: 720px;
   background-color: #fff;
   border-radius: 2rem;
@@ -12,14 +12,19 @@
   font-family: 'Segoe UI', sans-serif;
 }
 
+.card-title {
+  font-size: 40px;
+  font-weight: 600;
+  color: #FF8F1E;
+  margin-bottom: 1rem;
+}
+
 .cta-title {
   color: #f97316; 
   font-family: 'Boldonse';
   font-size: 40px;
   line-height: 1.5;
   margin-bottom: 1.5rem;
-  text-transform: uppercase;
-  font-weight: 600;
   width: 400px;
 }
 
@@ -54,7 +59,7 @@
     width: 500px;
     height: auto;
     position: absolute;
-    top: 3700px;
+    top: 4550px;
     left: 30px;
 }
 
@@ -72,7 +77,9 @@
      width: 300px;
     height: auto;
     position: absolute;
-    top: 3450px;
+    top: 4250px;
     left: 1050px;
     z-index: 10000;
 }
+
+
