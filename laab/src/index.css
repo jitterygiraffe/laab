@@ -385,7 +385,7 @@ font-size: 80px;
 
 /*small mobile*/
 
-@media (max-width: 640px) {
+@media (max-width: 480px) {
   .main-title {
 top: 450px;
 font-size: 80px;
