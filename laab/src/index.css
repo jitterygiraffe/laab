@@ -478,43 +478,65 @@ margin-left: -80px;
 
 @media (max-width: 500px) {
    html, body {
-    overflow-x: hidden;
+    overflow-x: hidden !important;
   }
-  
+
   .main-title {
-top: 330px;
+top: 150px;
 font-size: 60px;
 left: 35px;
 }
 
   #homeTxt {
     font-size: 13px;
-    width: 160px;
+    width: 200px;
     left: 24px;
-    top: 440px;
+    top: 250px;
+    font-size: 14px;
   }
 
   .mask {
-    width: 280px;
-    height: 260px;
-    top: 280px;
-    left: 200px;
+    width: 130px;
+    height: 120px;
+    top: 140px;
+    left: 220px;
   }
 
   .homeGif {
-    width: 810px;
-    left: 10px;
-    top: -100px;
+    width: 310px;
+    left: 5px;
+    top: -40px;
   }
 
   .heart_dots {
-    width: 100px;
-    top: 260px;
-    left: 360px;
+    width: 50px;
+    top: 130px;
+    left: 300px;
   }
 
+  .blueBar{
+  top: 340px;
+  width: 600px;
+  height: auto;
+  left: -50px;
+} 
+
+.red_star2 {
+    top: 280px;
+   width: 100px;
+   height: auto;
+   left: 30px;
+}
+
+.redStripe {
+  width: 210px;
+height: auto;
+top: 310px;
+left: 300px;
+margin-left: -80px;
+}
+
   .yellow_star,
-  .red_star2,
   .blue_star {
     width: 140px;
     left: 100px;
@@ -584,4 +606,17 @@ left: 35px;
   height: auto;
   margin-left: -30px;
 }
+
+.wavyLine {
+  z-index: -100000;
+  width: 100px;
+  height: 50px;
+  transform: rotate(-50.381deg);
+  flex-shrink: 0;
+  aspect-ratio: 523.67/343.73;
+  position: absolute;
+  left: -10px;
+  top: -200px;
+}
+
 }
