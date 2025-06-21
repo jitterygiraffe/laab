@@ -127,6 +127,9 @@ line-height: normal;
 
 /* Mobile (500px – 767px) */
 @media (min-width: 500px) and (max-width: 767px) {
+   html, body {
+    overflow-x: hidden;
+  }
    .features-section {
     top: 1850px;
     flex-direction: row;
@@ -181,6 +184,9 @@ line-height: normal;
 
 /* Small Mobile (below 500px) */
 @media (max-width: 499px) {
+   html, body {
+    overflow-x: hidden;
+  }
    .features-section {
     top: 1850px;
     flex-direction: row;

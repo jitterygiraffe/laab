@@ -1,7 +1,6 @@
 html, body {
   overflow-y: auto;
   max-width: 100%;
-  overflow-x: hidden;
   overflow-x: hidden; 
   width: 100%;
    margin: 0;
@@ -405,6 +404,9 @@ margin-left: -80px;
 
 /* Mobile (max-width: 768px) */
 @media (max-width: 768px) {
+  html, body {
+    overflow-x: hidden;
+  }
   .main-title {
 top: 310px;
 font-size: 80px;
@@ -475,6 +477,10 @@ margin-left: -80px;
 /*small mobile*/
 
 @media (max-width: 500px) {
+   html, body {
+    overflow-x: hidden;
+  }
+  
   .main-title {
 top: 330px;
 font-size: 60px;

@@ -67,6 +67,10 @@ left: -50px;
 
 /* Mobile (500px – 767px) */
 @media (max-width: 767px) {
+   html, body {
+    overflow-x: hidden;
+  }
+  
   .faqsAnim {
     width: 350px;
     height: 350px;
