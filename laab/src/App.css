@@ -1,4 +1,4 @@
-body {
+html, body {
 
   font-family: "Roboto", sans-serif;
   font-optical-sizing: auto;
@@ -6,6 +6,8 @@ body {
   font-style: normal;
   font-variation-settings:
     "width" 100;
+  overflow-x: hidden; 
+  width: 100%;
 }
 
 .boldonse-regular {
