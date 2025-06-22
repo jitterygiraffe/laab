@@ -97,8 +97,8 @@ background-color: #2563eb;
 /* Small Mobile (≤ 500px) */
 @media (max-width: 500px) {
   #our-story-card {
-    left: 125px;
-    width: 75%;
+    left: 135px;
+    width: 55%;
     top: 350px;
     padding: 1rem;
     z-index: 1000;
