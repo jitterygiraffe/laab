@@ -1,3 +1,12 @@
+.body {
+.boldonse-regular {
+  font-family: "Boldonse", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+}
+
+
 #our-story-card {
     position: absolute;
     top: 900px;
@@ -8,7 +17,6 @@
   border-radius: 1rem;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   padding: 1.5rem;
-  font-family: sans-serif;
 }
 
 .card-title {
@@ -91,13 +99,7 @@ background-color: #2563eb;
     font-size: 14px;
   }
 
-  .card-title {
-  font-size: 24px;
-  font-weight: 400;
-  color: #FF8F1E;
-  margin-bottom: 1rem;
-  font-family: 'Boldonse';
-}
+
 }
 
 /* Small Mobile (≤ 500px) */
@@ -105,28 +107,27 @@ background-color: #2563eb;
   #our-story-card {
     left: 30px;
     width: 80%;
-    top: 750px;
+    top: 550px;
     padding: 1rem;
+    ;
   }
 
   .card-title {
-    font-size: 20px;
-  }
+  font-size: 20px;
+  margin-bottom: 1rem;
+  font-family: 'Roboto';
+}
 
-  .card-text {
-    font-size: 12px;
-  }
+.card-text {
+    margin-top: 20px;
+  color: var(--laab-grey, #5C6471);
+  margin-bottom: 20px;
+  line-height: 1.6;
+  font-size: 14px;
+}
 
   .read-more-button {
     font-size: 14px;
   }
-
-  .card-title {
-  font-size: 24px;
-  font-weight: 400;
-  color: #FF8F1E;
-  margin-bottom: 1rem;
-  font-family: 'Boldonse';
-}
 
 }

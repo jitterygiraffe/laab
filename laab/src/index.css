@@ -179,52 +179,6 @@ gap: 48px;
 flex-shrink: 0;
 } 
 
-#everyChildHeading {
-  font-family: 'Boldonse';
-  font-size: 44px;
-  line-height: 150%;
-  width: 500px;
-  position: relative;
-  top: -30px;
-  color: #FF8F1E;
-}
-
-#everyChildTxt {
-  font-family: 'Roboto';
-  font-size: 16px;
-  width: 400px;
-  color: #545A63;
-  position: relative;
-  top: -110px;
-  
-}
-
-#everyChildButton {
-  border-radius: 100px;
-  background: #FF6B57;
-  display: flex;
-height: 61px;
-padding: 15px 36px;
-justify-content: center;
-align-items: center;
-gap: 10px;
-flex-shrink: 0;
-align-self: stretch;
-border: none;
-color: #FFF;
-font-family: Roboto;
-font-size: 24px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-position: relative;
-  top: -140px;
-}
-
-#everyChildButton:hover {
-background: #1E70FF;
-}
-
 .blueDots {
   z-index: 10000;
   position: absolute;
