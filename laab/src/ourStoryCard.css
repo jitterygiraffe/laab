@@ -1,11 +1,3 @@
-.body {
-.boldonse-regular {
-  font-family: "Boldonse", system-ui;
-  font-weight: 400;
-  font-style: normal;
-}
-}
-
 
 #our-story-card {
     position: absolute;
@@ -105,24 +97,25 @@ background-color: #2563eb;
 /* Small Mobile (≤ 500px) */
 @media (max-width: 500px) {
   #our-story-card {
-    left: 30px;
-    width: 80%;
-    top: 550px;
+    left: 125px;
+    width: 75%;
+    top: 350px;
     padding: 1rem;
-    ;
+    z-index: 1000;
+    opacity: 0.8;
   }
 
   .card-title {
   font-size: 20px;
   margin-bottom: 1rem;
-  font-family: 'Roboto';
+  font-family: 'Boldonse';
 }
 
 .card-text {
     margin-top: 20px;
   color: var(--laab-grey, #5C6471);
   margin-bottom: 20px;
-  line-height: 1.6;
+  line-height: 150%;
   font-size: 14px;
 }
 
