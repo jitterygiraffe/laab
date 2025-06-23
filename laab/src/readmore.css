@@ -127,8 +127,8 @@ img.apple {
 
 img.splash {
   position: absolute;
-  left: 10px;
-  top: 1550px;
+  left: -175px;
+  top: 1700px;
   width: 700px;
   height: auto;
   border-radius: 50%;
@@ -182,8 +182,8 @@ html {
 
 .wavyBlue {
   position: absolute;
-  top: -130px;
-  left: 1000px;
+  top: -160px;
+  left: 1200px;
 }
 
 .redStarAnim {
