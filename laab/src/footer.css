@@ -4,7 +4,7 @@
   padding: 2rem;
   font-family: 'Segoe UI', sans-serif;
   position: absolute;
-  top: 5080px;
+  top: 5980px;
   width: 100%;
   height: 300px;
 }
@@ -96,9 +96,9 @@
 
 .blueStripeMain {
   position: absolute;
-  width: 300px;
+  width: 450px;
   height: auto;
-  top: 4850px;
+  top: 5950px;
   left: -100px;
   margin-left: -80px;
   z-index: 10000;
@@ -110,7 +110,7 @@
   position: absolute;
   width: 150px;
   height: auto;
-  top: 4320px;
+  top: 5220px;
   left: 300px;
   z-index: 10000;
 }
@@ -183,7 +183,7 @@
 @media (max-width: 480px) {
   .footer-main {
     padding: 1rem;
-    top: 2700px;
+    top: 7050px;
   }
 
   .footer-links-main a {
@@ -192,8 +192,20 @@
 
 
   .abstractStars-main {
-    top: 340px;
-    left: 220px;
+   top: 5700px;
+  left: -300px;
     width: 80px;
   }
+
+  .blueStripeMain {
+  width: 350px;
+  top: 7050px;
+  left: 230px;
+  margin-left: -80px;
+}
+
+ #footer-txt-main {
+    width: 300px;
+  }
+
 }

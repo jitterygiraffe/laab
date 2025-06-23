@@ -50,7 +50,7 @@ const FeaturesSection = () => {
   return (
     <>
     <div className='features-title'>
-     <h2 className='features-header'>Together we can build:</h2>
+     <p className='features-header'>Together we can build:</p>
 
     </div>
     <section className="features-section">
