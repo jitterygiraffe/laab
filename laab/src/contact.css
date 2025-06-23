@@ -130,13 +130,14 @@ margin-left: 0px;
 font-size: 24px;
   font-weight: 400;
   margin-bottom: 1rem;
+  font-family: 'Boldonse';
 }
 
 
 #contact-us {
-  scroll-margin-top: 100px; /* optional: compensate for fixed navbar */
+  scroll-margin-top: 100px; 
   min-height: 100vh;
-  padding: 2rem; /* for spacing from nav */
+  padding: 2rem; 
 }
 
 .error {
@@ -148,6 +149,29 @@ font-size: 24px;
 
 /* Small Mobile (below 480px) */
 @media (max-width: 500px) {
+  .contact-container {
+    flex-direction: column;
+  }
+
+  .contact-left,
+  .contact-right {
+    width: 100%;
+    min-width: unset; 
+    padding: 2rem 1rem; 
+  }
+
+  #contact-title {
+    position: static;
+    text-align: center;
+    margin-bottom: 1.5rem;
+    font-size: 20px;
+  }
+
+  #contact-txt {
+    width: 100%;
+    text-align: center;
+  }
+
 .contact-container {
   font-family: 'Roboto', sans-serif;
   top: 5800px;
@@ -156,19 +180,9 @@ font-size: 24px;
   background-color: #cad1df;
   }
 
-
-.contact-left h2 {
-  font-size: 2.5rem;
-  margin-bottom: 1rem;
-}
-
-.contact-left p {
-  font-size: 1.1rem;
-  line-height: 1.6;
-}
-
 .contact-right {
-  background-color: #fff;
+  margin-top: 450px;
+  background-color: red;
   flex: 1;
   min-width: 300px;
   padding: 4rem 2rem;
@@ -179,19 +193,17 @@ font-size: 24px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-.contact-right h2 {
-  font-size: 2rem;
-  font-weight: 700;
-  margin-bottom: 1.5rem;
-  color: #111827;
+#contact-title {
+  top: 20px;
 }
 
-.contact-form {
-  display: flex;
-  flex-direction: column;
+#contact-txt {
+  width: 80%;
 }
 
-
-
-
+.contact-text {
+  position: absolute;
+  top: 200px;
+ }
 }
+
