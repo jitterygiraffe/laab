@@ -75,7 +75,7 @@ line-height: normal;
     gap: 5rem;
     margin-left: 40px;
     padding: 2rem 1.5rem;
-    
+    left: 80px;
   }
 
   .features-title{
@@ -83,11 +83,11 @@ line-height: normal;
   font-size: 24px;
   padding-left: 1.5rem;
   position: absolute;
-  top: 1600px;
+  top: 1650px;
   width: 600px;
-  margin-left: 200px;
+  margin-left: -50px;
   text-align: center;
-  width: 300px;
+  width: 400px;
   color: #FF6B57;
 
 } 

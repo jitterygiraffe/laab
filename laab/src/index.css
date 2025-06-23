@@ -265,7 +265,7 @@ justify-content: center;
 
 #our-story {
   scroll-margin-top: 100px; /* optional: compensate for fixed navbar */
-  min-height: 200vh;
+  min-height: 300vh;
   padding: 2rem; /* for spacing from nav */
 }
 
@@ -274,9 +274,21 @@ justify-content: center;
 /* Tablet (max-width: 1024px) */
 @media (max-width: 1024px) {
 
+  #home {
+  scroll-margin-top: 100px; 
+  min-height: 50vh;
+  padding: 2rem; 
+}
+
+#our-story {
+  scroll-margin-top: 100px; 
+  min-height: 180vh;
+  padding: 2rem; 
+}
+
 .main-title {
 top: 310px;
-font-size: 100px;
+font-size: 150px;
 color: #FF6B57;
 }
 
@@ -292,12 +304,12 @@ color: #FF6B57;
   #homeTxt {
     font-size: 14px;
     position: absolute;
-    top: 480px;
+    top: 560px;
   }
 
   .mask {
     top: 230px;
-  left:400px;
+  left:600px;
   width: 360px;
   height: 350px;
   flex-shrink: 0;
@@ -306,7 +318,7 @@ color: #FF6B57;
     .heart_dots {
     width: 120px;
     top: 240px;
-    left: 630px;
+    left: 830px;
   }
 
   .blueBar{
@@ -342,7 +354,7 @@ color: #FF6B57;
   width: 400px;
 height: auto;
 top: 610px;
-left: 650px;
+left: 750px;
 margin-left: -80px;
 }
 
@@ -359,6 +371,18 @@ margin-left: -80px;
 
   /* Mobile (max-width: 768px) */
 @media (max-width: 768px) {
+
+   #home {
+  scroll-margin-top: 100px; 
+  min-height: 100vh;
+  padding: 2rem; 
+}
+
+ #our-story {
+  scroll-margin-top: 100px; 
+  min-height: 400vh;
+  padding: 2rem; 
+}
 
 .main-title {
 top: 310px;

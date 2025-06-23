@@ -174,7 +174,7 @@
   }
 
   #footer-txt {
-    width: 400px;
+    width: 350px;
   }
   .footer-left,
   .footer-right {
@@ -199,10 +199,10 @@
 }
 
 /* Small Mobile (below 480px) */
-@media (max-width: 480px) {
+@media (max-width: 500px) {
   .footer {
     padding: 1rem;
-    top: 2700px;
+    top: 2505px;
   }
 
   .footer-links a {
@@ -212,14 +212,12 @@
 
 
   .abstractStars {
-    top: 340px;
-    left: 220px;
-    width: 80px;
+  opacity: 0;
   }
 
    .blueStripe {
   width: 350px;
-  top: 2680px;
+  top: 2480px;
   left: 230px;
   margin-left: -80px;
 }

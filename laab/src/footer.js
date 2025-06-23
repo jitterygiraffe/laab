@@ -46,7 +46,7 @@ const Footer = () => {
             <li><a href="#home">Home</a></li>
             <li><a href="#our-story">Our Story</a></li>
             <li><a href="#faqs">FAQs</a></li>
-            <li><a href="#contact">Contact Us</a></li>
+            <li><a href="#contact-us">Contact Us</a></li>
             <li><a href="https://www.gofundme.com/f/help-build-the-new-sidi-bou-said-playground?lang=en_US&utm_campaign=man_sharesheet_dash&utm_content=amp10_t1-amp13_c-amp14_t2&utm_medium=customer&utm_source=copy_link&attribution_id=sl%3Ab976d453-7e48-4b13-96b7-0a89310ac81e" target="_blank" rel="noopener noreferrer">Give on GoFundMe</a></li>
           </ul>
         </div>

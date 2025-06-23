@@ -40,7 +40,7 @@ left: 0px;
 
 #faqs {
   scroll-margin-top: 100px; 
-  min-height: 200vh;
+  min-height: 300vh;
   padding: 2rem; 
 }
 
@@ -52,6 +52,9 @@ left: 0px;
 /* Tablet (768px – 1024px) */
 @media (min-width: 768px) and (max-width: 1024px) {
 
+#faqs {
+   min-height: 130vh;
+}  
 
   .faqsAnim {
     width: 350px;
@@ -61,9 +64,9 @@ left: 0px;
   }
 
   .whiteStripes {
-  width: 150;
+  width: 100;
   top: 3000px;
-  left: 300px;
+  left: 450px;
 }
 
 }
@@ -74,6 +77,12 @@ left: 0px;
    html, body {
     overflow-x: hidden;
   }
+
+   #faqs {
+  scroll-margin-top: 100px; 
+  min-height: 350vh;
+  padding: 2rem; 
+}
   
   .faqsAnim {
     width: 350px;

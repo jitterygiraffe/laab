@@ -256,7 +256,7 @@ html {
 
 /*mobile breakpoint*/
 
-@media (max-width: 768px) {
+@media (max-width: 500px) {
   .story-section {
     flex-direction: column;
     text-align: center;
@@ -266,7 +266,7 @@ html {
     position: relative;
     font-size: 40px;
     text-align: left;
-    top: 100px;
+    top: -50px;
     left: -20px;
     width: 50px;
   }
@@ -278,7 +278,7 @@ html {
     margin: auto;
     font-size: 14px;
     text-align: left;
-    top: 100px;
+    top: -30px;
   }
   
   #story-txt2 {
@@ -288,7 +288,7 @@ html {
     margin: auto;
     font-size: 14px;
     text-align: left;
-    top: 500px;
+    top: 380px;
   }
   
   
@@ -299,7 +299,7 @@ html {
     margin: auto;
     font-size: 14px;
     text-align: left;
-    top: 850px;
+    top: 600px;
   }
   
   
@@ -310,14 +310,14 @@ html {
     margin: auto;
     font-size: 14px;
     text-align: left;
-    top: 1350px;
+    top: 1100px;
   }
 
 
   img.chicken {
-    left: 220px;
-    width: 280px;
-    top: -20px;
+    left: 120px;
+    width: 250px;
+    top: -150px;
   }
   
   img.star {
@@ -327,15 +327,15 @@ html {
   }
   
   img.apple {
-    left: 200px;
-    width: 300px;
-    top: 990px;
+    left: 150px;
+    width: 200px;
+    top: 1040px;
   }
   
   .redStarAnim {
-    width: 200px;
+    width: 150px;
     top: 1200px;
-    left: 50px;
+    left: -30px;
   }
   img.splash {
     width: 450px;
@@ -349,12 +349,7 @@ html {
   top: 640px;
   left: 42px;
 }
-  /*img.chicken, img.star, img.apple, img.splash {
-    position: relative;
-    width: 60%;
-    left: 0;
-    margin: auto;
-  }*/
+
 
   .wavyBlue {
     left: 250px;
