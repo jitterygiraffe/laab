@@ -2,11 +2,12 @@
   background-color: #FF6B57;
   color: #e5e7eb;
   padding: 2rem;
-  font-family: 'Segoe UI', sans-serif;
+  font-family: 'Roboto', sans-serif;
   position: absolute;
-  top:2280px;
+  top:2480px;
   width: 100%;
   height: 400px;
+  z-index: 1000;
 }
 
 .footer-content {
@@ -147,14 +148,21 @@
   }
 
   .abstractStars {
-    top: 380px;
-    left: 500px;
+    top: 350px;
+    left: 600px;
     width: 120px;
   }
   
   #footer-txt {
     width: 600px;
   }
+
+  .our-story::after {
+  content: "";
+  display: block;
+  height: 3410px; 
+}
+
 
 }
 
