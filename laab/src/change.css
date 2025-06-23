@@ -76,3 +76,49 @@
 }
 
 
+ /* Small mobile (max-width: 500px) */
+@media (max-width: 500px) {
+
+/* Tablet only (max-width: 1024px) */
+@media (max-width: 1024px) {
+  .cta-card {
+    left: 50%;
+    transform: translateX(-50%);
+    top: 5200px;
+    width: 90%;
+    padding: 2rem 1rem;
+  }
+
+  .cta-title {
+    font-size: 32px;
+    width: 100%;
+  }
+
+  .cta-text {
+    font-size: 0.95rem;
+  }
+
+  .cta-donate {
+    font-size: 0.95rem;
+  }
+
+  .changeImg {
+    top: 4400px;
+    width: 90%;
+    left: 10%;
+    top: 4800px;
+  }
+
+  .abstractStarGif {
+    width: 300px;
+    left: 200px;
+    top: 3900px;
+  }
+
+  .abstractSpiral {
+    width: 200px;
+    left: 300px;
+    top: 4650px;
+  }
+}
+}
