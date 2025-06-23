@@ -66,7 +66,7 @@ left: -32px;
     background-color: white;
     border-radius: 40px;
     position: absolute;
-    top: 2550px;
+    top: 2400px;
     z-index: 10000;
   max-width: 500px;
   margin-left: 52px;
@@ -76,17 +76,19 @@ left: -32px;
  
 }
 
+
 .accordion-title {
-  margin-bottom: 1.5rem;
-  text-align: center;
-   font-family: 'Boldonse';
-  width: 500px;
+font-size: 24px;
+  padding-left: 1.5rem;
   position: relative;
   top: -10px;
-  line-height: 1.5;
-  color: #FF8F1E;
-  font-size: 40px;
-  font-weight: 600;
+  width: 500px;
+  margin-left: -50px;
+  text-align: center;
+  width: 400px;
+  color: #FF6B57;
+  margin-bottom: 1.5rem;
+  left: 40px;
 }
 
 .accordion-item {
@@ -146,7 +148,7 @@ left: -32px;
   position: relative;
   top: -10px;
   line-height: 1.5;
-  color: #FF8F1E;
+  color: #FF6B57;
   font-size: 24px;
   font-weight: 400;
 }

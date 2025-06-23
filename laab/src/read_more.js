@@ -17,7 +17,7 @@ import { DotLottieReact } from '@lottiefiles/dotlottie-react';
 const ReadMore = () => {
   return (
     <section className="our-story">
-      <h1 className="story-title">Our story</h1>
+      <p className="story-title">Our story</p>
 
       <div className="story-section white">
         <p id="story-txt">

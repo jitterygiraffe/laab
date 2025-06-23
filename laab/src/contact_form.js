@@ -57,7 +57,7 @@ const ContactForm = () => {
           style={{ width: '300px', height: '300px', margin: 'auto' }}
         />
         <h2 style={{ textAlign: 'center', color: '#2563eb' }}>
-          Thank you! Your message has been sent.
+          Your message has been sent.
         </h2>
       </div>
     );
@@ -68,23 +68,25 @@ const ContactForm = () => {
       <section className="contact-container">
         <div className="contact-left">
           <p id="contact-title">Let's Chat</p>
-          <div className="contact-text">
-            <p id="contact-txt">
+          <section id="contact-txt">
+            <p>
               This project is designed to engage the community 
               around it, to build and strengthen
               individual community members’ sense of 
               ownership and participation in the 
               care of the playground.
-            </p>
-            <p id="contact-txt">
+              </p>
+          
+            <p >
               For this reason, we are always thrilled to 
               hear from our community members! Don’t 
               hesitate to reach out to us in case of any 
               question, suggestion, or words of encouragement.
               We truly look forward to hearing from you!
 
+            
             </p>
-          </div>
+          </section>
 
           
         </div>

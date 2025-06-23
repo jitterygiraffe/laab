@@ -9,7 +9,7 @@ import Contact from './contact_form.js';
 import Footer from './footer.js';
 import ReadMore from './read_more.js';
 
-const homeSections = ['#home', '#our-story', '#faqs', '#contact-us', '#change'];
+const homeSections = ['#home', '#our-story', '#faqs', '#contact-us'];
 
 function App() {
   const [page, setPage] = useState(window.location.hash || '#home');
@@ -29,7 +29,7 @@ function App() {
     };
 
     window.addEventListener('hashchange', handleHashChange);
-    handleHashChange(); // trigger on load
+    handleHashChange(); 
 
     return () => window.removeEventListener('hashchange', handleHashChange);
   }, []);
@@ -55,15 +55,13 @@ function App() {
               <Change />
         </div>
 
-      <div id="change">
+      <div id="contact-us">
               <Contact />
         </div>
 
-      <div id="change">
+      <div id="footer">
               <Footer />
         </div>
-
-        
     
       </>
     );

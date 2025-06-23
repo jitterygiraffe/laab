@@ -118,10 +118,21 @@
 
 /* Tablet (768px - 1024px) */
 @media (max-width: 1024px) {
+  .blueStripeMain {
+  position: absolute;
+  width: 450px;
+  height: auto;
+  top: 5755px;
+  left: 815px;
+  margin-left: -80px;
+  z-index: 10000;
+  transform: rotate(90deg);
+}
+
   .footer-main {
     padding: 1.5rem;
     height: auto;
-    top: 5100px;
+    top: 5800px;
   }
 
   .footer-content-main {
@@ -132,10 +143,10 @@
 
 
 
-  .abstractStars-main {
-    top: 380px;
-    left: 500px;
-    width: 120px;
+  .abstractStarsMain {
+   top: 5090px;
+  left: 300px;
+  width: 100px;
   }
   
   #footer-txt-main {

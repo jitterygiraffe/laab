@@ -6,7 +6,7 @@
   position: absolute;
   top:2280px;
   width: 100%;
-  height: 350px;
+  height: 400px;
 }
 
 .footer-content {
@@ -94,11 +94,22 @@
 }
 
 
-.blueStripe {
+/*.blueStripe {
   position: absolute;
   width: 300px;
   height: auto;
   top: 1980px;
+  left: -100px;
+  margin-left: -80px;
+  z-index: 10000;
+  transform: rotate(90deg);
+}*/
+
+.blueStripe {
+  position: absolute;
+  width: 450px;
+  height: auto;
+  top: 2250px;
   left: -100px;
   margin-left: -80px;
   z-index: 10000;
@@ -163,7 +174,7 @@
   }
 
   #footer-txt {
-    width: 400px;
+    width: 350px;
   }
   .footer-left,
   .footer-right {
@@ -188,25 +199,26 @@
 }
 
 /* Small Mobile (below 480px) */
-@media (max-width: 480px) {
+@media (max-width: 500px) {
   .footer {
     padding: 1rem;
-    top: 2700px;
+    top: 2505px;
   }
 
   .footer-links a {
     font-size: 12px;
   }
 
-  .blueStripe {
-    top: 2600px;
-    left: -30px;
-    width: 180px;
-  }
+
 
   .abstractStars {
-    top: 340px;
-    left: 220px;
-    width: 80px;
+  opacity: 0;
   }
+
+   .blueStripe {
+  width: 350px;
+  top: 2480px;
+  left: 230px;
+  margin-left: -80px;
+}
 }
