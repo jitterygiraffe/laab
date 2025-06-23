@@ -1,6 +1,6 @@
 .accordion-section {
     background-color: white;
-    border-radius: 40px;
+    border-radius: 1rem;
     position: absolute;
     top: 2400px;
     z-index: 10000;
@@ -64,7 +64,7 @@ left: -32px;
 @media (max-width: 1024px) {
   .accordion-section {
     background-color: white;
-    border-radius: 40px;
+    border-radius: 1rem;
     position: absolute;
     top: 2400px;
     z-index: 10000;
@@ -128,7 +128,7 @@ font-size: 24px;
 @media (max-width: 500px) {
 .accordion-section {
     background-color: white;
-    border-radius: 40px;
+    border-radius: 1rem;
     position: absolute;
     top: 2800px;
     z-index: 10000;
