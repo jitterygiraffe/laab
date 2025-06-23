@@ -470,17 +470,48 @@ font-size: 100px;
   }
 
     .heart_dots {
-    width: 120px;
+    width: 80px;
     top: 100px;
-    left: 300px;
+    left: 260px;
   }
 
-  .blueBar{
-  top: 680px;
+  .blueBar-wrapper {
+  position: absolute;
+  top: 685px; 
+  left: 0;
+  width: 100%;
+  height: 1000px; 
+  overflow: hidden;
+  z-index: -1;
+  pointer-events: none;
+}
+
+.blueBar {
+  position: absolute;
+  top: 0; 
+  left: 50%;
+  transform: translateX(-50%);
+  width: 2200px;
+}
+
+
+
+/*.blueBar-wrapper {
+  position: fixed;
+  width: 100vw;
+  height: 1280px;
+  overflow-x: hidden;
+  top: -10px;
+  left: 0;
+}
+
+.blueBar {
+  position: absolute;
   width: 2200px;
   height: 1280px;
   left: -258px;
-} 
+}*/
+
  
 .red_star2 {
     top: 650px;
@@ -508,7 +539,7 @@ font-size: 100px;
 .redStripe {
   width: 200px;
 height: auto;
-top: 610px;
+top: 660px;
 left: 300px;
 margin-left: -80px;
 }

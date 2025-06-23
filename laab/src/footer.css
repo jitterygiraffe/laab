@@ -190,12 +190,14 @@
     font-size: 12px;
   }
 
-
-  .abstractStars-main {
-   top: 5700px;
-  left: -300px;
-    width: 80px;
-  }
+  .abstractStarsMain {
+  position: absolute;
+  width: 100px;
+  height: auto;
+  top: 5750px;
+  left: 250px;
+  z-index: 10000;
+}
 
   .blueStripeMain {
   width: 350px;
