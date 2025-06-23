@@ -96,9 +96,9 @@ background-color: #2563eb;
 @media (max-width: 500px) {
  #our-story-card {
     position: absolute;
-    left: 40px;
+    left: 32px;
     width: 70%;
-    top: 750px;
+    top: 720px;
   }
 
   .card-title {
