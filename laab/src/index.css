@@ -356,28 +356,12 @@ margin-left: -80px;
   }
 
 
-/* Mobile (max-width: 768px) */
+  /* Mobile (max-width: 768px) */
 @media (max-width: 768px) {
-  html, body {
-    overflow-x: hidden;
-  }
-  .main-title {
-top: 310px;
-font-size: 80px;
-}
-.red_star2 {
-    top: 600px;
-   width: 200px;
-   height: auto;
-   left: 250px;
-}
 
-.redStripe {
-  width: 310px;
-height: auto;
-top: 610px;
-left: 400px;
-margin-left: -80px;
+.main-title {
+top: 310px;
+font-size: 100px;
 }
 
 .wavyLine {
@@ -392,13 +376,12 @@ margin-left: -80px;
   #homeTxt {
     font-size: 14px;
     position: absolute;
-    top: 450px;
-    left: 50px;
+    top: 480px;
   }
 
   .mask {
     top: 230px;
-  left:320px;
+  left:400px;
   width: 360px;
   height: 350px;
   flex-shrink: 0;
@@ -406,165 +389,136 @@ margin-left: -80px;
 
     .heart_dots {
     width: 120px;
-    top: 260px;
-    left: 560px;
-  }
-
-  .ourStoryFlower {
-  top: 750px;
-  width: 420px;
-  height: auto;
-  margin-left: -50px;
-
-}
-
-.blueDots {
-  position: absolute;
-  top: 1550px;
-  left: 400px;
-  width: 150px;
-  height: auto;
-}
-  
-}
-
-/*small mobile*/
-
-@media (max-width: 500px) {
-   html, body {
-    overflow-x: hidden !important;
-  }
-
-  .main-title {
-top: 150px;
-font-size: 60px;
-left: 35px;
-}
-
-  #homeTxt {
-    font-size: 13px;
-    width: 200px;
-    left: 24px;
-    top: 250px;
-    font-size: 14px;
-  }
-
-  .mask {
-    width: 130px;
-    height: 120px;
-    top: 140px;
-    left: 220px;
-  }
-
-  .homeGif {
-    width: 310px;
-    left: 5px;
-    top: -40px;
-  }
-
-  .heart_dots {
-    width: 50px;
-    top: 130px;
-    left: 300px;
+    top: 240px;
+    left: 630px;
   }
 
   .blueBar{
-  top: 340px;
-  width: 1160px;
-  height: auto;
-  left: -50px;
+  top: 680px;
+  width: 2000px;
+  height: 1080px;
+  left: -258px;
 } 
-
+ 
 .red_star2 {
-    top: 280px;
-   width: 100px;
+    top: 570px;
+   width: 200px;
    height: auto;
-   left: 30px;
+   left: 250px;
 }
 
-.redStripe {
-  width: 210px;
-height: auto;
-top: 280px;
-left: 300px;
-margin-left: -80px;
-}
 
-  .yellow_star,
+.yellow_star,
   .blue_star {
     width: 140px;
     left: 100px;
   }
 
-  .everyChild {
-    width: 90%;
-    left: 5%;
-    top: 900px;
-    height: auto;
-    padding: 32px 20px;
-  }
+.ourStoryFlower {
+  top: 750px;
+  width: 480px;
+  height: auto;
+  margin-left: -50px;
 
-  #everyChildHeading {
-    font-size: 20px;
-    width: auto;
-  }
+}
 
-  #everyChildTxt {
-    font-size: 13px;
-    width: auto;
-  }
+.redStripe {
+  width: 400px;
+height: auto;
+top: 610px;
+left: 650px;
+margin-left: -80px;
+}
 
-  #everyChildButton {
-    font-size: 16px;
-    padding: 12px 20px;
-  }
-
-  .togetherTxt {
-    font-size: 24px;
-    left: 20px;
-    top: 1950px;
-  }
-
-  .abstractShapes {
-    flex-direction: column;
-    gap: 1.5rem;
-    top: 2050px;
-  }
-
-  .abstractTxt {
-    width: auto;
-    font-size: 13px;
-    margin-left: 1rem;
-    margin-top: 1rem;
-    text-align: center;
-  }
-
- .blueDots {
+.blueDots {
   position: absolute;
   top: 1500px;
-  left: 400px;
-  width: 150px;
+  left: 700px;
+  width: 200px;
   height: auto;
 }
 
-  .ourStoryFlower {
-  top: 400px;
-  width: 180px;
-  height: auto;
-  margin-left: -80px;
-  transform: rotate(-5deg);
+  }
+
+  /* Small mobile (max-width: 500px) */
+@media (max-width: 500px) {
+
+.main-title {
+top: 420px;
+font-size: 100px;
 }
 
 .wavyLine {
-  z-index: -100000;
-  width: 100px;
-  height: 50px;
+  width: 10px;
+  height: 10px;
   transform: rotate(-50.381deg);
-  flex-shrink: 0;
-  aspect-ratio: 523.67/343.73;
-  position: absolute;
   left: -10px;
   top: -200px;
 }
+  #homeTxt {
+    font-size: 14px;
+    position: absolute;
+    top: 600px;
+  }
 
+  .mask {
+    top: 80px;
+  left:10px;
+  width: 360px;
+  height: 350px;
+  flex-shrink: 0;
+  }
+
+    .heart_dots {
+    width: 120px;
+    top: 240px;
+    left: 630px;
+  }
+
+  .blueBar{
+  top: 680px;
+  width: 2200px;
+  height: 1280px;
+  left: -258px;
+} 
+ 
+.red_star2 {
+    top: 650px;
+   width: 100px;
+   height: auto;
+   left: 0px;
 }
+
+
+.yellow_star,
+  .blue_star {
+    width: 140px;
+    left: 100px;
+  }
+
+.ourStoryFlower {
+  top: 750px;
+  width: 480px;
+  height: auto;
+  margin-left: -50px;
+  opacity: 0%;
+  z-index: -10000;
+  }
+
+.redStripe {
+  width: 200px;
+height: auto;
+top: 610px;
+left: 300px;
+margin-left: -80px;
+}
+
+.blueDots {
+  position: absolute;
+  top: 1500px;
+  left: 700px;
+  width: 200px;
+  height: auto;
+}
+
+  }
