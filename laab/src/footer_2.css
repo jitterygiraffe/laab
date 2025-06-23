@@ -209,15 +209,18 @@
     font-size: 12px;
   }
 
-  .blueStripe {
-    top: 2600px;
-    left: -30px;
-    width: 180px;
-  }
+
 
   .abstractStars {
     top: 340px;
     left: 220px;
     width: 80px;
   }
+
+   .blueStripe {
+  width: 350px;
+  top: 2680px;
+  left: 230px;
+  margin-left: -80px;
+}
 }
