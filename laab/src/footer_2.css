@@ -94,11 +94,22 @@
 }
 
 
-.blueStripe {
+/*.blueStripe {
   position: absolute;
   width: 300px;
   height: auto;
   top: 1980px;
+  left: -100px;
+  margin-left: -80px;
+  z-index: 10000;
+  transform: rotate(90deg);
+}*/
+
+.blueStripe {
+  position: absolute;
+  width: 450px;
+  height: auto;
+  top: 2250px;
   left: -100px;
   margin-left: -80px;
   z-index: 10000;
