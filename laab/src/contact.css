@@ -2,7 +2,7 @@
   display: flex;
   flex-wrap: wrap;
   min-height: 100vh;
-  font-family: 'Segoe UI', sans-serif;
+  font-family: 'Roboto', sans-serif;
 position: absolute;
   top: 5300px;
   left: 0;
@@ -121,11 +121,15 @@ width: 400px;
 #contact-title {
 position: absolute;
 top: 100px;
-font-size: 40px;
+font-size: 24px;
 font-family: 'Boldonse';
 color: var(--laab-red, #FFF); 
 z-index: 100;
 margin-left: 0px;
+
+font-size: 24px;
+  font-weight: 400;
+  margin-bottom: 1rem;
 }
 
 
@@ -140,4 +144,54 @@ margin-left: 0px;
   font-size: 0.9rem;
   margin-bottom: 1rem;
   display: block;
+}
+
+/* Small Mobile (below 480px) */
+@media (max-width: 500px) {
+.contact-container {
+  font-family: 'Roboto', sans-serif;
+  top: 5800px;
+  left: 0;
+  width: 100%;
+  background-color: #cad1df;
+  }
+
+
+.contact-left h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.contact-left p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+.contact-right {
+  background-color: #fff;
+  flex: 1;
+  min-width: 300px;
+  padding: 4rem 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: #dfe1e3 1px solid;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.contact-right h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+  color: #111827;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+
 }

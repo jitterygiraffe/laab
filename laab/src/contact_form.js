@@ -67,7 +67,7 @@ const ContactForm = () => {
     <div id="contact-us">
       <section className="contact-container">
         <div className="contact-left">
-          <h2 id="contact-title">Let's Chat</h2>
+          <p id="contact-title">Let's Chat</p>
           <p id="contact-txt">
             This project is designed to engage the community 
             around it, to build and strengthen
