@@ -95,14 +95,14 @@
 }
 
 .cta-title {
-  color: #FF6B57; 
-  font-family: 'Boldonse';
-  font-size: 40px;
-  line-height: 1.5;
-  margin-bottom: 1.5rem;
-  width: 400px;
+    font-size: 24px;
   font-weight: 400;
-  text-align: center;
+  color: #FF6B57;
+  margin-bottom: 1rem;
+  font-family: 'Boldonse';
+  width: 300px;
+  position: relative;
+  left: 45px;
 }
 
 .cta-text {
