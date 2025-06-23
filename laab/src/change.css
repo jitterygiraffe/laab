@@ -109,16 +109,15 @@
   }
 
   .abstractStarGif {
-    width: 300px;
-    left: 200px;
-    top: 3900px;
+    width: 280px;
+    left: -10px;
+    top: 4650px;
   }
 
   .abstractSpiral {
     width: 80px;
-    left: 80px;
-    top: 4650px;
-    z-index: -1;
+    left: 280px;
+    top: 4880px;
   }
 }
 
