@@ -2,10 +2,11 @@
     background-color: white;
     border-radius: 40px;
     position: absolute;
-    top: 2550px;
+    top: 2400px;
     z-index: 10000;
-  width: 500px;
-  margin-left: 52px;
+  width: 700px;
+  position: absolute;
+left: -32px;
   padding: 2rem;
   font-family: sans-serif;
 

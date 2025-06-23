@@ -63,9 +63,9 @@
     width: 400px;
     height: auto;
     position: absolute;
-    top: 4000px;
+    top:4400px;
     left: 400px;
-    z-index: -10000;
+    z-index: -1;
 }
 
 .abstractSpiral {
@@ -115,9 +115,10 @@
   }
 
   .abstractSpiral {
-    width: 200px;
-    left: 300px;
+    width: 80px;
+    left: 80px;
     top: 4650px;
+    z-index: -1;
   }
 }
 
