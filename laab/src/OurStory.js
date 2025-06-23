@@ -17,7 +17,7 @@ function OurStory({ onReadMoreClick }) {
                 <img className="ourStoryFlower" src={ourStoryFlower} alt=""/>
               </div>
 
-              <div >
+              <div className="blueBar-wrapper">
                 <img className="blueBar" src={blueBar} alt=""/>
               </div>
 

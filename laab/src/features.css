@@ -2,12 +2,12 @@
   position: absolute;
     top: 2050px;
   display: flex;
-  margin-left: 80px;
   justify-content: center;
   align-items: flex-start;
   gap: 10rem;
   padding: 3rem 2rem;
   flex-wrap: wrap;
+  left: 15%;
 }
 
 .features-title{
@@ -19,7 +19,7 @@
   position: absolute;
   top: 1850px;
   width: 600px;
-  left: 300px;
+  left: 350px;
   text-align: center;
 
 } 
@@ -75,6 +75,7 @@ line-height: normal;
     gap: 5rem;
     margin-left: 40px;
     padding: 2rem 1.5rem;
+    
   }
 
   .features-title{
@@ -172,8 +173,8 @@ line-height: normal;
   color: #FF8F1E;
   margin-bottom: 1rem;
   font-family: 'Boldonse';
-  text-align: left;
-  left: 0px;
+  text-align: center;
+  left: 60px;
   width: 50%;
   top: 1650px;
 

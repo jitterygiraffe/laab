@@ -23,7 +23,7 @@ const Change = () => {
         </div>
     
     <section className="cta-card">
-      <h2 className="cta-title">A fun, curious future awaits!</h2>
+      <h2 className="cta-title">A bold, curious future awaits!</h2>
       <p className="cta-text">
         The playground will remain free and open 
         to the public — accessible to all. 

@@ -2,10 +2,11 @@
     background-color: white;
     border-radius: 40px;
     position: absolute;
-    top: 2550px;
+    top: 2400px;
     z-index: 10000;
-  max-width: 500px;
-  margin-left: 52px;
+  width: 700px;
+  position: absolute;
+left: -32px;
   padding: 2rem;
   font-family: sans-serif;
 
@@ -13,16 +14,18 @@
 }
 
 .accordion-title {
-  margin-bottom: 1.5rem;
+  position: absolute;
+  margin-bottom: 1rem;
   text-align: center;
    font-family: 'Boldonse';
   width: 500px;
   position: relative;
   top: -10px;
   line-height: 1.5;
-  color: #FF8F1E;
+  color: #FF6B57;
   font-size: 40px;
-  font-weight: 600;
+  font-weight: 400;
+  left: -40px;
 }
 
 .accordion-item {
@@ -127,9 +130,9 @@
     position: absolute;
     top: 2800px;
     z-index: 10000;
-  max-width: 300px;
+  max-width: 350px;
   position: absolute;
-  left: -50px;
+  left: -68px;
   margin-left: 15px;
   padding: 2rem;
 

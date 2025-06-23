@@ -1,11 +1,11 @@
 .cta-card {
   position: absolute;
-  top: 4550px;
+  top: 4600px;
   left: 720px;
   background-color: #fff;
   border-radius: 2rem;
   padding: 2.5rem 1.5rem;
-  max-width: 400px;
+  max-width: 500px;
   margin: 2rem auto;
   text-align: center;
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
@@ -13,12 +13,14 @@
 }
 
 .cta-title {
-  color: #f97316; 
+  color: #FF6B57; 
   font-family: 'Boldonse';
   font-size: 40px;
   line-height: 1.5;
   margin-bottom: 1.5rem;
   width: 400px;
+  font-weight: 400;
+  text-align: center;
 }
 
 .cta-text {
@@ -61,9 +63,9 @@
     width: 400px;
     height: auto;
     position: absolute;
-    top: 4000px;
+    top:4400px;
     left: 400px;
-    z-index: -10000;
+    z-index: -1;
 }
 
 .abstractSpiral {
@@ -107,15 +109,15 @@
   }
 
   .abstractStarGif {
-    width: 300px;
-    left: 200px;
-    top: 3900px;
+    width: 280px;
+    left: -10px;
+    top: 4650px;
   }
 
   .abstractSpiral {
-    width: 200px;
-    left: 300px;
-    top: 4650px;
+    width: 80px;
+    left: 280px;
+    top: 4880px;
   }
 }
 
