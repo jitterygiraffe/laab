@@ -1,11 +1,11 @@
 .cta-card {
   position: absolute;
-  top: 4550px;
+  top: 4600px;
   left: 720px;
   background-color: #fff;
   border-radius: 2rem;
   padding: 2.5rem 1.5rem;
-  max-width: 400px;
+  max-width: 500px;
   margin: 2rem auto;
   text-align: center;
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
@@ -13,12 +13,14 @@
 }
 
 .cta-title {
-  color: #f97316; 
+  color: #FF6B57; 
   font-family: 'Boldonse';
   font-size: 40px;
   line-height: 1.5;
   margin-bottom: 1.5rem;
   width: 400px;
+  font-weight: 400;
+  text-align: center;
 }
 
 .cta-text {

@@ -1,6 +1,5 @@
 import React from 'react';
-import pinkBar from './images/pink_bg.png';
-//import pinkBar2 from './images/pink_bg.png';
+import pinkBar from './images/pinkBar.svg';
 import './faqs.css';
 import AccordionFAQs from './accordion_faqs';
 import faqsAnim from './images/faqs_anim.lottie';
@@ -31,11 +30,8 @@ function Faqs() {
             />
 
             </div>
-              <div >
+              <div className="pinkBar-wrapper">
                 <img className="pinkBar" src={pinkBar} alt=""/>
-            </div>
-            <div >
-                <img className="pinkBar2" src={pinkBar} alt=""/>
             </div>
 
       </div>

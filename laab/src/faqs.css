@@ -1,15 +1,22 @@
+.pinkBar-wrapper {
+  position: absolute;
+  top: 3200px;
+  width: 100vw;
+  height: 1580px;
+  overflow-x: hidden;
+  z-index: -1000;
+  left: 0;
+}
+
 .pinkBar {
 z-index: -1000;
   position: absolute;
-  top: 3000px;
+  top: -100px;
   width: 2000px;
 height: 1580px;
-left: -50px;
+left: -250px;
 }
 
-.pinkBar2 {
-  opacity: 0;
-}
 
 .faqsAnim {
     position: absolute;
@@ -59,9 +66,6 @@ left: -50px;
   left: 300px;
 }
 
-  .pinkBar2 {
-  opacity: 0;
-}
 }
 
 
@@ -84,46 +88,31 @@ left: -50px;
   left: 300px;;
 }
 
-.pinkBar2 {
-  opacity: 1;
-  z-index: -2000;
-  position: absolute;
-  top: 3300px;
-  width: 2000px;
-height: 1580px;
-left: 0px;
-}
-
 }
 
 
 /* Small Mobile (<500px) */
 @media (max-width: 499px) {
- .faqsAnim {
-    width: 300px;
-    height: 350px;
-    top: 3300px;
-    left: 40px;
+  .pinkBar-wrapper {
+    position: absolute;
+    top: 3300px;       /* Adjust this value as needed for visual alignment */
+    width: 100vw;
+    height: 1580px;    /* Keep same height as image */
+    overflow-x: hidden;
+    z-index: -2000;
   }
 
-  .whiteStripes {
-  
-  position: absolute;
-  top: 3000px;
-  left: -100px;;
-  
-  width: 50;
-  top: 3000px;
+  .pinkBar {
+    position: absolute;
+    top: 0;            /* Relative to wrapper */
+    left: 0;
+    width: 2000px;     /* Maintain full width */
+    height: 1580px;
+  }
+
+  .pinkBar2 {
+    display: none;     /* Optional: hide duplicate or alternate version */
+  }
 }
 
-.pinkBar2 {
-  opacity: 1;
-  z-index: -2000;
-  position: absolute;
-  top: 3300px;
-  width: 2000px;
-height: 1580px;
-left: 0px;
-}
 
-}

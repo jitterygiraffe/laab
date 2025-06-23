@@ -34,14 +34,13 @@ position: absolute;
 }
 
 .contact-right {
-  background-color: #fff;
+  background-color: #D0EBFF;
   flex: 1;
   min-width: 300px;
   padding: 4rem 2rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  border: #dfe1e3 1px solid;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
@@ -62,7 +61,7 @@ position: absolute;
   margin-bottom: 1rem;
   padding: 1rem;
   border: none;
-  background-color: #f3f4f6;
+  background-color: #fff;
   font-size: 1rem;
 
   outline: none;
