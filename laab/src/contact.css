@@ -135,13 +135,20 @@
 /* Tablet (max-width: 1024px) */
 @media (max-width: 1024px) {
   .contact-container {
-    flex-wrap: wrap;
     min-height: auto;
+    top: -940px;
+    width: 100%;
+    left: 0px;
+    position: relative;
+    overflow: hidden;
+    max-height: 100vh; 
+    
+    
   }
 
   .contact-right {
-    padding-top: 2rem;
-    padding-bottom: 2rem;
+    padding: none;
+    margin: none;
   }
 
   #contact-txt {
@@ -152,6 +159,7 @@
   #contact-title {
     position: static;
   }
+
 }
 
 /* Mobile (max-width: 768px) */
@@ -166,7 +174,7 @@
     padding-bottom: 0px;
     position: relative  ;
     
-  }
+  }*/
 
   #contact-title {
     font-size: 20px;
