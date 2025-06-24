@@ -469,6 +469,17 @@ margin-left: -80px;
   /* Small mobile (max-width: 500px) */
 @media (max-width: 500px) {
 
+html, body {
+    overflow-x: hidden !important;
+    width: 100vw;
+    position: relative;
+  }
+
+  * {
+    max-width: 100vw;
+    box-sizing: border-box;
+  }
+
 .main-title {
 top: 420px;
 font-size: 100px;
