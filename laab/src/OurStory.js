@@ -19,6 +19,7 @@ function OurStory({ onReadMoreClick }) {
 
               <div className="blueBar-wrapper">
                 <img className="blueBar" src={blueBar} alt=""/>
+                <div class="rectangle"></div>
               </div>
 
               <div>

@@ -32,6 +32,7 @@ function Faqs() {
             </div>
               <div className="pinkBar-wrapper">
                 <img className="pinkBar" src={pinkBar} alt=""/>
+                <div class="rectanglePink"></div>
             </div>
 
       </div>

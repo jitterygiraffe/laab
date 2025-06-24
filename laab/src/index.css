@@ -269,6 +269,8 @@ justify-content: center;
   padding: 2rem; /* for spacing from nav */
 }
 
+
+
 /*MEDIA QUERIES*/
 
 /* Tablet (max-width: 1024px) */
@@ -484,6 +486,7 @@ html, body {
 top: 420px;
 font-size: 100px;
 color: #FF6B57;
+left: 35px;
 }
 
 .wavyLine {
@@ -497,28 +500,35 @@ color: #FF6B57;
     font-size: 14px;
     position: absolute;
     top: 600px;
+    left: 26px;
   }
 
   .mask {
-    top: 80px;
-  left:10px;
-  width: 360px;
-  height: 350px;
+  
+    top: 160px;
+  left: 60px;
+  width: 250px;
+  height: 239px;
   flex-shrink: 0;
+  }
+  
+  .homeGif {
+   top: 22px;
+   left: -120px;  
   }
 
     .heart_dots {
     width: 80px;
-    top: 100px;
-    left: 260px;
+    top: 180px;
+    left: 240px;
   }
 
   .blueBar-wrapper {
   position: absolute;
-  top: 685px; 
+  top: 310px; 
   left: 0;
   width: 100%;
-  height: 1000px; 
+  height: 4000px; 
   overflow: hidden;
   z-index: -1;
   pointer-events: none;
@@ -532,25 +542,16 @@ color: #FF6B57;
   width: 2200px;
 }
 
-
-
-/*.blueBar-wrapper {
-  position: fixed;
-  width: 100vw;
-  height: 1280px;
-  overflow-x: hidden;
-  top: -10px;
-  left: 0;
+ .rectangle {
+  width: 600px;      
+  height: 700px;      
+  background-color: #CFEBFF;  
+  position: absolute;
+  top: 600px;
+  
 }
 
-.blueBar {
-  position: absolute;
-  width: 2200px;
-  height: 1280px;
-  left: -258px;
-}*/
 
- 
 .red_star2 {
     top: 650px;
    width: 100px;
@@ -589,5 +590,6 @@ margin-left: -80px;
   width: 200px;
   height: auto;
 }
+
 
   }

@@ -191,10 +191,10 @@
 }
 
 /* Small Mobile (below 480px) */
-@media (max-width: 480px) {
+@media (max-width: 500px) {
   .footer-main {
     padding: 1rem;
-    top: 7050px;
+    top: 7180px;
   }
 
   .footer-links-main a {
@@ -212,7 +212,7 @@
 
   .blueStripeMain {
   width: 350px;
-  top: 7050px;
+  top: 7150px;
   left: 230px;
   margin-left: -80px;
 }

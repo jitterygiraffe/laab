@@ -92,6 +92,7 @@
   text-align: center;
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
   font-family: 'Segoe UI', sans-serif;
+  
 }
 
 .cta-title {
@@ -169,38 +170,48 @@
     top: 5150px;
     width: 90%;
     padding: 2rem 1rem;
+    padding-bottom: 0px;
   }
 
   .cta-title {
     font-size: 32px;
     width: 100%;
+    left: 0px;
+    top: -100px;
+      margin-bottom: 10px;
   }
 
   .cta-text {
     font-size: 0.95rem;
+    position: relative;
+    top: -70px;
   }
 
   .cta-donate {
     font-size: 0.95rem;
+    position: relative;
+    top: -50px;
   }
 
   .changeImg {
     top: 4400px;
     width: 90%;
-    left: 10%;
-    top: 4800px;
+    left: 5%;
+    top: 4700px;
   }
 
   .abstractStarGif {
-    width: 280px;
+    width: 250px;
     left: -10px;
     top: 4650px;
   }
 
   .abstractSpiral {
-    width: 80px;
-    left: 280px;
-    top: 4880px;
+    width: 100px;
+    left: 330px;
+    top: 4790px;
   }
+
+  
 }
 

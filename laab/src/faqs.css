@@ -88,7 +88,7 @@ left: 0px;
     width: 350px;
     height: 350px;
     top: 3300px;
-    left: 80px;
+    left: 20px;
   }
 
   .whiteStripes {
@@ -102,26 +102,38 @@ left: 0px;
 
 /* Small Mobile (<500px) */
 @media (max-width: 499px) {
+  .faqsAnim {
+    width: 350px;
+    height: 350px;
+    top: 3300px;
+    left: 20px;
+  }
   .pinkBar-wrapper {
     position: absolute;
-    top: 3300px;       /* Adjust this value as needed for visual alignment */
+    top: 2850px;     
     width: 100vw;
-    height: 1580px;    /* Keep same height as image */
+    height: 1380px;    
     overflow-x: hidden;
     z-index: -2000;
   }
 
   .pinkBar {
     position: absolute;
-    top: 0;            /* Relative to wrapper */
+    top: 0;        
     left: 0;
-    width: 2000px;     /* Maintain full width */
+    width: 2000px;     
     height: 1580px;
   }
 
-  .pinkBar2 {
-    display: none;     /* Optional: hide duplicate or alternate version */
+  .rectanglePink {
+    width: 600px;      
+  height: 1700px;      
+  background-color: #FF6B57;  
+  position: absolute;
+  top: 600px;
   }
+
+
 }
 
 
