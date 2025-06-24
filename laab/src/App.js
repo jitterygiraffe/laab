@@ -38,7 +38,7 @@ function App() {
     if (page === '#read-more') return <ReadMore />;
 
     return (
-      <>
+      <div className="app-wrapper">
         <div id="home">
               <Home />
         </div>
@@ -63,7 +63,7 @@ function App() {
               <Footer />
         </div>
     
-      </>
+      </div>
     );
   };
 
