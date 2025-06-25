@@ -10,6 +10,17 @@
   left: 12%;
 }
 
+.laabTeaser {
+  position: absolute;
+  top: 2500px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  max-width: 1200px;
+  display: flex;
+  justify-content: center;
+}
+
 .features-title{
 
   font-family: 'Boldonse', sans-serif;
