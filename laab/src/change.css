@@ -191,18 +191,18 @@
   .cta-card {
     left: 50%;
     transform: translateX(-50%);
-    top: 5150px;
+    top: 5050px;
     width: 90%;
     padding: 2rem 1rem;
     padding-bottom: 0px;
   }
 
   .cta-title {
-    font-size: 32px;
+    font-size: 24px;
     width: 100%;
     left: 0px;
     top: -100px;
-      margin-bottom: 10px;
+      margin-bottom: 100px;
   }
 
   .cta-text {
