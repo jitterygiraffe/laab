@@ -68,31 +68,34 @@ line-height: normal;
 
 
 /* Tablet (768px – 1024px) */
-@media (min-width: 768px) and (max-width: 1024px) {
+@media (max-width: 769px) {
+
+
+  .features-title{
+
+  position: absolute;
+  top: 1670px;
+  margin-left: -130px;
+  text-align: center;
+  width: 400px;
+  font-size: 24px;
+  font-weight: 400;
+  color: #FF6B57;
+  margin-bottom: 1rem;
+  font-family: 'Boldonse';
+  }
+
   .features-section {
-    top: 1850px;
+    top: 1800px;
     flex-direction: row;
     gap: 5rem;
     margin-left: 40px;
     padding: 2rem 1.5rem;
-    left: 80px;
   }
 
-  .features-title{
-
-  font-size: 24px;
-  padding-left: 1.5rem;
-  position: absolute;
-  top: 1650px;
-  width: 600px;
-  margin-left: -50px;
-  text-align: center;
-  width: 400px;
-  color: #FF6B57;
-
-} 
+  
   .feature-item {
-    max-width: 180px;
+    max-width: 100px;
   }
 
   .flower-shape {
@@ -106,12 +109,23 @@ line-height: normal;
 
   .playgroundIcon {
     position: absolute;
-    width: 250px;
-    top: 10px;
-    left: -15px;
+    width: 200px;
+    top: -3px;
+    left: -25px;
   }
-}
 
+  .flower-animation {
+    width: 200px;
+    height: auto;
+  }
+
+    .feature-text {
+  font-size: 12px;
+  }
+
+
+} 
+  
 /* Mobile (500px – 767px) */
 @media (min-width: 500px) and (max-width: 767px) {
    html, body {
