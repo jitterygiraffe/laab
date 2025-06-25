@@ -164,7 +164,7 @@
 }
 
 /* Mobile (480px - 767px) */
-@media (max-width: 767px) {
+@media (max-width: 769px) {
 
   .blueStripeMain {
   position: absolute;
@@ -180,7 +180,7 @@
   .footer-main {
     padding: 1.5rem;
     height: 810px;
-    top: 6000px;
+    top: 8000px;
     overflow: hidden;
     max-height: 100vh; 
     margin: none;

@@ -162,6 +162,36 @@
 
 }
 
+/* Ipad mini (max-width: 1024px) */
+@media (max-width: 769px) {
+  .contact-container {
+    min-height: auto;
+    top: -1800px;
+    width: 120%;
+    left: -70px;
+    position: relative;
+    overflow: hidden;
+    max-height: 100vh; 
+    
+    
+  }
+
+  .contact-right {
+    padding: none;
+    margin: none;
+  }
+
+  #contact-txt {
+    position: static;
+    width: 100%;
+  }
+
+  #contact-title {
+    position: static;
+  }
+
+}
+
 @media (max-width: 500px) {
   .contact-container {
     position: relative;
