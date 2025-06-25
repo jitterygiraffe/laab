@@ -162,6 +162,61 @@
 
 }
 
+/* Ipad mini  */
+@media (max-width: 768px) {
+  .cta-card {
+    left: 50%;
+    transform: translateX(-50%);
+    top: 5150px;
+    width: 90%;
+    padding: 2rem 1rem;
+    padding-bottom: 0px;
+  }
+
+  .cta-title {
+    font-size: 32px;
+    width: 100%;
+    left: 0px;
+    top: -100px;
+      margin-bottom: 10px;
+  }
+
+  .cta-text {
+    font-size: 0.95rem;
+    position: relative;
+    top: -70px;
+  }
+
+  .cta-donate {
+    font-size: 0.95rem;
+    position: relative;
+    top: -50px;
+  }
+
+  .changeImg {
+    top: 4400px;
+    width: 90%;
+    left: 5%;
+    top: 4300px;
+  }
+
+  .abstractStarGif {
+    width: 300px;
+    left: -10px;
+    top: 4350px;
+  }
+
+  .abstractSpiral {
+    width: 150px;
+    left: 700px;
+    top: 4590px;
+  }
+
+  
+}
+
+
+
  /* Small mobile (max-width: 500px) */
 @media (max-width: 500px) {
   .cta-card {
