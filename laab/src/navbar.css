@@ -92,12 +92,12 @@ margin-left: 30px;
     height: auto;
     width: 100%;
     padding-left: 300px;
-
+    
    }
 
 }
 
-/* Mobile (480px - 767px) */
+/* Ipad mini (480px - 767px) */
   @media (max-width: 768px) {
 
   /* Hide hamburger and mobile menu by default */
@@ -190,6 +190,7 @@ margin-left: 30px;
     gap: 1rem;
     overflow-x: auto;
     white-space: nowrap;
+    opacity: 0;
   }
 
 

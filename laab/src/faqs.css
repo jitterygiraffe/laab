@@ -50,7 +50,7 @@ left: 0px;
 }
 
 /* Tablet (768px – 1024px) */
-@media (min-width: 768px) and (max-width: 1024px) {
+@media (min-width: 769px) and (max-width: 1024px) {
 
 #faqs {
    min-height: 130vh;
@@ -72,30 +72,51 @@ left: 0px;
 }
 
 
-/* Mobile (500px – 767px) */
-@media (max-width: 767px) {
+/* Ipad mini (500px – 767px) */
+@media (max-width: 768px) {
    html, body {
     overflow-x: hidden;
   }
 
-   #faqs {
-  scroll-margin-top: 100px; 
-  min-height: 350vh;
-  padding: 2rem; 
-}
-  
+  #faqs {
+   min-height: 130vh;
+}  
+
   .faqsAnim {
     width: 350px;
     height: 350px;
-    top: 3300px;
-    left: 20px;
+    top: 2900px;
+    left: 220px;
+    z-index: 10000
   }
 
   .whiteStripes {
-  width: 150;
+  width: 100;
   top: 3000px;
-  left: 300px;;
+  left: 450px;
 }
+
+.pinkBar-wrapper{
+  position: absolute;
+    top: 2550px;     
+    width: 100vw;
+    height: 1380px;    
+    overflow-x: hidden;
+    z-index: -2000;
+}
+
+.pinkBar {
+  width: 2000px;
+  height: 1580px;
+}
+
+.rectanglePink {
+    width: 1600px;      
+  height: 2700px;      
+  background-color: #FF6B57;  
+  position: absolute;
+  top: 600px;
+  }
 
 }
 
