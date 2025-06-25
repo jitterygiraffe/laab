@@ -136,10 +136,10 @@
 @media (max-width: 1024px) {
   .contact-container {
     min-height: auto;
-    top: -940px;
+    top: 4940px;
     width: 100%;
     left: 0px;
-    position: relative;
+    position: absolute;
     overflow: hidden;
     max-height: 100vh; 
     
@@ -162,14 +162,14 @@
 
 }
 
-/* Ipad mini (max-width: 1024px) */
+/* Ipad mini  */
 @media (max-width: 769px) {
   .contact-container {
     min-height: auto;
-    top: -1800px;
+    top: 5350px;
     width: 120%;
-    left: -70px;
-    position: relative;
+    left: 0px;
+    position: absolute;
     overflow: hidden;
     max-height: 100vh; 
     
