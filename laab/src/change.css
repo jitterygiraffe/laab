@@ -136,14 +136,15 @@
   .cta-card {
     left: 50%;
     transform: translateX(-50%);
-    top: 5150px;
+    top: 5100px;
     width: 90%;
     padding: 2rem 1rem;
-    padding-bottom: 0px;
+    padding-bottom: 50px;
+
   }
 
   .cta-title {
-    font-size: 32px;
+    font-size: 24px;
     width: 100%;
     left: 0px;
     top: -100px;
@@ -153,13 +154,13 @@
   .cta-text {
     font-size: 0.95rem;
     position: relative;
-    top: -70px;
+    top: 10px;
   }
 
   .cta-donate {
     font-size: 0.95rem;
     position: relative;
-    top: -50px;
+    top: 10px;
   }
 
   .changeImg {
