@@ -178,11 +178,10 @@
 }
 
   .footer-main {
-    padding: 1.5rem;
     height: 810px;
-    top: 8000px;
+    top: 6450px;
     overflow: hidden;
-    max-height: 100vh; 
+    max-height: 650px; 
     margin: none;
     font-size: large;
   }
