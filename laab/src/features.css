@@ -170,6 +170,19 @@ line-height: normal;
   font-size: 12px;
   }
 
+  .features-title{
+  font-size: 24px;
+  font-weight: 400;
+  color: #FF6B57;
+  margin-bottom: 1rem;
+  font-family: 'Boldonse';
+  text-align: center;
+  left: 240px;
+  width: 50%;
+  top: 1680px;
+
+  }
+
 }
 
 /* Small Mobile (below 500px) */
