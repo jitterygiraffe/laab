@@ -373,13 +373,31 @@ margin-left: -80px;
   }
 
 
-  /* Mobile (max-width: 768px) */
-@media (max-width: 768px) {
+  /* Ipad mini (max-width: 768px) */
+@media (max-width: 769px) {
 
 html, body {
     overflow-x: hidden !important;
     width: 100% !important;
+    max-height: 100vh;
+    overflow-y: hidden;
     position: relative;
+  }
+
+   .app-wrapper, .app-container {
+    height: 100vh;
+    overflow-y: auto;
+  }
+
+  footer {
+    position: relative;
+    z-index: 100;
+    margin-bottom: 0 !important;
+    padding-bottom: 0 !important;
+  }
+#contact-us {
+    margin-bottom: 0 !important;
+    padding-bottom: 0 !important;
   }
 
   * {
