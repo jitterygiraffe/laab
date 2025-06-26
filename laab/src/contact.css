@@ -4,9 +4,9 @@
   font-family: 'Roboto', sans-serif;
   width: 110%;
   background-color: #cad1df;
-  position: relative;
+  position: absolute;
   min-height: 100vh;
-  margin-top: 80rem;
+  margin-top: 51rem;
   left: -58px;
 }
 
@@ -195,9 +195,9 @@
 
   .contact-container {
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
   font-family: 'Roboto', sans-serif;
-  width: 100%;
+  width: 110%;
   background-color: #cad1df;
   position: relative;
   min-height: 100vh;

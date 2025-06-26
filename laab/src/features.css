@@ -12,17 +12,18 @@
 
 .laabTeaser {
   position: absolute;
-  top: 2450px;
+  top: 2550px;
   left: 50%;
   transform: translateX(-50%);
-  width: 100%;
-  max-width: 1200px;
+  width: 1800px;
+  height: 500px;
   display: flex;
   justify-content: center;
-  height: 100%;
-  border: none;
+  background: blue;
   display: block;
 }
+
+
 
 .video-wrapper {
   position: relative;
@@ -93,18 +94,12 @@ line-height: normal;
 /* Tablet */
 @media (max-width: 1024px) {
 
-  .laabTeaser {
-  position: absolute;
-  top: 2100px;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 100%;
-  max-width: 1000px;
-  display: flex;
-  justify-content: center;
-  height: auto;
-  border: none;
-  display: block;
+   .laabTeaser{
+  top: 2150px;
+  left: 50%;;
+  width: 1100px;
+  height: 600px;
+  background: blue;
 }
   
 
@@ -230,6 +225,14 @@ line-height: normal;
   top: 1680px;
 
   }
+
+   .laabTeaser{
+  top: 2150px;
+  left: 50%;;
+  width: 800px;
+  height: 500px;
+  background: blue;
+}
 
 }
 
