@@ -276,4 +276,22 @@ line-height: normal;
     top: 5px;
     left: -16px;
   }
+
+  .laabTeaser{
+  top: 2800px;
+  left: 50%;;
+  width: 380px;
+  height: 450px;
+  background: blue;
+  }
+   .placeholderTeaser {
+  position: absolute;
+  top: 2800px;
+  left: 50%;;
+  width: 380px;
+  max-width: 650px;
+  background: blue;
+  opacity: 0;
+  
+}
 }

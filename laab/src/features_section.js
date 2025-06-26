@@ -78,6 +78,10 @@ const FeaturesSection = () => {
             loop
             autoplay
           />
+
+          <div className='placeholderTeaser'>
+
+          </div>
           </div>
     </>
   );
