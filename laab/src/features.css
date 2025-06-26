@@ -12,14 +12,26 @@
 
 .laabTeaser {
   position: absolute;
-  top: 2500px;
+  top: 2450px;
   left: 50%;
   transform: translateX(-50%);
   width: 100%;
   max-width: 1200px;
   display: flex;
   justify-content: center;
+  height: 100%;
+  border: none;
+  display: block;
 }
+
+.video-wrapper {
+  position: relative;
+  width: 100%;
+  max-width: 800px;
+  aspect-ratio: 16 / 9;
+  margin: 2rem auto;
+}
+
 
 .features-title{
 
