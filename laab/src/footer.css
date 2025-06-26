@@ -2,11 +2,12 @@
   background-color: #FF6B57;
   color: #e5e7eb;
   padding: 2rem;
-  font-family: 'Segoe UI', sans-serif;
+  font-family: 'Roboto', sans-serif;
   position: absolute;
   top: 5980px;
   width: 100%;
-  height: 320px;
+  max-height: 320px;
+  margin-bottom: 0;
 }
 
 .footer-content-main {
@@ -180,7 +181,7 @@
     height: 810px;
     top: 6100px;
     overflow: hidden;
-    max-height: 520px; 
+    max-height: 550px; 
     margin: none;
     font-size: large;
   }
@@ -210,7 +211,8 @@
 @media (max-width: 500px) {
   .footer-main {
     padding: 1rem;
-    top: 7180px;
+    top: 6880px;
+    margin-top: 0;
   }
 
   .footer-links-main a {
@@ -228,7 +230,7 @@
 
   .blueStripeMain {
   width: 350px;
-  top: 7150px;
+  top: 6850px;
   left: 230px;
   margin-left: -80px;
 }
