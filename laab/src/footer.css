@@ -137,7 +137,7 @@
     height: 810px;
     top: 6000px;
     overflow: hidden;
-    max-height: 100vh; 
+    max-height: 50vh; 
     margin: none;
     font-size: large;
   }
