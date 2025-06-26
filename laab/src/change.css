@@ -117,7 +117,7 @@
   }
 
   .abstractStarGif {
-    width: 350px;
+    width: 500px;
     left: -10px;
     top: 4150px;
   }
@@ -136,8 +136,8 @@
   .cta-card {
     left: 50%;
     transform: translateX(-50%);
-    top: 5100px;
-    width: 90%;
+    top: 4850px;
+    width: 50%;
     padding: 2rem 1rem;
     padding-bottom: 50px;
 
@@ -164,16 +164,16 @@
   }
 
   .changeImg {
-    top: 4400px;
-    width: 90%;
-    left: 5%;
+    top: 500px;
+    width: 60%;
+    left: 15%;
     top: 4300px;
   }
 
   .abstractStarGif {
-    width: 300px;
+    width: 500px;
     left: -10px;
-    top: 4350px;
+    top: 4150px;
   }
 
   .abstractSpiral {

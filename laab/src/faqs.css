@@ -105,20 +105,20 @@ left: 0px;
   .faqsAnim {
     width: 350px;
     height: 350px;
-    top: 2900px;
+    top: 2700px;
     left: 220px;
     z-index: 10000
   }
 
   .whiteStripes {
   width: 100;
-  top: 3000px;
+  top: 2800px;
   left: 450px;
 }
 
 .pinkBar-wrapper{
   position: absolute;
-    top: 2550px;     
+    top: 2350px;     
     width: 100vw;
     height: 1680px;    
     overflow-x: hidden;
