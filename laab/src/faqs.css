@@ -59,15 +59,35 @@ left: 0px;
   .faqsAnim {
     width: 350px;
     height: 350px;
-    top: 3500px;
-    left: 580px;
+    top: 2800px;
+    left: 360px;
   }
 
   .whiteStripes {
   width: 100;
-  top: 3000px;
-  left: 450px;
+  top: 2900px;
+  left: 550px;
 }
+
+.pinkBar-wrapper {
+  position: absolute;
+  top: 2700px;
+  width: 100vw;
+  height: 3880px;
+  overflow-x: hidden;
+  z-index: -1000;
+  left: 0;
+}
+
+.pinkBar {
+z-index: -1000;
+  position: absolute;
+  top: -1000px;
+  width: 2000px;
+height: 4080px;
+left: 0px;
+}
+
 
 }
 

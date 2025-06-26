@@ -90,9 +90,23 @@ line-height: normal;
 }
 
 
-/* Tablet (768px – 1024px) */
+/* Tablet */
 @media (max-width: 1024px) {
 
+  .laabTeaser {
+  position: absolute;
+  top: 2100px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  max-width: 1000px;
+  display: flex;
+  justify-content: center;
+  height: auto;
+  border: none;
+  display: block;
+}
+  
 
   .features-title{
 
