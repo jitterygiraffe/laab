@@ -3,11 +3,12 @@
   color: #e5e7eb;
   padding: 2rem;
   font-family: 'Roboto', sans-serif;
-  position: absolute;
-  top:2480px;
+  position: relative;
+  top:1980px;
   width: 100%;
   height: 400px;
   z-index: 1000;
+  margin-bottom: 0;
 }
 
 .footer-content {
