@@ -12,17 +12,33 @@
 
 .laabTeaser {
   position: absolute;
-  top: 2550px;
+  top: 2750px;
   left: 50%;
   transform: translateX(-50%);
-  width: 1800px;
-  height: 500px;
+  width: 1000px;
+  height: auto;
   display: flex;
   justify-content: center;
-  background: blue;
   display: block;
 }
 
+.arrow {
+  position: absolute;
+  top: 2500px;
+  left: 50%;
+  width: 200px;
+  height: auto;
+  transform: rotate(65deg);
+
+}
+
+.featuresTxt {
+  position: absolute;
+  top: 2500px;
+  left: 62%;
+  width: 150px;
+  font-family: "Boldonse", sans-serif;
+}
 
 
 .video-wrapper {

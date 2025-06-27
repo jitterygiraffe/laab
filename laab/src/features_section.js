@@ -7,7 +7,8 @@ import abstractFlower3 from './images/flower_anim.lottie';
 import icon1 from './images/playground_icon1.png'; 
 import icon2 from './images/playground_icon2.png'; 
 import icon3 from './images/playground_icon3.png'; 
-import laabTeaser from './images/laab_teaser_small.lottie'; 
+import laabTeaser from './images/laabTeaserTwo.gif'; 
+import arrow from './images/arrow.png';
 
 
 const features = [
@@ -73,15 +74,17 @@ const FeaturesSection = () => {
     </section>
 
      <div>
-             <DotLottieReact className='laabTeaser' id='teaser'
-            src={laabTeaser}
-            loop
-            autoplay
-          />
+            <div>
+              <p className='featuresTxt'>Some of the equipment we hope to build</p>
+            </div>
+            <div >
+              <img className="arrow" src={arrow} alt=""/>
+            </div>
 
-          <div className='placeholderTeaser'>
-
-          </div>
+           <div >
+              <img className="laabTeaser" src={laabTeaser} alt=""/>
+            </div>
+  
           </div>
     </>
   );
