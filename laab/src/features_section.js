@@ -75,7 +75,8 @@ const FeaturesSection = () => {
 
      <div>
             <div>
-              <p className='featuresTxt'>Some of the equipment we hope to build</p>
+              <p className='featuresTxt'>Some of the equipment 
+                we will buy with your donation</p>
             </div>
             <div >
               <img className="arrow" src={arrow} alt=""/>
