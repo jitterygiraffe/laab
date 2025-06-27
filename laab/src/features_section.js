@@ -7,7 +7,7 @@ import abstractFlower3 from './images/flower_anim.lottie';
 import icon1 from './images/playground_icon1.png'; 
 import icon2 from './images/playground_icon2.png'; 
 import icon3 from './images/playground_icon3.png'; 
-import laabTeaser from './images/laabTeaserTwo.gif'; 
+import laabTeaser from './images/laabTeaserDesktop.gif'; 
 import arrow from './images/arrow.png';
 
 

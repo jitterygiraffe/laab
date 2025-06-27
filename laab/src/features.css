@@ -28,13 +28,13 @@
   left: 50%;
   width: 200px;
   height: auto;
-  transform: rotate(65deg);
+  transform: rotate(55deg);
 
 }
 
 .featuresTxt {
   position: absolute;
-  top: 2500px;
+  top: 2480px;
   left: 62%;
   width: 150px;
   font-family: "Boldonse", sans-serif;
