@@ -10,7 +10,7 @@
   left: 12%;
 }
 
-.laabTeaser {
+.laabTeaserDesktop {
   position: absolute;
   top: 2750px;
   left: 50%;
@@ -20,6 +20,24 @@
   display: flex;
   justify-content: center;
   display: block;
+}
+
+.laabTeaserTablet {
+  position: absolute;
+  top: 2750px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 800px;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  display: block;
+  opacity: 0;
+  
+}
+
+.laabTeaserMobile {
+  opacity: 0;
 }
 
 .arrow {
@@ -171,6 +189,42 @@ line-height: normal;
   font-size: 12px;
   }
 
+  .laabTeaserDesktop {
+    opacity: 0;
+  }  
+  .laabTeaserTablet {
+  position: absolute;
+  top: 2300px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 800px;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  display: block;
+  opacity: 1;
+  
+}
+
+.arrow {
+  position: absolute;
+  top: 2055px;
+  left: 50%;
+  width: 200px;
+  height: auto;
+  transform: rotate(55deg);
+
+}
+
+.featuresTxt {
+  position: absolute;
+  top: 2050px;
+  left: 68%;
+  width: 150px;
+  font-family: "Boldonse", sans-serif;
+}
+
+
 
 } 
   
@@ -250,10 +304,31 @@ line-height: normal;
   background: blue;
 }
 
+.arrow {
+  position: absolute;
+  top: 2130px;
+  left: 50%;
+  width: 150px;
+  height: auto;
+  transform: rotate(55deg);
+
+}
+
+.featuresTxt {
+  position: absolute;
+  top: 2100px;
+  left: 66%;
+  width: 150px;
+  font-family: "Boldonse", sans-serif;
+  font-size: 12px;
+}
+
+
 }
 
 /* Small Mobile (below 500px) */
 @media (max-width: 500px) {
+  
    .features-section {
     top: 1850px;
     flex-direction: row;
@@ -296,21 +371,33 @@ line-height: normal;
     left: -16px;
   }
 
-  .laabTeaser{
-  top: 2800px;
-  left: 50%;;
-  width: 380px;
-  height: 450px;
-  background: blue;
-  }
-   .placeholderTeaser {
+.arrow {
+  opacity: 0;
+}
+
+.featuresTxt {
+opacity: 0;
+}
+
+.laabTeaserDesktop {
+    opacity: 0;
+  }  
+
+  .laabTeaserTablet {
+    opacity: 0;
+  }  
+
+  .laabTeaserMobile {
   position: absolute;
   top: 2800px;
-  left: 50%;;
-  width: 380px;
-  max-width: 650px;
-  background: blue;
-  opacity: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 400px;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  display: block;
+  opacity: 1;
   
 }
 }

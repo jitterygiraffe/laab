@@ -105,7 +105,7 @@ left: 0px;
   .faqsAnim {
     width: 350px;
     height: 350px;
-    top: 2700px;
+    top: 2750px;
     left: 220px;
     z-index: 10000
   }
@@ -144,10 +144,10 @@ left: 0px;
 /* Small Mobile (<500px) */
 @media (max-width: 499px) {
   .faqsAnim {
-    width: 350px;
-    height: 350px;
+    width: 250px;
+    height: 250px;
     top: 3300px;
-    left: 20px;
+    left: 60px;
   }
   .pinkBar-wrapper {
     position: absolute;

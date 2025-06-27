@@ -211,7 +211,7 @@
 @media (max-width: 500px) {
   .footer-main {
     padding: 1rem;
-    top: 6880px;
+    top: 6580px;
     margin-top: 0;
   }
 
@@ -230,7 +230,7 @@
 
   .blueStripeMain {
   width: 350px;
-  top: 6850px;
+  top: 6550px;
   left: 230px;
   margin-left: -80px;
 }
