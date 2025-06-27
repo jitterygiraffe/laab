@@ -213,7 +213,17 @@ html {
     font-size: 60px;
   }
 
-  #story-txt2, #story-txt4 {
+  #story-txt2 {
+    left: 500px;
+    width: 400px;
+  }
+
+   #story-txt3 {
+    width: 400px;
+    top: 1320px;
+  }
+  
+  #story-txt4 {
     left: 450px;
     width: 400px;
   }
@@ -247,9 +257,9 @@ html {
   }
 
   .wavyBlue {
-    left: 750px;
+    left: 800px;
     width: 250px;
-    top: -100px;
+    top: -150px;
   }
 }
 
@@ -352,7 +362,7 @@ html {
 
 
   .wavyBlue {
-    left: 250px;
+    left: 50px;
     top: -250px;
   }
 }

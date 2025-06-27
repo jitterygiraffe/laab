@@ -7,8 +7,66 @@
   gap: 10rem;
   padding: 3rem 2rem;
   flex-wrap: wrap;
-  left: 15%;
+  left: 12%;
 }
+
+.laabTeaserDesktop {
+  position: absolute;
+  top: 2750px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 1000px;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  display: block;
+}
+
+.laabTeaserTablet {
+  position: absolute;
+  top: 2750px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 800px;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  display: block;
+  opacity: 0;
+  
+}
+
+.laabTeaserMobile {
+  opacity: 0;
+}
+
+.arrow {
+  position: absolute;
+  top: 2500px;
+  left: 50%;
+  width: 200px;
+  height: auto;
+  transform: rotate(55deg);
+
+}
+
+.featuresTxt {
+  position: absolute;
+  top: 2480px;
+  left: 62%;
+  width: 150px;
+  font-family: "Boldonse", sans-serif;
+}
+
+
+.video-wrapper {
+  position: relative;
+  width: 100%;
+  max-width: 800px;
+  aspect-ratio: 16 / 9;
+  margin: 2rem auto;
+}
+
 
 .features-title{
 
@@ -19,7 +77,7 @@
   position: absolute;
   top: 1850px;
   width: 600px;
-  left: 350px;
+  left: 330px;
   text-align: center;
 
 } 
@@ -67,61 +125,37 @@ line-height: normal;
 }
 
 
-/* Tablet (768px – 1024px) */
-@media (min-width: 768px) and (max-width: 1024px) {
-  .features-section {
-    top: 1850px;
-    flex-direction: row;
-    gap: 5rem;
-    margin-left: 40px;
-    padding: 2rem 1.5rem;
-    left: 80px;
-  }
+/* Tablet */
+@media (max-width: 1024px) {
+
+   .laabTeaser{
+  top: 2150px;
+  left: 50%;;
+  width: 1100px;
+  height: 600px;
+  background: blue;
+}
+  
 
   .features-title{
 
-  font-size: 24px;
-  padding-left: 1.5rem;
   position: absolute;
-  top: 1650px;
-  width: 600px;
-  margin-left: -50px;
+  top: 1670px;
+  margin-left: -30px;
   text-align: center;
   width: 400px;
+  font-size: 24px;
+  font-weight: 400;
   color: #FF6B57;
-
-} 
-  .feature-item {
-    max-width: 180px;
+  margin-bottom: 1rem;
+  font-family: 'Boldonse';
   }
 
-  .flower-shape {
-    width: 100px;
-    height: 100px;
-  }
-
-  .flower-animation {
-    width: 320px;
-  }
-
-  .playgroundIcon {
-    position: absolute;
-    width: 250px;
-    top: 10px;
-    left: -15px;
-  }
-}
-
-/* Mobile (500px – 767px) */
-@media (min-width: 500px) and (max-width: 767px) {
-   html, body {
-    overflow-x: hidden;
-  }
-   .features-section {
-    top: 1850px;
+  .features-section {
+    top: 1800px;
     flex-direction: row;
     gap: 5rem;
-    margin-left: 100px;
+    margin-left: 120px;
     padding: 2rem 1.5rem;
   }
 
@@ -155,10 +189,146 @@ line-height: normal;
   font-size: 12px;
   }
 
+  .laabTeaserDesktop {
+    opacity: 0;
+  }  
+  .laabTeaserTablet {
+  position: absolute;
+  top: 2300px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 800px;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  display: block;
+  opacity: 1;
+  
+}
+
+.arrow {
+  position: absolute;
+  top: 2055px;
+  left: 50%;
+  width: 200px;
+  height: auto;
+  transform: rotate(55deg);
+
+}
+
+.featuresTxt {
+  position: absolute;
+  top: 2050px;
+  left: 68%;
+  width: 150px;
+  font-family: "Boldonse", sans-serif;
+}
+
+
+
+} 
+  
+/* Ipad mini (500px – 767px) */
+@media (max-width: 769px) {
+
+  .laabTeaser {
+  position: absolute;
+  top: 2200px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  max-width: 800px;
+  
+}
+
+   html, body {
+    overflow-x: hidden;
+  }
+   .features-section {
+    top: 1850px;
+    flex-direction: row;
+    gap: 5rem;
+    margin-left: 40px;
+    padding: 2rem 1.5rem;
+  }
+
+  
+  
+  .feature-item {
+    max-width: 100px;
+  }
+
+  .flower-shape {
+    width: 100px;
+    height: 100px;
+  }
+
+  .flower-animation {
+    width: 320px;
+  }
+
+  .playgroundIcon {
+    position: absolute;
+    width: 200px;
+    top: -3px;
+    left: -25px;
+  }
+
+  .flower-animation {
+    width: 200px;
+    height: auto;
+  }
+
+    .feature-text {
+  font-size: 12px;
+  }
+
+  .features-title{
+  font-size: 24px;
+  font-weight: 400;
+  color: #FF6B57;
+  margin-bottom: 1rem;
+  font-family: 'Boldonse';
+  text-align: center;
+  left: 240px;
+  width: 50%;
+  top: 1680px;
+
+  }
+
+   .laabTeaser{
+  top: 2150px;
+  left: 50%;;
+  width: 800px;
+  height: 500px;
+  background: blue;
+}
+
+.arrow {
+  position: absolute;
+  top: 2130px;
+  left: 50%;
+  width: 150px;
+  height: auto;
+  transform: rotate(55deg);
+
+}
+
+.featuresTxt {
+  position: absolute;
+  top: 2100px;
+  left: 66%;
+  width: 150px;
+  font-family: "Boldonse", sans-serif;
+  font-size: 12px;
+}
+
+
 }
 
 /* Small Mobile (below 500px) */
-@media (max-width: 499px) {
+@media (max-width: 500px) {
+  
    .features-section {
     top: 1850px;
     flex-direction: row;
@@ -175,7 +345,7 @@ line-height: normal;
   margin-bottom: 1rem;
   font-family: 'Boldonse';
   text-align: center;
-  left: 60px;
+  left: 120px;
   width: 50%;
   top: 1650px;
 
@@ -200,4 +370,34 @@ line-height: normal;
     top: 5px;
     left: -16px;
   }
+
+.arrow {
+  opacity: 0;
+}
+
+.featuresTxt {
+opacity: 0;
+}
+
+.laabTeaserDesktop {
+    opacity: 0;
+  }  
+
+  .laabTeaserTablet {
+    opacity: 0;
+  }  
+
+  .laabTeaserMobile {
+  position: absolute;
+  top: 2800px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 400px;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  display: block;
+  opacity: 1;
+  
+}
 }

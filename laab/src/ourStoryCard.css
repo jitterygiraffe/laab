@@ -2,8 +2,8 @@
 #our-story-card {
     position: absolute;
     top: 900px;
-    left: 700px;
-  width: 650px;
+    left: 650px;
+  width: 600px;
   margin: 2rem auto;
   background-color: #fff;
   border-radius: 1rem;
@@ -70,12 +70,12 @@ background-color: #2563eb;
   }
 }
 
-/* Mobile (≤ 768px) */
-@media (max-width: 767px) {
+/* Ipad mini (≤ 768px) */
+@media (max-width: 769px) {
   #our-story-card {
     position: absolute;
-    left: 450px;
-    width: 40%;
+    left: 350px;
+    width: 50%;
     top: 750px;
   }
 

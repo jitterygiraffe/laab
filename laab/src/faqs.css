@@ -33,7 +33,7 @@ left: 0px;
   height: auto;
   aspect-ratio: 523.67/343.73;
   position: absolute;
-  top: 3000px;
+  top: 3100px;
   left: 800px;;
 }
 
@@ -50,7 +50,7 @@ left: 0px;
 }
 
 /* Tablet (768px – 1024px) */
-@media (min-width: 768px) and (max-width: 1024px) {
+@media (min-width: 769px) and (max-width: 1024px) {
 
 #faqs {
    min-height: 130vh;
@@ -59,69 +59,122 @@ left: 0px;
   .faqsAnim {
     width: 350px;
     height: 350px;
-    top: 3500px;
-    left: 580px;
+    top: 2800px;
+    left: 360px;
   }
 
   .whiteStripes {
   width: 100;
-  top: 3000px;
-  left: 450px;
+  top: 2900px;
+  left: 550px;
 }
 
+.pinkBar-wrapper {
+  position: absolute;
+  top: 2700px;
+  width: 100vw;
+  height: 3880px;
+  overflow-x: hidden;
+  z-index: -1000;
+  left: 0;
+}
+
+.pinkBar {
+z-index: -1000;
+  position: absolute;
+  top: -1000px;
+  width: 2000px;
+height: 4080px;
+left: 0px;
 }
 
 
-/* Mobile (500px – 767px) */
-@media (max-width: 767px) {
+}
+
+
+/* Ipad mini (500px – 767px) */
+@media (max-width: 768px) {
    html, body {
     overflow-x: hidden;
   }
 
-   #faqs {
-  scroll-margin-top: 100px; 
-  min-height: 350vh;
-  padding: 2rem; 
-}
-  
+  #faqs {
+   min-height: 130vh;
+}  
+
   .faqsAnim {
     width: 350px;
     height: 350px;
-    top: 3300px;
-    left: 80px;
+    top: 2750px;
+    left: 220px;
+    z-index: 10000
   }
 
   .whiteStripes {
-  width: 150;
-  top: 3000px;
-  left: 300px;;
+  width: 100;
+  top: 2800px;
+  left: 450px;
 }
+
+.pinkBar-wrapper{
+  position: absolute;
+    top: 2350px;     
+    width: 100vw;
+    height: 1680px;    
+    overflow-x: hidden;
+    z-index: -2000;
+}
+
+.pinkBar {
+  width: 2000px;
+  height: 1580px;
+}
+
+.rectanglePink {
+    width: 1600px;      
+  height: 2700px;      
+  background-color: #FF6B57;  
+  position: absolute;
+  top: 600px;
+  }
 
 }
 
 
 /* Small Mobile (<500px) */
 @media (max-width: 499px) {
+  .faqsAnim {
+    width: 250px;
+    height: 250px;
+    top: 3300px;
+    left: 60px;
+  }
   .pinkBar-wrapper {
     position: absolute;
-    top: 3300px;       /* Adjust this value as needed for visual alignment */
+    top: 2850px;     
     width: 100vw;
-    height: 1580px;    /* Keep same height as image */
+    height: 1780px;    
     overflow-x: hidden;
     z-index: -2000;
   }
 
   .pinkBar {
     position: absolute;
-    top: 0;            /* Relative to wrapper */
+    top: 0;        
     left: 0;
-    width: 2000px;     /* Maintain full width */
+    width: 2000px;     
     height: 1580px;
   }
 
-  .pinkBar2 {
-    display: none;     /* Optional: hide duplicate or alternate version */
+  .rectanglePink {
+    width: 600px;      
+  height: 1700px;      
+  background-color: #FF6B57;  
+  position: absolute;
+  top: 600px;
   }
+
+
 }
 
 

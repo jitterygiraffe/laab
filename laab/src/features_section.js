@@ -7,6 +7,10 @@ import abstractFlower3 from './images/flower_anim.lottie';
 import icon1 from './images/playground_icon1.png'; 
 import icon2 from './images/playground_icon2.png'; 
 import icon3 from './images/playground_icon3.png'; 
+import laabTeaserDesktop from './images/laabTeaserDesktop.gif'; 
+import laabTeaserTablet from './images/laabTeaserIpadPro.gif';
+import laabTeaserMobile from './images/laabTeaserMobile.gif';
+import arrow from './images/arrow.png';
 
 
 const features = [
@@ -46,6 +50,7 @@ const features = [
   
 ];
 
+
 const FeaturesSection = () => {
   return (
     <>
@@ -64,9 +69,32 @@ const FeaturesSection = () => {
           </div>
           <p className="feature-text">{feature.text}</p>
           {index < features.length - 1 && <div className="divider" />}
+         
           </div>
+  
       ))}
     </section>
+
+     <div>
+            <div>
+              <p className='featuresTxt'>Some of the equipment 
+                we will buy with your donations</p>
+            </div>
+            <div >
+              <img className="arrow" src={arrow} alt=""/>
+            </div>
+
+           <div >
+              <img className="laabTeaserDesktop" src={laabTeaserDesktop} alt=""/>
+            </div>
+             <div >
+              <img className="laabTeaserTablet" src={laabTeaserTablet} alt=""/>
+            </div>
+             <div >
+              <img className="laabTeaserMobile" src={laabTeaserMobile} alt=""/>
+            </div>
+  
+          </div>
     </>
   );
 };

@@ -3,7 +3,7 @@
   top: 4600px;
   left: 720px;
   background-color: #fff;
-  border-radius: 2rem;
+  border-radius: 1rem;
   padding: 2.5rem 1.5rem;
   max-width: 500px;
   margin: 2rem auto;
@@ -77,130 +77,166 @@
     z-index: 10000;
 }
 
-/* Tablet (768px - 1024px) */
+/* Tablet  */
 @media (max-width: 1024px) {
 
   .cta-card {
-  position: absolute;
-  top: 4400px;
-  left: 520px;
-  background-color: #fff;
-  border-radius: 2rem;
-  padding: 2.5rem 1.5rem;
-  max-width: 450px;
-  margin: 2rem auto;
-  text-align: center;
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
-  font-family: 'Segoe UI', sans-serif;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 4850px;
+    width: 80%;
+    padding: 2rem 1rem;
+    padding-bottom: 0px;
+  }
+
+  .cta-title {
+    font-size: 24px;
+    width: 100%;
+    left: 0px;
+    top: -30px;
+      margin-bottom: 100px;
+  }
+
+  .cta-text {
+    font-size: 0.95rem;
+    position: relative;
+    top: -70px;
+  }
+
+  .cta-donate {
+    font-size: 0.95rem;
+    position: relative;
+    top: -50px;
+  }
+
+  .changeImg {
+    top: 4400px;
+    width: 60%;
+    left: 20%;
+    top: 4200px;
+  }
+
+  .abstractStarGif {
+    width: 500px;
+    left: -10px;
+    top: 4150px;
+  }
+
+  .abstractSpiral {
+    width: 250px;
+    left: 870px;
+    top: 4590px;
+  }
+
+  
 }
 
-.cta-title {
-  color: #FF6B57; 
-  font-family: 'Boldonse';
-  font-size: 40px;
-  line-height: 1.5;
-  margin-bottom: 1.5rem;
-  width: 400px;
-  font-weight: 400;
-  text-align: center;
+/* Ipad mini  */
+@media (max-width: 768px) {
+  .cta-card {
+    left: 50%;
+    transform: translateX(-50%);
+    top: 4850px;
+    width: 50%;
+    padding: 2rem 1rem;
+    padding-bottom: 50px;
+
+  }
+
+  .cta-title {
+    font-size: 24px;
+    width: 100%;
+    left: 0px;
+    top: -100px;
+      margin-bottom: 10px;
+  }
+
+  .cta-text {
+    font-size: 0.95rem;
+    position: relative;
+    top: 10px;
+  }
+
+  .cta-donate {
+    font-size: 0.95rem;
+    position: relative;
+    top: 10px;
+  }
+
+  .changeImg {
+    top: 500px;
+    width: 60%;
+    left: 15%;
+    top: 4300px;
+  }
+
+  .abstractStarGif {
+    width: 500px;
+    left: -10px;
+    top: 4150px;
+  }
+
+  .abstractSpiral {
+    width: 150px;
+    left: 700px;
+    top: 4590px;
+  }
+
+  
 }
 
-.cta-text {
-  color: #4a4a4a;
-  font-size: 1rem;
-  line-height: 1.6;
-  margin-bottom: 2rem;
-  text-align: left;
-}
 
-.cta-donate {
-  background-color: transparent;
-  color: #2563eb;
-  border: 2px solid #f97316;
-  padding: 0.75rem 1.5rem;
-  border-radius: 2rem;
-  font-size: 1rem;
-  font-weight: 500;
-  cursor: pointer;
-  transition: all 0.2s ease;
-  width: 100%;
-}
-
-.cta-donate:hover {
-  background-color: #f97316;
-  color: white;
-  border-color: #f97316;
-}
-
-.changeImg {
-    width: 40%;
-    height: auto;
-    position: absolute;
-    top: 4550px;
-    left: 30px;
-}
-
-
-.abstractStarGif {
-    width: 300px;
-    height: auto;
-    position: absolute;
-    top:4400px;
-    left: 250px;
-    z-index: -1;
-}
-
-.abstractSpiral {
-     width: 300px;
-    height: auto;
-    position: absolute;
-    top: 4250px;
-    left: 1050px;
-    z-index: 10000;
-}
-
-}
 
  /* Small mobile (max-width: 500px) */
 @media (max-width: 500px) {
   .cta-card {
     left: 50%;
     transform: translateX(-50%);
-    top: 5150px;
+    top: 5050px;
     width: 90%;
     padding: 2rem 1rem;
+    padding-bottom: 0px;
   }
 
   .cta-title {
-    font-size: 32px;
+    font-size: 24px;
     width: 100%;
+    left: 0px;
+    top: -100px;
+      margin-bottom: 100px;
   }
 
   .cta-text {
     font-size: 0.95rem;
+    position: relative;
+    top: -70px;
   }
 
   .cta-donate {
     font-size: 0.95rem;
+    position: relative;
+    top: -50px;
   }
 
   .changeImg {
     top: 4400px;
     width: 90%;
-    left: 10%;
-    top: 4800px;
+    left: 5%;
+    top: 4700px;
   }
 
   .abstractStarGif {
-    width: 280px;
+    width: 250px;
     left: -10px;
     top: 4650px;
   }
 
   .abstractSpiral {
-    width: 80px;
-    left: 280px;
-    top: 4880px;
+    width: 100px;
+    left: 330px;
+    top: 4790px;
   }
+
+  
 }
 

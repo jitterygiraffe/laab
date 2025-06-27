@@ -2,11 +2,12 @@
   background-color: #FF6B57;
   color: #e5e7eb;
   padding: 2rem;
-  font-family: 'Segoe UI', sans-serif;
+  font-family: 'Roboto', sans-serif;
   position: absolute;
   top: 5980px;
   width: 100%;
-  height: 320px;
+  max-height: 320px;
+  margin-bottom: 0;
 }
 
 .footer-content-main {
@@ -118,11 +119,14 @@
 
 /* Tablet (768px - 1024px) */
 @media (max-width: 1024px) {
+
+  
+
   .blueStripeMain {
   position: absolute;
   width: 450px;
   height: auto;
-  top: 5755px;
+  top: 5955px;
   left: 815px;
   margin-left: -80px;
   z-index: 10000;
@@ -131,20 +135,25 @@
 
   .footer-main {
     padding: 1.5rem;
-    height: auto;
-    top: 5800px;
+    height: 810px;
+    top: 6000px;
+    overflow: hidden;
+    max-height: 50vh; 
+    margin: none;
+    font-size: large;
   }
 
   .footer-content-main {
     flex-direction: column;
     align-items: flex-start;
     gap: 1.5rem;
+    margin-top: 5rem;
   }
 
 
 
   .abstractStarsMain {
-   top: 5090px;
+   top: 5350px;
   left: 300px;
   width: 100px;
   }
@@ -156,45 +165,54 @@
 }
 
 /* Mobile (480px - 767px) */
-@media (max-width: 767px) {
+@media (max-width: 769px) {
+
+  .blueStripeMain {
+  position: absolute;
+  width: 450px;
+  height: auto;
+  top: 6060px;
+  left:550px;
+  z-index: 10000;
+  transform: rotate(90deg);
+}
+
   .footer-main {
-    padding: 1rem;
-    height: auto;
-    top: 6000px;
-    font-size: 14px;
+    height: 810px;
+    top: 6100px;
+    overflow: hidden;
+    max-height: 550px; 
+    margin: none;
+    font-size: large;
   }
 
   .footer-content-main {
     flex-direction: column;
     align-items: flex-start;
-    gap: 1rem;
+    gap: 1.5rem;
+    margin-top: 0.5rem;
   }
 
+
+
+  .abstractStarsMain {
+   top: 5440px;
+  left: 260px;
+  width: 100px;
+  }
+  
   #footer-txt-main {
-    width: 400px;
-  }
-  .footer-left-main,
-  .footer-right-main {
-    min-width: 100%;
+    width: 600px;
   }
 
-  .footer-links-main a {
-    font-size: 13px;
-  }
-
-
-  .abstractStars-main {
-    top: 160px;
-    left: 250px;
-    width: 80px;
-  }
 }
 
 /* Small Mobile (below 480px) */
-@media (max-width: 480px) {
+@media (max-width: 500px) {
   .footer-main {
     padding: 1rem;
-    top: 7050px;
+    top: 6580px;
+    margin-top: 0;
   }
 
   .footer-links-main a {
@@ -205,14 +223,14 @@
   position: absolute;
   width: 100px;
   height: auto;
-  top: 5750px;
+  top: 5700px;
   left: 250px;
   z-index: 10000;
 }
 
   .blueStripeMain {
   width: 350px;
-  top: 7050px;
+  top: 6550px;
   left: 230px;
   margin-left: -80px;
 }
