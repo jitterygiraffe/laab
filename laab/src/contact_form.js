@@ -118,8 +118,11 @@ const ContactForm = () => {
             <button id="contact-btn" type="submit">Contact Us</button>
           </form>
         </div>
+      </div> 
+      <div className="contactRectangle">
       </div>
     </div>
+   
   );
 };
 
