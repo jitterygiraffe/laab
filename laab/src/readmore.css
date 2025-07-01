@@ -279,6 +279,15 @@ html {
 /*mobile breakpoint*/
 
 @media (max-width: 500px) {
+
+  .our-story {
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.7;
+  position: relative;
+  top: 200px;
+   min-height: auto;
+  
+}
   .story-section {
     flex-direction: column;
     text-align: center;
