@@ -1,3 +1,15 @@
+html, body {
+  overflow-y: auto;
+  max-width: 100%;
+  overflow-x: hidden; 
+  width: 100%;
+   margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  scroll-behavior: smooth;
+  height: 100%;
+}
+
 .our-story {
   font-family: 'Roboto', sans-serif;
   line-height: 1.7;
@@ -267,6 +279,15 @@ html {
 /*mobile breakpoint*/
 
 @media (max-width: 500px) {
+
+  .our-story {
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.7;
+  position: relative;
+  top: 200px;
+   min-height: auto;
+  
+}
   .story-section {
     flex-direction: column;
     text-align: center;
